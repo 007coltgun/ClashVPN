@@ -21,7 +21,7 @@ jobs:
     
       - name: Run All
         run: |
-          python ./node/dev/providers/getnode/run_all.py
+          python ./node/dev/providers/mfuu/run_all.py
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
           git add -A

@@ -1,7 +1,7 @@
 import urllib.request
 import re
 
-url = "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml"
+url = "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml"
 
 def export_content(output_file, pattern):
     with urllib.request.urlopen(url) as f:

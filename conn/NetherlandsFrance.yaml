@@ -32,7 +32,11 @@ proxy-groups:
     type: url-test
     use:
       - Netherlands
+      - ClashNodeNetherlands
+      - GetNodeNetherlands
       - France
+      - ClashNodeFrance
+      - GetNodeFrance
 
 proxy-providers:
 
@@ -47,9 +51,53 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
+  ClashNodeNetherlands:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/nl.yml"
+    interval: 86400
+    path: ./providers/nl.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
+  GetNodeNetherlands:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/nl.yml"
+    interval: 86400
+    path: ./providers/nl.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
   France:
     type: http
     url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/fr.yml"
+    interval: 86400
+    path: ./providers/fr.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
+  ClashNodeFrance:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/fr.yml"
+    interval: 86400
+    path: ./providers/fr.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
+  GetNodeFrance:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/fr.yml"
     interval: 86400
     path: ./providers/fr.yaml
     health-check:

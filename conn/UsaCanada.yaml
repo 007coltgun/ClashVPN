@@ -32,7 +32,10 @@ proxy-groups:
     type: url-test
     use:
       - Canada
+      - GetNodeCanada
       - USA
+      - ClashNodeUSA
+      - GetNodeUSA
 
 proxy-providers:
 
@@ -47,9 +50,42 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
+  GetNodeCanada:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/ca.yml"
+    interval: 86400
+    path: ./providers/ca.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
   USA:
     type: http
     url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/us.yml"
+    interval: 86400
+    path: ./providers/us.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
+  ClashNodeUSA:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/us.yml"
+    interval: 86400
+    path: ./providers/us.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
+  GetNodeUSA:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/us.yml"
     interval: 86400
     path: ./providers/us.yaml
     health-check:

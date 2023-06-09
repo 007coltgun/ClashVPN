@@ -32,12 +32,24 @@ proxy-groups:
     type: url-test
     use:
       - lt
+      - GetNode
 
 proxy-providers:
 
   lt:
     type: http
     url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/lt.yml"
+    interval: 86400
+    path: ./providers/lt.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+
+  GetNode:
+    type: http
+    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/lt.yml"
     interval: 86400
     path: ./providers/lt.yaml
     health-check:

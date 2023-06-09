@@ -1,1 +1,197 @@
 proxies:
+  - {name: "🇭🇰 8,10,28,30|_HK_香港", server: hk1.gsjc.cfd, port: 443, type: trojan, password: ae09438f-b9b8-40c6-ab49-ce6c0d64674e, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: "🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai", server: wasanbi.ga, port: 443, type: vmess, uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /94448b9f-7d5d-4f7a-9c68-d4978878d401, headers: {Host: wasanbi.ga}}}
+  - {name: "🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰", server: 156.245.8.128, port: 47024, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_", server: 5m4h0k06.mcfront.xyz, port: 31611, type: vmess, uuid: 58f8afab-5393-4827-8d97-b09101c5b19e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..., server: 202.79.172.53, port: 443, type: vmess, uuid: 30216206-14b7-40e7-995d-61c1219ba584, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/220128071100}}
+  - {name: 🇭🇰 14|🇭🇰香港06, server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: b308fd85-dc1f-47ce-b204-4ac97c3d19e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk06.abpilot.xyz}
+  - {name: "🇭🇰 0,1,26|🇭🇰 _HK_香港", server: 43.154.233.89, port: 45516, type: vmess, uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk12/getData, headers: {Host: hk12.verichains.co}}}
+  - {name: "🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...", server: 183.237.20.158, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 16|香港 002, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}}
+  - {name: 🇭🇰 16|香港 003, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547, server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /opt/video/images}}
+  - {name: 🇭🇰 21|香港 05 | 1x HK, server: 5m4h0k05.mcfront.xyz, port: 31606, type: vmess, uuid: c80a9dea-db7c-4661-8c5b-08d080353646, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk05.lovemc.xyz}
+  - {name: 🇭🇰 22|🇭🇰 香港1|@ripaojiedian, server: hk2.downloadvip.cfd, port: 443, type: trojan, password: fbd745d5-63df-4f33-bff9-e393ec870eeb, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n..., server: fschk.fscloud123456789.com, port: 443, type: trojan, password: fe5c139b-e3c2-4029-a783-b7f836557f6d, skip-cert-verify: false}
+  - {name: 🇭🇰 16|香港 004, server: 27.124.45.119, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 14|🇭🇰香港04, server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: b308fd85-dc1f-47ce-b204-4ac97c3d19e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk04.abpilot.xyz}
+  - {name: 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._, server: 202.79.171.155, port: 443, type: vmess, uuid: 7f37da61-c734-41b4-a8c2-eccfd6ca48f0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/080712342310}}
+  - {name: 🇭🇰 20|🇭🇰_HK_香港_4_8@18, server: 43.154.122.126, port: 53410, type: vmess, uuid: 82adc998-88ab-4c87-8b86-5bc39e80f5b2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk1/getData}}
+  - {name: 🇭🇰 14|🇭🇰香港05, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: b308fd85-dc1f-47ce-b204-4ac97c3d19e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk05.abpilot.xyz}
+  - {name: "🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港", server: 5m4h0k04.mcfront.xyz, port: 31601, type: vmess, uuid: 58f8afab-5393-4827-8d97-b09101c5b19e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 8,10,28,30|_HK_香港
+      - 🇭🇰 12,13,16|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 0,1,7,8,9,10,26,27,28,29,30|🇭🇰 _HK_香港->🇳🇱_NL_荷兰
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C...
+      - 🇭🇰 14|🇭🇰香港06
+      - 🇭🇰 0,1,26|🇭🇰 _HK_香港
+      - 🇭🇰 12,13|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 16|香港 002
+      - 🇭🇰 16|香港 003
+      - 🇭🇰 -1|🇭🇰HK-182.16.1.194-11547
+      - 🇭🇰 21|香港 05 | 1x HK
+      - 🇭🇰 22|🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 16|香港 004
+      - 🇭🇰 14|🇭🇰香港04
+      - 🇭🇰 -1|v2rayfree.eu.org - 香港BGP.NET C..._
+      - 🇭🇰 20|🇭🇰_HK_香港_4_8@18
+      - 🇭🇰 14|🇭🇰香港05
+      - 🇭🇰 11,21|🇨🇳_CN_中国->🇭🇰_HK_香港

@@ -1,19 +1,33 @@
 proxies:
-  - {name: _FR_法国, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _FR_法国->🇬🇧_GB_英国, server: 51.195.35.151, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国, server: pl2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: a60d4d2f-6a61-4c16-9d63-94a97e65d1f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: pl2-vmess.greenssh.xyz}}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}, udp: true}
   - {name: _FR_法国->🇳🇱_NL_荷兰, server: 156.249.18.68, port: 30322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+      - _FR_法国->🇬🇧_GB_英国
       - _FR_法国
+      - _US_美国->🇫🇷_FR_法国
       - _FR_法国->🇳🇱_NL_荷兰
+      - _FR_法国->🇬🇧_GB_英国
       - _FR_法国
+      - _US_美国->🇫🇷_FR_法国
       - _FR_法国->🇳🇱_NL_荷兰
+      - _FR_法国->🇬🇧_GB_英国
       - _FR_法国
+      - _US_美国->🇫🇷_FR_法国
       - _FR_法国->🇳🇱_NL_荷兰
+      - _FR_法国->🇬🇧_GB_英国
       - _FR_法国
+      - _US_美国->🇫🇷_FR_法国
       - _FR_法国->🇳🇱_NL_荷兰
+      - _FR_法国->🇬🇧_GB_英国
       - _FR_法国
+      - _US_美国->🇫🇷_FR_法国
       - _FR_法国->🇳🇱_NL_荷兰
+      - _FR_法国->🇬🇧_GB_英国
       - _FR_法国
+      - _US_美国->🇫🇷_FR_法国
       - _FR_法国->🇳🇱_NL_荷兰
+      - _FR_法国->🇬🇧_GB_英国
       - _FR_法国
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _FR_法国
+      - _US_美国->🇫🇷_FR_法国
       - _FR_法国->🇳🇱_NL_荷兰

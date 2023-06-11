@@ -1,5 +1,9 @@
 proxies:
+  - {name: 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354, server: 5.188.6.222, port: 35354, type: vmess, uuid: e28880e5-16ed-479b-90c8-57fe3c9fbdf1, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80, server: 176.58.98.157, port: 80, type: vmess, uuid: 755b5c77-7423-4506-8f35-515af5b21edd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443, server: x.leonard.eu.org, port: 443, type: vmess, uuid: 1441af41-5cee-497e-a47c-c26af169f9ff, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: x.leonard.eu.org}}}
   - {name: 🇬🇧 16|英国 003, server: 45.85.118.89, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: -1|🇬🇧https://t.me/vpn_iossعضو شو_, server: 149.102.150.246, port: 443, type: vmess, uuid: 57513586-ca3a-4e30-9585-351c0b15a39c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: -1|🇬🇧https://t.me/vpn_iossعضو شو, server: 61.220.198.99, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -15,7 +19,11 @@ proxies:
   - {name: 🇬🇧 -1|🇬🇧GB-172.105.132.75-5515, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vuk1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}}
   - {name: 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vuk2.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}}
   - {name: "🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国", server: 51.195.35.151, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو
@@ -31,7 +39,11 @@ proxies:
       - 🇬🇧 -1|🇬🇧GB-172.105.132.75-5515
       - 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948
       - 🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو
@@ -47,7 +59,11 @@ proxies:
       - 🇬🇧 -1|🇬🇧GB-172.105.132.75-5515
       - 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948
       - 🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو
@@ -63,7 +79,11 @@ proxies:
       - 🇬🇧 -1|🇬🇧GB-172.105.132.75-5515
       - 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948
       - 🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو
@@ -80,7 +100,11 @@ proxies:
       - 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948
       - 🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国
       - 🇨🇳 0,1|🇹🇼 _TW_台湾->🇬🇧_GB_英国
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو
@@ -96,7 +120,11 @@ proxies:
       - 🇬🇧 -1|🇬🇧GB-172.105.132.75-5515
       - 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948
       - 🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو
@@ -112,7 +140,11 @@ proxies:
       - 🇬🇧 -1|🇬🇧GB-172.105.132.75-5515
       - 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948
       - 🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو
@@ -128,7 +160,11 @@ proxies:
       - 🇬🇧 -1|🇬🇧GB-172.105.132.75-5515
       - 🇬🇧 -1|🇬🇧GB-178.79.171.33-19948
       - 🇫🇷 0,1,5,6,7,8,9,10,16,19,27,28,29,30|🇫🇷 _FR_法国->🇬🇧_GB_英国
+      - 🇬🇧 英国-伦敦-伦敦-ss-212.102.53.197:443
       - 🇬🇧 英国-伦敦-伦敦-ss2-212.102.53.197:443
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-176.58.98.157:80
+      - 🇬🇧 英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
       - 🇬🇧 16|英国 003
       - -1|🇬🇧https://t.me/vpn_iossعضو شو_
       - -1|🇬🇧https://t.me/vpn_iossعضو شو

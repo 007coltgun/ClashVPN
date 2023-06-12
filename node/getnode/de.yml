@@ -1,55 +1,154 @@
 proxies:
   - {name: 🇩🇪 DE-172.104.136.167-083, server: de01.ckcloud.info, port: 21912, type: trojan, password: 6c6f6fc3-caab-42e3-91c1-3c2ef3bd843d, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇩🇪 14|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 2c20a8f9-0685-468d-a8ef-0075b463691e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
-  - {name: -1|🇩🇪https://t.me/vpn_iossعضو شو, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "20|Channel id: @ShadowProxy66🇩🇪", server: 54.38.154.182, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 20|🇩🇪 _DE_德国, server: 95.179.251.214, port: 2096, type: vmess, uuid: 3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2), server: 91.107.185.0, port: 805, type: vmess, uuid: 11043c5b-3435-4c51-9d19-650f204133e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376, server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 德国-0-0-ss-194.15.196.106:8090, server: 194.15.196.106, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375, server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375, server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376, server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80, server: bidari.ddns.net, port: 80, type: vmess, uuid: 0e88120c-14e5-449b-8f2e-c22ec0df6599, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: bidari.ddns.net}}}
+  - {name: 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174, server: 168.119.58.112, port: 80, type: vmess, uuid: e42d68db-4297-4c17-b5cf-44d421aef400, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843, server: 95.179.251.214, port: 2096, type: vmess, uuid: 3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 95.179.251.214}}}
+  - {name: 🇩🇪 14|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 1eb4ece6-c3e6-4be0-bde6-31ef2268c9ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: -1|🇩🇪https://t.me/vpn_iossعضو شو, server: 167.86.83.54, port: 8443, type: vmess, uuid: 391a2165-69ff-4746-8544-7e9dea864bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849, server: 192.248.185.94, port: 8443, type: vmess, uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 192.248.185.94}}}
+  - {name: 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2), server: 95.217.28.38, port: 805, type: vmess, uuid: 11043c5b-3435-4c51-9d19-650f204133e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_, server: 91.107.185.0, port: 443, type: vmess, uuid: 7f78350d-b4a4-48e2-8f31-0224eecdad43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国", server: dubawtgfnewi.76898102.xyz, port: 2052, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /flkfhzz, headers: {Host: dubawtgfnewi.76898102.xyz}}}
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国
       - 🇩🇪 DE-172.104.136.167-083
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
+      - 🇩🇪 德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+      - 🇩🇪 德国-慕尼黑-0-ss-46.183.185.15:989
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
+      - 🇩🇪 德国-黑森-0-ss2-145.239.1.100:8008
+      - 🇩🇪 德国-法兰克福-法兰克福-ss2-193.108.118.34:2376
+      - 🇩🇪 德国-法兰克福-法兰克福-v2ray-bidari.ddns.net:80
+      - 🇩🇪 -1|🇩🇪DE-168.119.58.112-0174
+      - 🇩🇪 -1|🇩🇪DE-95.179.251.214-2843
       - 🇩🇪 14|🇩🇪德国04
       - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - "20|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 20|🇩🇪 _DE_德国
+      - 🇩🇪 -1|🇩🇪DE-192.248.185.94-2849
       - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)
+      - 🇩🇪 20|🇩🇪DE德国(youtube阿伟科技2)_
+      - 🇩🇪 0,1,18,26|🇩🇪 _RU_俄罗斯联邦->🇩🇪_DE_德国

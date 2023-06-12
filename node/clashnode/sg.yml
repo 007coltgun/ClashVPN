@@ -1,6 +1,5 @@
 proxies:
-  - {name: 🇸🇬 _US_美国->🇳🇿_NZ_新西兰, server: 104.18.4.39, port: 2052, type: vmess, uuid: c36d4223-1804-494a-a453-d4f77f10c830, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /public, headers: {Host: detacenter.01.biqibao.site}}}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: 104.26.13.165, port: 8080, type: vmess, uuid: 516a22c5-54c1-4203-ec0a-bb3b2517a82d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ylks, headers: {Host: x1.ylks01.eu.org}}}
-  - {name: 🇸🇬 _US_美国->🇳🇿_NZ_新西兰 2, server: 104.16.53.217, port: 2052, type: vmess, uuid: c36d4223-1804-494a-a453-d4f77f10c830, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /public, headers: {Host: detacenter.01.biqibao.site}}}
-  - {name: 🇸🇬 _FR_法国->🇸🇬_SG_新加坡, server: 173.245.49.24, port: 2052, type: vmess, uuid: 71b93046-9b6b-48d5-c5fb-9997daf0c7f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ylks, headers: {Host: x1.ylks01.eu.org}}}
-  - {name: 🇸🇬 _SG_新加坡, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 _SG_新加坡, server: sg-csjc.85413.xyz, port: 443, type: trojan, password: e1d030ca-46c3-4881-9286-70ad3c8c99aa, sni: sg-csjc.85413.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: 198.41.209.200, port: 2095, type: vmess, uuid: 1d1362f7-073c-4e5c-b470-02b8222c226c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ylks, headers: {Host: x1.ylks01.eu.org}}}
+  - {name: 🇸🇬 _CR_哥斯达黎加->🇸🇬_SG_新加坡, server: 190.93.245.163, port: 2095, type: vmess, uuid: 1d1362f7-073c-4e5c-b470-02b8222c226c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ylks, headers: {Host: x1.ylks01.eu.org}}}
+  - {name: 🇸🇬 _SG_新加坡 2, server: microsoft-sg.syjd.xyz, port: 443, type: trojan, password: e1d030ca-46c3-4881-9286-70ad3c8c99aa, sni: microsoft-sg.syjd.xyz, skip-cert-verify: true}

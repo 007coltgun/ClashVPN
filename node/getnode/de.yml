@@ -1,118 +1,82 @@
 proxies:
   - {name: 🇩🇪 DE-172.104.136.167-173, server: de01.ckcloud.info, port: 21912, type: trojan, password: d3dec621-251e-4b2f-a395-cd2d9f6718af, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇩🇪 德国-0-0-ss-194.15.196.106:8090, server: 194.15.196.106, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...", server: 194.15.196.106, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国", server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: 0bebfbc7-0bc1-4121-bec1-3ecf85120ba8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_", server: 128.140.3.94, port: 4030, type: vmess, uuid: 5a20abcf-27c5-4260-cd83-b3f50ae007d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1", server: 54.38.154.182, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596, server: 157.90.174.20, port: 80, type: vmess, uuid: a6457d28-e328-4202-99fe-0606d7ad69a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6rXqecLmchrWkX7cy1ilLjMBLUC}}
-  - {name: "🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12", server: 91.107.185.0, port: 443, type: vmess, uuid: 7f78350d-b4a4-48e2-8f31-0224eecdad43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 20|🇩🇪 德国 333, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: -1|🇩🇪https://t.me/vpn_iossعضو شو, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国", server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}}
   - {name: "🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国", server: dubawtgfnewi.76898102.xyz, port: 2052, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /flkfhzz, headers: {Host: dubawtgfnewi.76898102.xyz}}}
   - {name: "🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国", server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 9a71a0ca-e05a-473d-bc3e-1866366664f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国", server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}}
+  - {name: "🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国", server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: 0bebfbc7-0bc1-4121-bec1-3ecf85120ba8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: -1|🇩🇪https://t.me/vpn_iossعضو شو_, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: -1|🇩🇪https://t.me/vpn_iossعضو شو, server: 167.86.83.54, port: 8443, type: vmess, uuid: 391a2165-69ff-4746-8544-7e9dea864bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12", server: 91.107.185.0, port: 443, type: vmess, uuid: 7f78350d-b4a4-48e2-8f31-0224eecdad43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_", server: 128.140.3.94, port: 4030, type: vmess, uuid: 5a20abcf-27c5-4260-cd83-b3f50ae007d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
       - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
-      - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
       - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
+      - 🇩🇪 DE-172.104.136.167-173
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
       - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
+      - 🇩🇪 DE-172.104.136.167-173
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
       - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
+      - 🇩🇪 DE-172.104.136.167-173
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
       - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
+      - 🇩🇪 DE-172.104.136.167-173
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
       - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
+      - 🇩🇪 DE-172.104.136.167-173
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
       - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
+      - 🇩🇪 DE-172.104.136.167-173
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 DE-172.104.136.167-173
-      - 🇩🇪 德国-0-0-ss-194.15.196.106:8090
-      - 🇩🇪 18,18|🇩🇪德国-0-0-ss-194.15.196.106:809...
-      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
-      - 🇩🇪 -1,20|🇩🇪 德国=tg频道:@bpjzx2=1
-      - 🇩🇪 -1|🇩🇪DE-157.90.174.20-4596
-      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
-      - 🇩🇪 20|🇩🇪 德国 333
-      - -1|🇩🇪https://t.me/vpn_iossعضو شو
       - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_
+      - 🇩🇪 DE-172.104.136.167-173
       - 🇩🇪 7,8,9,10,25,26,27,28,29,30|_UA_乌克兰->🇩🇪_DE_德国
       - 🇩🇪 7,8,9,10,11,14,27,28,29,30|_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 7,8,9,10,15,17,19,27,28,29,30|_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 11,21|🇨🇳_CN_中国->🇩🇪_DE_德国
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو_
+      - -1|🇩🇪https://t.me/vpn_iossعضو شو
+      - 🇩🇪 19,19|_🇩🇪_DE_德国_玉豆_12
+      - 🇩🇪 -1,19|_🇩🇪_DE_德国_玉豆_12_

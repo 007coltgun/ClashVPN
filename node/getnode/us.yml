@@ -1,9 +1,11 @@
 proxies:
   - {name: 🇺🇸 _US_美国_1, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}}
   - {name: 🇺🇸 _US_美国_2, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vus3.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
-  - {name: 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080, server: 38.47.98.83, port: 8080, type: vmess, uuid: 253301c1-4512-4dd2-8a93-2ebfab50bb7c, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001, server: 172.99.188.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001, server: 172.99.188.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80, server: xx2xxl.ddns.net, port: 80, type: vmess, uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: xx2xxl.ddns.net}}}
   - {name: "🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...", server: 183.213.200.225, port: 28114, type: trojan, password: cdyB1Q, sni: download.windowsupdate.com, skip-cert-verify: false}
   - {name: "🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国", server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: 9a71a0ca-e05a-473d-bc3e-1866366664f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇺🇸 16|美国 013, server: 104.24.181.229, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qazxcv00, headers: {Host: tou.vtcss.top}}}
@@ -212,9 +214,11 @@ proxies:
   - {name: 🇺🇸 16|美国 038, server: 104.22.9.160, port: 8880, type: vmess, uuid: 5158c044-d6d4-4b07-ba79-b20f13445d0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013
@@ -423,9 +427,11 @@ proxies:
       - 🇺🇸 16|美国 038
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013
@@ -634,9 +640,11 @@ proxies:
       - 🇺🇸 16|美国 038
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013
@@ -845,9 +853,11 @@ proxies:
       - 🇺🇸 16|美国 038
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013
@@ -1056,9 +1066,11 @@ proxies:
       - 🇺🇸 16|美国 038
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013
@@ -1267,9 +1279,11 @@ proxies:
       - 🇺🇸 16|美国 038
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013
@@ -1478,9 +1492,11 @@ proxies:
       - 🇺🇸 16|美国 038
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013
@@ -1689,9 +1705,11 @@ proxies:
       - 🇺🇸 16|美国 038
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:6379
-      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:6379
-      - 🇺🇸 美国-0-0-v2ray-38.47.98.83:8080
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:2375
+      - 🇺🇸 美国-康涅狄格-0-ss-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:5001
+      - 🇺🇸 美国-康涅狄格-0-ss2-172.99.188.99:2375
+      - 🇺🇸 美国-马萨诸塞-0-v2ray-xx2xxl.ddns.net:80
       - 🇺🇸 13,13|Relay 🇺🇸 United States(ChatGPT...
       - 🇺🇸 11,14|🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇺🇸 16|美国 013

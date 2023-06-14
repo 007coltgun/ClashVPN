@@ -1,105 +1,33 @@
 proxies:
-  - {name: _CN_中国->🇯🇵_JP_日本, server: cn14.mynode.me, port: 8412, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: cn02.mynode.me, port: 8104, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: cn12.mynode.me, port: 8407, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 3, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 3, server: cn00.mynode.me, port: 8802, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 4, server: cn05.mynode.me, port: 8126, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 5, server: cn05.mynode.me, port: 8122, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 9a71a0ca-e05a-473d-bc3e-1866366664f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 4, server: jp2.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 5, server: free.themars.top, port: 32101, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 120.226.50.84, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 26.v2-ray.cyou, port: 23626, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 26.v2-ray.cyou}}, udp: true}
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇯🇵_JP_日本 5
+  - {name: _CN_中国->🇬🇧_GB_英国, server: en2.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: 120.226.50.84, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+      - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇯🇵_JP_日本 5
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇯🇵_JP_日本 5
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇯🇵_JP_日本 5
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇯🇵_JP_日本 5
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇯🇵_JP_日本 5
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇯🇵_JP_日本 5
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _CN_中国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国

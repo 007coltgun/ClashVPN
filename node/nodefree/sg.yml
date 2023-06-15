@@ -1,49 +1,64 @@
 proxies:
-  - {name: _US_美国->🇸🇬_SG_新加坡, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡, server: cf.mmy66.cc, port: 80, type: vmess, uuid: 89755a57-d7df-456a-bae1-cabcdf50c34f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.669990.xyz}}, udp: true}
-  - {name: _SG_新加坡, server: 18.139.163.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡 2, server: 104.22.72.214, port: 2082, type: vmess, uuid: 1a6e91f6-4aec-4fba-d652-f65e9dfa4a63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ylks, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡 3, server: 104.24.49.199, port: 2095, type: vmess, uuid: 1d1362f7-073c-4e5c-b470-02b8222c226c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ylks, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: _SG_新加坡 2, server: 52.221.180.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-      - _US_美国->🇸🇬_SG_新加坡
-      - _HK_香港->🇸🇬_SG_新加坡
+  - {name: _SG_新加坡, server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _SG_新加坡 2, server: 54.151.179.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: 103.21.244.84, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: _NL_荷兰->🇸🇬_SG_新加坡, server: 188.114.99.42, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡 2, server: 104.25.6.70, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
+  - {name: _SG_新加坡 3, server: meetzoom.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: meetzoom.disnet.gq}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡 3, server: 104.25.13.81, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
       - _SG_新加坡
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国->🇸🇬_SG_新加坡 3
       - _SG_新加坡 2
       - _US_美国->🇸🇬_SG_新加坡
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
       - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
       - _US_美国->🇸🇬_SG_新加坡 3
+      - _SG_新加坡
       - _SG_新加坡 2
       - _US_美国->🇸🇬_SG_新加坡
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
       - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
       - _US_美国->🇸🇬_SG_新加坡 3
+      - _SG_新加坡
       - _SG_新加坡 2
       - _US_美国->🇸🇬_SG_新加坡
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
       - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
       - _US_美国->🇸🇬_SG_新加坡 3
+      - _SG_新加坡
       - _SG_新加坡 2
       - _US_美国->🇸🇬_SG_新加坡
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
       - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
       - _US_美国->🇸🇬_SG_新加坡 3
+      - _SG_新加坡
       - _SG_新加坡 2
       - _US_美国->🇸🇬_SG_新加坡
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
       - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
       - _US_美国->🇸🇬_SG_新加坡 3
+      - _SG_新加坡
       - _SG_新加坡 2
       - _US_美国->🇸🇬_SG_新加坡
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
       - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
       - _US_美国->🇸🇬_SG_新加坡 3
+      - _SG_新加坡
       - _SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡
+      - _NL_荷兰->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 3

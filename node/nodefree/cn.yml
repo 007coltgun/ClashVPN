@@ -1,33 +1,97 @@
 proxies:
-  - {name: _CN_中国->🇬🇧_GB_英国, server: en2.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: 120.226.50.84, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-      - _CN_中国->🇬🇧_GB_英国
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 300a3e9f-1558-4601-a6e7-1340cbdde15a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: gzcm.xn--8sq835h.net, port: 44305, type: ss, cipher: chacha20-ietf-poly1305, password: dedaf22b-2901-4490-a316-07ee18113b59, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 2, server: gzcm.xn--8sq835h.net, port: 24173, type: trojan, password: dedaf22b-2901-4490-a316-07ee18113b59, sni: xg.nicen.best, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 300a3e9f-1558-4601-a6e7-1340cbdde15a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 3, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: 300a3e9f-1558-4601-a6e7-1340cbdde15a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 300a3e9f-1558-4601-a6e7-1340cbdde15a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 300a3e9f-1558-4601-a6e7-1340cbdde15a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港 4, server: gzyd.jcnode.top, port: 40002, type: trojan, password: eb04ced6-ef93-4941-8c7c-d18003ebeea1, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇧🇷_BR_巴西, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: 300a3e9f-1558-4601-a6e7-1340cbdde15a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 300a3e9f-1558-4601-a6e7-1340cbdde15a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国
-      - _CN_中国->🇬🇧_GB_英国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国
-      - _CN_中国->🇬🇧_GB_英国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国
-      - _CN_中国->🇬🇧_GB_英国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国
-      - _CN_中国->🇬🇧_GB_英国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国
-      - _CN_中国->🇬🇧_GB_英国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国
-      - _CN_中国->🇬🇧_GB_英国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇭🇰_HK_香港 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇭🇰_HK_香港 3
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇭🇰_HK_香港 4
+      - _CN_中国->🇧🇷_BR_巴西
+      - _CN_中国->🇹🇼_TW_台湾 2

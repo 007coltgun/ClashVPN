@@ -1,6 +1,2 @@
 proxies:
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: cn05.mynode.me, port: 8122, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: hzdx.proxynode.kk-proxy.pro, port: 39924, type: ss, cipher: chacha20-ietf-poly1305, password: 4b34aa48-8602-46c3-8aea-36d6bd7ba3d7}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 3, server: cn02.mynode.me, port: 8105, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com}
-  - {name: 🇭🇰 _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.224, port: 49823, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 4, server: proxy.node7.kk-proxy.pro, port: 39922, type: ss, cipher: chacha20-ietf-poly1305, password: 4b34aa48-8602-46c3-8aea-36d6bd7ba3d7}
+  - {name: 🇭🇰 _HK_香港, server: 43.154.233.89, port: 45516, type: vmess, uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /hk12/getData, headers: {Host: hk12.verichains.co}}}

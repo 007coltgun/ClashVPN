@@ -1,49 +1,31 @@
 proxies:
-  - {name: _CN_中国->🇭🇰_HK_香港, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: gzdx.jcnode.top, port: 20001, type: trojan, password: eee19429-f15e-40b8-9d2e-b15c09c9722c, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 3, server: cn02.mynode.me, port: 8106, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 4, server: cn02.mynode.me, port: 8104, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 5, server: cn02.mynode.me, port: 8109, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18127-Tutaiming0321.download.microsoft.com, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 6, server: gzyd.jcnode.top, port: 26000, type: trojan, password: eee19429-f15e-40b8-9d2e-b15c09c9722c, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇭🇰_HK_香港 5
-      - _CN_中国->🇭🇰_HK_香港 6
+  - {name: _HK_香港, server: hk1.looooooongnet.lol, port: 443, type: vmess, uuid: 7b1b60aa-724f-473e-bf31-091c2ab2e012, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.looooooongnet.lol}}, udp: true}
+  - {name: _BZ_伯利兹->🇭🇰_HK_香港, server: sdttkza.76898102.xyz, port: 2082, type: vmess, uuid: 4896559c-c94e-342a-b208-6107ec292652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}, udp: true}
+  - {name: _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.129, port: 47024, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _HK_香港
+      - _BZ_伯利兹->🇭🇰_HK_香港
+      - _HK_香港->🇳🇱_NL_荷兰

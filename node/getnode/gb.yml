@@ -1,118 +1,91 @@
 proxies:
-  - {name: 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2, server: 149.50.77.97, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国, server: 149.50.77.109, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇬🇧 16|英国 005, server: 83.142.225.58, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇬🇧 16,18|英国 002", server: uk1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk1-vmess.greenssh.xyz}}}
-  - {name: "🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3", server: 149.50.77.95, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇬🇧 14|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 60834858-ffc1-44b4-9ad7-4734334f9c8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
-  - {name: 🇬🇧 20|@DeamNet_🇬🇧London-1417, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}}
-  - {name: 🇬🇧 20|@DeamNet_🇬🇧London-4036, server: uk17.ulifeai.com, port: 443, type: vmess, uuid: 61357e96-2081-49ac-b14a-5d5d893cb728, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /swoole, headers: {Host: uk17.ulifeai.com}}}
-  - {name: "🇬🇧 16,18|英国 007", server: free-en12.hermos.site, port: 80, type: vmess, uuid: 05badfe2-938d-4c3f-a290-285d3c655600, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: free-en12.hermos.site}}}
   - {name: "🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国", server: 149.50.77.108, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇬🇧 16|英国 006, server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:..., server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇬🇧 21|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 4df86cea-1720-4d48-8740-67c9905fd137, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
-      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
-      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
-      - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
+  - {name: 🇬🇧 21|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 9d3cab2f-d7bc-471f-8dc1-6b19d89f5449, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: "🇬🇧 16,20|英国 005", server: 83.142.225.58, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 14|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 3544768f-72d9-47aa-aeb6-552ce0bee278, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: 🇬🇧 16|英国 002, server: uk1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk1-vmess.greenssh.xyz}}}
+  - {name: "🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3", server: 149.50.77.95, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2, server: 149.50.77.97, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: "🇬🇧 16,20|英国 006", server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国, server: 149.50.77.109, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: "🇬🇧 16,20|英国 007", server: free-en12.hermos.site, port: 80, type: vmess, uuid: 05badfe2-938d-4c3f-a290-285d3c655600, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: free-en12.hermos.site}}}
       - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
       - 🇬🇧 21|英国 04 | 1x UK
-      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
-      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
+      - 🇬🇧 16,20|英国 005
       - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
-      - 🇬🇧 21|英国 04 | 1x UK
-      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
-      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
+      - 🇬🇧 16|英国 002
       - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
-      - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
-      - 🇬🇧 21|英国 04 | 1x UK
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
-      - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
+      - 🇬🇧 16,20|英国 007
       - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
       - 🇬🇧 21|英国 04 | 1x UK
+      - 🇬🇧 16,20|英国 005
+      - 🇬🇧 14|🇬🇧英国04
+      - 🇬🇧 16|英国 002
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
-      - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
+      - 🇬🇧 16,20|英国 007
       - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
       - 🇬🇧 21|英国 04 | 1x UK
+      - 🇬🇧 16,20|英国 005
+      - 🇬🇧 14|🇬🇧英国04
+      - 🇬🇧 16|英国 002
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
-      - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
+      - 🇬🇧 16,20|英国 007
       - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
       - 🇬🇧 21|英国 04 | 1x UK
+      - 🇬🇧 16,20|英国 005
+      - 🇬🇧 14|🇬🇧英国04
+      - 🇬🇧 16|英国 002
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
-      - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
+      - 🇬🇧 16,20|英国 007
       - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
       - 🇬🇧 21|英国 04 | 1x UK
+      - 🇬🇧 16,20|英国 005
+      - 🇬🇧 14|🇬🇧英国04
+      - 🇬🇧 16|英国 002
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
       - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 005
-      - 🇬🇧 16,18|英国 002
-      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
-      - 🇬🇧 14|🇬🇧英国04
-      - 🇬🇧 20|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 20|@DeamNet_🇬🇧London-4036
-      - 🇬🇧 16,18|英国 007
+      - 🇬🇧 16,20|英国 007
       - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
-      - 🇬🇧 16|英国 006
-      - 🇬🇧 18|🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:...
       - 🇬🇧 21|英国 04 | 1x UK
+      - 🇬🇧 16,20|英国 005
+      - 🇬🇧 14|🇬🇧英国04
+      - 🇬🇧 16|英国 002
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 16,20|英国 007
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 21|英国 04 | 1x UK
+      - 🇬🇧 16,20|英国 005
+      - 🇬🇧 14|🇬🇧英国04
+      - 🇬🇧 16|英国 002
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 16,20|英国 007
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 21|英国 04 | 1x UK
+      - 🇬🇧 16,20|英国 005
+      - 🇬🇧 14|🇬🇧英国04
+      - 🇬🇧 16|英国 002
+      - 🇬🇧 8,10,26,28|_IL_以色列->🇬🇧_GB_英国 3
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 16,20|英国 006
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 16,20|英国 007

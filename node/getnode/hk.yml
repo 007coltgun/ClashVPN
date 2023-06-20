@@ -1,228 +1,218 @@
 proxies:
-  - {name: 🇭🇰 16|_🇭🇰_HK_香港_科网_20_, server: 156.245.8.130, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 19|🇭🇰 香港2|@ripaojiedian, server: 01.xn--nqv95at51fi1h.com, port: 46399, type: ss, cipher: chacha20-ietf-poly1305, password: d895805c-ab4c-4995-a02d-6761f8367277}
-  - {name: "🇭🇰 13,19,20|香港 002", server: hk2.520123.xyz, port: 443, type: vmess, uuid: f0896da2-887d-4213-81d6-b58bd229093e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zdgood.vip, headers: {Host: hk2.520123.xyz}}}
-  - {name: "🇭🇰 0,1|🇭🇰 _HK_香港", server: 43.154.233.89, port: 45516, type: vmess, uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk12/getData, headers: {Host: hk12.verichains.co}}}
-  - {name: 🇭🇰 13|香港 006, server: 156.234.76.179, port: 80, type: vmess, uuid: 3a861425-e0d8-47c3-aa1d-a825d7629ae9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4", server: zf.heigouyunzf.xyz, port: 38805, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: false}
-  - {name: "🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港", server: 5m4h0k05.mcfront.xyz, port: 31606, type: vmess, uuid: b08eeb7e-f7f8-4d9f-8c68-5a49d190380d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 18|香港 06 | 1x HK, server: 5m4h0k06.mcfront.xyz, port: 31611, type: vmess, uuid: 0fb3f262-d9a9-4e0c-9d08-a10b3c33cdde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk06.lovemc.xyz}
-  - {name: 🇭🇰 11|🇭🇰香港05, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: bc6fb028-62e6-40ef-83a8-facd455c91c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk05.abpilot.xyz}
-  - {name: "🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰", server: 156.245.8.206, port: 49823, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 11|🇭🇰香港04, server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: bc6fb028-62e6-40ef-83a8-facd455c91c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk04.abpilot.xyz}
-  - {name: "🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__", server: 156.245.8.128, port: 47094, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 18|香港 04 | 1x HK, server: 5m4h0k04.mcfront.xyz, port: 31601, type: vmess, uuid: 0fb3f262-d9a9-4e0c-9d08-a10b3c33cdde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk04.lovemc.xyz}
-  - {name: "🇭🇰 16,17|_🇭🇰_HK_香港_科网_20", server: 156.245.8.225, port: 49823, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 13|香港 004, server: 92.223.76.23, port: 80, type: vmess, uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai", server: wasanbi.ga, port: 443, type: vmess, uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /94448b9f-7d5d-4f7a-9c68-d4978878d401, headers: {Host: wasanbi.ga}}}
-  - {name: 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n..., server: fschk.fscloud123456789.com, port: 443, type: trojan, password: fe5c139b-e3c2-4029-a783-b7f836557f6d, skip-cert-verify: false}
-  - {name: 🇭🇰 13|香港 005, server: 27.124.45.119, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港", server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: 7792066c-8759-4c1f-bb57-db78b40aa52d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian", server: shck8bq.olb8qsg.top, port: 37295, type: vmess, uuid: 6c452644-1914-47f8-b12f-090fdf94ae10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: "🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian", server: 47.kccic2pa.xyz, port: 50047, type: vmess, uuid: 7271b7c6-f38e-45b8-8998-5a068d3b3086, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...", server: 183.237.20.158, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_", server: 120.233.43.68, port: 51004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
-      - 🇭🇰 16|_🇭🇰_HK_香港_科网_20_
-      - 🇭🇰 19|🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 13,19,20|香港 002
-      - 🇭🇰 0,1|🇭🇰 _HK_香港
-      - 🇭🇰 13|香港 006
-      - 🇭🇰 1,5,5,7,7,19,23,23,25,25|🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇭🇰 0,1,8,18|🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 18|香港 06 | 1x HK
-      - 🇭🇰 11|🇭🇰香港05
-      - 🇭🇰 4,5,6,7,22,23,24,25|_HK_香港->🇳🇱_NL_荷兰
-      - 🇭🇰 11|🇭🇰香港04
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20__
-      - 🇭🇰 18|香港 04 | 1x HK
-      - 🇭🇰 16,17|_🇭🇰_HK_香港_科网_20
-      - 🇭🇰 13|香港 004
-      - 🇭🇰 9,10,13|🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇭🇰 10|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
-      - 🇭🇰 13|香港 005
-      - 🇭🇰 8,11|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 19,20|🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 19,20|🇭🇰 香港A|@ripaojiedian
-      - 🇭🇰 9,10|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
-      - 🇭🇰 0,1,4,5,6,7,19,20,22,23,24,25|🇭🇰 _CN_中国->🇭🇰_HK_香港_
+  - {name: 🇭🇰 19|香港 04 | 1x HK, server: 5m4h0k04.mcfront.xyz, port: 31601, type: vmess, uuid: b2d1ac73-c961-4cf5-bc54-aca0ac05713a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk04.lovemc.xyz}
+  - {name: 🇭🇰 12|🇭🇰香港04, server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: df635dd2-efc8-4f0f-8b1b-075872242e85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk04.abpilot.xyz}
+  - {name: "🇭🇰 17,18|_🇭🇰_HK_香港_科网_20", server: 156.245.8.225, port: 49823, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai", server: wasanbi.ga, port: 443, type: vmess, uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /94448b9f-7d5d-4f7a-9c68-d4978878d401, headers: {Host: wasanbi.ga}}}
+  - {name: "🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...", server: 183.237.20.158, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian", server: shck8bq.olb8qsg.top, port: 23246, type: vmess, uuid: 2b80505d-2550-4429-808b-3bdcae3b6a6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: "🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港", server: 5m4h0k05.mcfront.xyz, port: 31606, type: vmess, uuid: 70c14f6c-0af6-423a-a27a-23b2c2441901, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian", server: 47.kccic2pa.xyz, port: 50047, type: vmess, uuid: 7271b7c6-f38e-45b8-8998-5a068d3b3086, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇭🇰 15,17,18|github.com/freefq - 香港  9", server: 156.245.8.128, port: 47094, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 19|香港 06 | 1x HK, server: 5m4h0k06.mcfront.xyz, port: 31611, type: vmess, uuid: b2d1ac73-c961-4cf5-bc54-aca0ac05713a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk06.lovemc.xyz}
+  - {name: "🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian", server: hk1.lianpi.xyz, port: 34180, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_", server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: 7792066c-8759-4c1f-bb57-db78b40aa52d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 12|🇭🇰香港05, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: df635dd2-efc8-4f0f-8b1b-075872242e85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk05.abpilot.xyz}
+  - {name: 🇭🇰 14|香港 005, server: 27.124.45.119, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 17|_🇭🇰_HK_香港_科网_20_, server: 156.245.8.130, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 14|香港 004, server: 92.223.76.23, port: 80, type: vmess, uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】", server: gzyd.jcnode.top, port: 20000, type: vmess, uuid: 81510758-6c40-48a7-ab6e-7a3fe04770e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
+  - {name: 🇭🇰 18|【已解锁奈飞】香港D线, server: hk-d.pelejd.top, port: 10010, type: vmess, uuid: 8a73d8c7-08b8-4520-873f-816de33b95cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hk, headers: {Host: hk-d.pelejd.top}}}
+  - {name: 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n..., server: fschk.fscloud123456789.com, port: 443, type: trojan, password: fe5c139b-e3c2-4029-a783-b7f836557f6d, skip-cert-verify: false}
+  - {name: 🇭🇰 14|香港 002, server: hk2.520123.xyz, port: 443, type: vmess, uuid: f0896da2-887d-4213-81d6-b58bd229093e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zdgood.vip, headers: {Host: hk2.520123.xyz}}}
+  - {name: 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian, server: zjyd.jcnlzq.top, port: 46399, type: ss, cipher: chacha20-ietf-poly1305, password: ad5e95a9-2a64-4e93-80c7-0005df0d7f73}
+  - {name: 🇭🇰 14|香港 006, server: 156.234.76.179, port: 80, type: vmess, uuid: 3a861425-e0d8-47c3-aa1d-a825d7629ae9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006
+      - 🇭🇰 19|香港 04 | 1x HK
+      - 🇭🇰 12|🇭🇰香港04
+      - 🇭🇰 17,18|_🇭🇰_HK_香港_科网_20
+      - 🇭🇰 10,11,14|🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 10,11|Relay 🇭🇰 Hong Kong(ChatGPT) 03...
+      - 🇭🇰 20,20,21,21|🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 9,19|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 20,21|🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 15,17,18|github.com/freefq - 香港  9
+      - 🇭🇰 19|香港 06 | 1x HK
+      - 🇭🇰 20,21|🇭🇰 香港HK|@ripaojiedian
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港_
+      - 🇭🇰 12|🇭🇰香港05
+      - 🇭🇰 14|香港 005
+      - 🇭🇰 17|_🇭🇰_HK_香港_科网_20_
+      - 🇭🇰 14|香港 004
+      - 🇭🇰 27,27,27,27|JCBB_香港01_1【vip1】
+      - 🇭🇰 18|【已解锁奈飞】香港D线
+      - 🇭🇰 11|🇭🇰 Hong Kong(ChatGPT) 02 TG:@n...
+      - 🇭🇰 14|香港 002
+      - 🇭🇰 20|🇭🇰 香港限时|@ripaojiedian
+      - 🇭🇰 14|香港 006

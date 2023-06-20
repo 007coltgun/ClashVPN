@@ -1,82 +1,100 @@
 proxies:
-  - {name: 🇬🇧 12|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 7792066c-8759-4c1f-bb57-db78b40aa52d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
-  - {name: 🇬🇧 18|@DeamNet_🇬🇧London-1892, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}}
   - {name: "🇬🇧 14,18|英国 005", server: 83.142.225.58, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇬🇧 14,14,14,18,18,18|英国 001", server: 64.176.188.230, port: 2053, type: vmess, uuid: 4134efe7-d935-416c-c2cc-24943e4a80ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 14|英国 006, server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 18|@DeamNet_🇬🇧London-1417, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}}
-  - {name: 🇬🇧 14|英国 002, server: uk1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk1-vmess.greenssh.xyz}}}
-  - {name: 🇬🇧 19|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 70c14f6c-0af6-423a-a27a-23b2c2441901, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vuk1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}}
   - {name: "🇬🇧 14,18|英国 007", server: free-en12.hermos.site, port: 80, type: vmess, uuid: 05badfe2-938d-4c3f-a290-285d3c655600, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: free-en12.hermos.site}}}
-      - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+  - {name: "🇬🇧 14,18|英国 002", server: uk1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk1-vmess.greenssh.xyz}}}
+  - {name: 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2, server: 149.50.77.125, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: "🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国", server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: "🇬🇧 14,18|英国 006", server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 12|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: ca14faa5-b0ed-4aa7-b3d1-ede0b66f6b6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: "🇬🇧 14,14,14,18,18,18,18|英国 001", server: 64.176.188.230, port: 2053, type: vmess, uuid: 4134efe7-d935-416c-c2cc-24943e4a80ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国", server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 70c14f6c-0af6-423a-a27a-23b2c2441901, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技), server: 64.176.182.133, port: 16863, type: vmess, uuid: bd51504b-4702-4b97-b70a-0282b70d637f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
       - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
       - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
       - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
       - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
       - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
       - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
       - 🇬🇧 12|🇬🇧英国04
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1892
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)
       - 🇬🇧 14,18|英国 005
-      - 🇬🇧 14,14,14,18,18,18|英国 001
-      - 🇬🇧 14|英国 006
-      - 🇬🇧 18|@DeamNet_🇬🇧London-1417
-      - 🇬🇧 14|英国 002
-      - 🇬🇧 19|英国 04 | 1x UK
+      - 🇬🇧 18|🇬🇧 @DeamNet_🇬🇧London-2206
       - 🇬🇧 14,18|英国 007
+      - 🇬🇧 14,18|英国 002
+      - 🇬🇧 1|🇬🇧 _IL_以色列->🇬🇧_GB_英国 2
+      - 🇬🇧 1,4|🇬🇧 _IL_以色列->🇬🇧_GB_英国
+      - 🇬🇧 14,18|英国 006
+      - 🇬🇧 12|🇬🇧英国04
+      - 🇬🇧 14,14,14,18,18,18,18|英国 001
+      - 🇬🇧 9,19|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 18|🇬🇧GB英国(youtube阿伟科技)

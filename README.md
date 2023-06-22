@@ -279,8 +279,8 @@
   src="/Donate-USDT-TRC20.png"
   alt="حمایت مالی از پروژه کلش وی پی ان"
   title="Donate"
-  width="50%" 
-  height="50%">
+  width="25%" 
+  height="25%">
 
 ---
 ### Invaluable thanks

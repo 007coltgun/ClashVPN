@@ -272,7 +272,9 @@
 
 
 ---
-## ❤️ 💰 Donate | حمایت مالی
+## ❤️ Donate | حمایت مالی
+
+[Donate]([http://url/to/img.png](https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/Donate-USDT-TRC20.png))
 
 [َُUSDT-TRC20](https://github.com/MEHR1DAD/ClashVPN/blob/main/Donate-USDT-TRC20.png)
 

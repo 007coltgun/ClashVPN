@@ -277,9 +277,6 @@
 
 <img src="/Donate-USDT-TRC20.png" alt="حمایت مالی از پروژه کلش وی پی ان" title="Donate">
 
-[Donate]([http://url/to/img.png](https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/Donate-USDT-TRC20.png))
-
-[َُUSDT-TRC20](https://github.com/MEHR1DAD/ClashVPN/blob/main/Donate-USDT-TRC20.png)
 
 ---
 ### Invaluable thanks

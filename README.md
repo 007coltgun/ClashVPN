@@ -42,6 +42,16 @@
 - برنامه سازگار با سیستم عامل دستگاه خود را دانلود و نصب کنید.
 <div  dir="rtl">
   
+
+|    OS   |              Best Client               |
+|:-------:|:--------------------------------------:|
+|   iOS   |            [Stash](https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349)         |
+| Android |            [Clash For Android](https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=en&gl=US)         |
+|AndroidTV|            [Clash For Android](https://github.com/Kr328/ClashForAndroid/releases)         |
+| Windows |            [Clash For Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)         |
+|  Linux  |           [Clash For Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)          |
+|  macOS  |       [ClashX](https://github.com/yichengchen/clashX/releases) | [Clash For Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)     |
+
 - لینک کانکشن رو کامل کپی کنید و به برنامه کلش اضافه کنید.
 <div  dir="rtl">
 

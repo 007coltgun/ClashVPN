@@ -275,8 +275,11 @@
 ## ❤️ Donate | حمایت مالی
 
 
-<img src="/Donate-USDT-TRC20.png" alt="حمایت مالی از پروژه کلش وی پی ان" title="Donate">
-
+<img
+  src="/Donate-USDT-TRC20.png"
+  alt="حمایت مالی از پروژه کلش وی پی ان"
+  title="Donate"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ---
 ### Invaluable thanks

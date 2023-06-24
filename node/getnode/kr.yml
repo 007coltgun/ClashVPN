@@ -1,145 +1,127 @@
 proxies:
   - {name: 🇰🇷 _KR_韩国, server: kr1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
-  - {name: 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443, server: 52.78.217.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:..., server: 3.36.95.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 20|🇰🇷 KR|@ripaojiedian, server: 43.201.35.181, port: 51256, type: trojan, password: ab204b2d-dac8-4cf4-8239-d46d49d9cad5, sni: 43.201.35.181, skip-cert-verify: false}
-  - {name: 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 14|韩国 001, server: kr2.furiousspeed.net, port: 10000, type: vmess, uuid: 98cc5a23-f3ce-41e4-b0c2-50d11102b66c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ilhxvws, headers: {Host: kr2.furiousspeed.net}}}
-  - {name: 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443, server: 52.78.217.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国", server: 43.202.55.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 14|韩国 002, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai, server: kr.stablize.top, port: 443, type: trojan, password: 6191d59d-021c-4af1-8197-85d52c564ac4, skip-cert-verify: false}
-  - {name: 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:..., server: kr2.microsoft-orgwly.vip, port: 443, type: trojan, password: c2f90faa-4097-49fe-a169-19c0badb1038, skip-cert-verify: false}
-  - {name: 🇰🇷 20|🇰🇷 韩国|@ripaojiedian, server: ctkr2.createmofa.xyz, port: 32998, type: ss, cipher: chacha20-ietf-poly1305, password: 1c74f602-87e2-4101-93e0-f8360264870a}
   - {name: 🇰🇷 14|韩国 003, server: 146.56.174.31, port: 8080, type: vmess, uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:..., server: 3.36.95.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:..., server: 43.201.254.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 12|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: bffc1b53-23b1-4c24-a618-e7610aa5c27c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
-  - {name: 🇰🇷 19|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 0ebbef20-c05e-4ac8-a67c-6d1cc50fb725, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
+  - {name: 🇰🇷 20|🇰🇷 KR|@ripaojiedian, server: 43.201.35.181, port: 51256, type: trojan, password: ab204b2d-dac8-4cf4-8239-d46d49d9cad5, sni: 43.201.35.181, skip-cert-verify: false}
+  - {name: 🇰🇷 20|🇰🇷 韩国|@ripaojiedian, server: ctkr2.createmofa.xyz, port: 32998, type: ss, cipher: chacha20-ietf-poly1305, password: 1c74f602-87e2-4101-93e0-f8360264870a}
+  - {name: 🇰🇷 14|韩国 002, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 19|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 884a8a19-a307-4dee-8bc4-f21aeb98f80c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
+  - {name: 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:..., server: kr2.microsoft-orgwly.vip, port: 443, type: trojan, password: c2f90faa-4097-49fe-a169-19c0badb1038, skip-cert-verify: false}
+  - {name: 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai, server: kr.stablize.top, port: 443, type: trojan, password: 6191d59d-021c-4af1-8197-85d52c564ac4, skip-cert-verify: false}
+  - {name: "🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国", server: 43.202.55.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 14|韩国 001, server: kr2.furiousspeed.net, port: 10000, type: vmess, uuid: 98cc5a23-f3ce-41e4-b0c2-50d11102b66c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ilhxvws, headers: {Host: kr2.furiousspeed.net}}}
+  - {name: 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 12|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: ce20db31-64e2-4b48-841b-333eea8cc86f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
-      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
-      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|韩国 001
-      - 🇰🇷 16|🇰🇷韩国-首尔-首尔-ss-52.78.217.18:443
-      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
-      - 🇰🇷 14|韩国 002
-      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
-      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
-      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 14|韩国 003
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 01 TG:...
       - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 02 TG:...
-      - 🇰🇷 12|🇰🇷韩国04
+      - 🇰🇷 20|🇰🇷 KR|@ripaojiedian
+      - 🇰🇷 20|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 14|韩国 002
       - 🇰🇷 19|韩国 02 | 1x KR
+      - 🇰🇷 11|🇰🇷 South Korea(ChatGPT) 03 TG:...
+      - 🇰🇷 11|🇰🇷 South Korea 04 TG:@nodpai
+      - 🇰🇷 1,6,8,24,26|🇰🇷 _KR_韩国
+      - 🇰🇷 14|韩国 001
+      - 🇰🇷 20|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 12|🇰🇷韩国04

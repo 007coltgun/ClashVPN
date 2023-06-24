@@ -97,60 +97,50 @@ proxies:
   - {name: 🇨🇳 _CN_中国_1, server: 14.116.151.100, port: 63093, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇨🇳 _CN_中国_2, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010, server: rukou1.rookiebase.cn, port: 7010, type: ss, cipher: aes-128-gcm, password: 077efc30-5273-46ed-a55d-b40cf4750d83}
-  - {name: 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060, server: rukou1.rookiebase.cn, port: 7060, type: ss, cipher: aes-128-gcm, password: 077efc30-5273-46ed-a55d-b40cf4750d83}
-  - {name: 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443, server: rochinet.fullaccesstointernet.cn.eu.org, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /freedom, headers: {Host: rochinet.fullaccesstointernet.cn.eu.org}}}
-  - {name: 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:..., server: cc.zhu88.net, port: 443, type: vmess, uuid: ac3163d0-e613-4b4e-83de-96b8ec83e006, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cc.zhu88.net}}}
-  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp..., server: 165.154.246.49, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: false}
-  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp..., server: bgptw3.cnamazon.sbs, port: 443, type: trojan, password: 5f9a5d8c-a57b-4da6-baff-490fe4cf8d60, sni: tlsdata.cnamazon.sbs, skip-cert-verify: false}
-  - {name: 🇨🇳 19|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 0ebbef20-c05e-4ac8-a67c-6d1cc50fb725, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
-  - {name: 🇨🇳 18|CN 192 → tg@nicevpn123, server: 198.2.203.57, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__", server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__", server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本", server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__", server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利", server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___", server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇳 18|CN 120 → tg@nicevpn123, server: 198.2.203.154, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾", server: zf.heigouyunzf.xyz, port: 38803, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: false}
-  - {name: 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG..., server: 02-1.qqingca.cc, port: 20384, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
-  - {name: "🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾", server: hinet2.downloadvip.cfd, port: 443, type: trojan, password: d8b00b98-96fb-43d5-af14-4166a329a655, skip-cert-verify: false}
-  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp..., server: 165.154.246.207, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: false}
-  - {name: 🇨🇳 18|CN 392 → tg@nicevpn123, server: 198.2.203.34, port: 50502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡", server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "9,19|🇨🇳_CN_中国", server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇳 27|JCBB_ 台湾 04【vip1】, server: gzdx.jcnode.top, port: 24001, type: vmess, uuid: c027617f-7380-4abe-be5b-3f81111f0a0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 19|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 0ebbef20-c05e-4ac8-a67c-6d1cc50fb725, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
-  - {name: "🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___", server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇳 27|JCBB_ 台湾 03【vip1】, server: gzyd.jcnode.top, port: 24001, type: vmess, uuid: c027617f-7380-4abe-be5b-3f81111f0a0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
-  - {name: 🇨🇳 18|CN 137 → tg@nicevpn123, server: hk.biutefor.icu, port: 443, type: vmess, uuid: 71b2655e-07d9-4dad-a770-a2b08275142b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /biutefor.icu, headers: {Host: hk.biutefor.icu}}}
-  - {name: 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG..., server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._, server: rukou1.rookiebase.cn, port: 7060, type: ss, cipher: aes-128-gcm, password: 077efc30-5273-46ed-a55d-b40cf4750d83}
-  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp..., server: hinet1.downloadvip.cfd, port: 443, type: trojan, password: 5a67bf67-5af7-4262-a5ec-cd2c03866acd, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
-  - {name: 🇨🇳 12|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: bffc1b53-23b1-4c24-a618-e7610aa5c27c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp..., server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: false}
   - {name: "🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷", server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇳 12|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: bffc1b53-23b1-4c24-a618-e7610aa5c27c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: 🇨🇳 18|🇨🇳 台湾_0623014, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度", server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇳 19|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 0ebbef20-c05e-4ac8-a67c-6d1cc50fb725, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
-  - {name: 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ..., server: hinettw1.applebench.tech, port: 56568, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国", server: 4a2u0a04.mcfront.xyz, port: 31501, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国", server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_", server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾", server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp..., server: 165.154.226.194, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: false}
-  - {name: "🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_", server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..., server: rukou1.rookiebase.cn, port: 7010, type: ss, cipher: aes-128-gcm, password: 077efc30-5273-46ed-a55d-b40cf4750d83}
-  - {name: "🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大", server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港", server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰", server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_", server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其", server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: "🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾", server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}}
-  - {name: "🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai", server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚", server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 27|JCBB_ 台湾 04【vip1】, server: gzdx.jcnode.top, port: 24001, type: vmess, uuid: c027617f-7380-4abe-be5b-3f81111f0a0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
   - {name: 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123, server: 198.2.203.54, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚", server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港", server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123, server: 198.2.203.57, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG..., server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: "🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾", server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾", server: zf.heigouyunzf.xyz, port: 38803, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: false}
+  - {name: 🇨🇳 19|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 884a8a19-a307-4dee-8bc4-f21aeb98f80c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp..., server: 165.154.226.194, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: false}
+  - {name: 🇨🇳 12|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: ce20db31-64e2-4b48-841b-333eea8cc86f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: "🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___", server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__", server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 19|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 884a8a19-a307-4dee-8bc4-f21aeb98f80c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: "🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_", server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "9,19|🇨🇳_CN_中国", server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG..., server: 02-1.qqingca.cc, port: 20384, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
+  - {name: "🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾", server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}}
+  - {name: "🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡", server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 19|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 884a8a19-a307-4dee-8bc4-f21aeb98f80c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp..., server: hinet1.downloadvip.cfd, port: 443, type: trojan, password: 5a67bf67-5af7-4262-a5ec-cd2c03866acd, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: "🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_", server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利", server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai", server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 12|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: ce20db31-64e2-4b48-841b-333eea8cc86f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: "🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾", server: hinet2.downloadvip.cfd, port: 443, type: trojan, password: d8b00b98-96fb-43d5-af14-4166a329a655, skip-cert-verify: false}
+  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp..., server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: false}
+  - {name: "🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其", server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__", server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国", server: 4a2u0a04.mcfront.xyz, port: 31501, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___", server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国", server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度", server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ..., server: hinettw1.applebench.tech, port: 56568, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp..., server: 165.154.246.49, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: false}
+  - {name: "🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本", server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大", server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__", server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp..., server: 165.154.246.207, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: false}
+  - {name: 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp..., server: bgptw3.cnamazon.sbs, port: 443, type: trojan, password: 5f9a5d8c-a57b-4da6-baff-490fe4cf8d60, sni: tlsdata.cnamazon.sbs, skip-cert-verify: false}
+  - {name: "🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_", server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: 71573380-f4c8-46d6-a1a8-b8ea7cf15e31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 27|JCBB_ 台湾 03【vip1】, server: gzyd.jcnode.top, port: 24001, type: vmess, uuid: c027617f-7380-4abe-be5b-3f81111f0a0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
+  - {name: "9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰", server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -249,60 +239,50 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
       - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -401,60 +381,50 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
       - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -553,60 +523,50 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
       - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -705,75 +665,64 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
-      - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
       - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
       - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
       - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -872,60 +821,50 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
       - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -1024,60 +963,50 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
       - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -1176,60 +1105,50 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
       - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
       - 🇨🇳 CN-14.116.193.79-000
       - 🇨🇳 CN-14.116.193.79-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -1328,57 +1247,47 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7010
-      - 🇨🇳 中国-广东-广州-ss2-rukou1.rookiebase.cn:7060
-      - 🇨🇳 中国-广东-广州-v2ray-rochinet.fullaccesstointernet.cn.eu.org:443
-      - 16|🇨🇳中国-广东-广州-v2ray-cc.zhu88.net:...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
-      - 🇨🇳 19|台湾 05  | 1x TWN
-      - 🇨🇳 18|CN 192 → tg@nicevpn123
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
-      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
-      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
-      - 🇨🇳 18|CN 120 → tg@nicevpn123
-      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
-      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
-      - 🇨🇳 18|CN 392 → tg@nicevpn123
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - 9,19|🇨🇳_CN_中国
-      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 19|台湾 06  | 1x TWN
-      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
-      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 18|CN 137 → tg@nicevpn123
-      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba..._
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
-      - 🇨🇳 12|🇹🇼台湾06
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
       - 🇦🇷 9,12|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
-      - 🇨🇳 12|🇹🇼台湾05
-      - 🇨🇳 18|🇨🇳 台湾_0623014
-      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇨🇳 19|台湾 04  | 1x TWN
-      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
-      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
-      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
-      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
-      - 16|🇨🇳中国-广东-广州-ss2-rukou1.rookieba...
-      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
-      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
-      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
-      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇨🇳 27|JCBB_ 台湾 04【vip1】
       - 🇨🇳 18|🇨🇳 CN 172 → tg@nicevpn123
+      - 🇦🇺 9,12|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇰 9,12|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳 18|🇨🇳 CN 192 → tg@nicevpn123
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 01 TG...
+      - 🇨🇳 9,12|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1,6,8,24,26|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 19|台湾 05  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 08 TG:@nodp...
+      - 🇨🇳 12|🇹🇼台湾06
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国___
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本__
+      - 🇨🇳 19|台湾 04  | 1x TWN
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡_
+      - 9,19|🇨🇳_CN_中国
+      - 🇨🇳 11|Relay 🇹🇼 Taiwan(ChatGPT) 02 TG...
+      - 🇨🇳 0,1,5,6,7,8,14,23,24,25,26|🇹🇼 _US_美国->🇹🇼_TW_台湾
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 19|台湾 06  | 1x TWN
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 05 TG:@nodp...
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本_
+      - 🇭🇺 9,12|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 10,11|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 12|🇹🇼台湾05
+      - 🇨🇳 1,6,8,20,24,26|🇹🇼 _TW_台湾
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 03 TG:@nodp...
+      - 🇹🇷 9,12|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 9,12|🇨🇳_CN_中国->🇺🇸_US_美国__
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇯🇵 9,12|🇨🇳_CN_中国->🇯🇵_JP_日本___
+      - 🇬🇧 9,12|🇨🇳_CN_中国->🇬🇧_GB_英国
+      - 🇮🇳 9,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 🇨🇳 13|v2rayfree.eu.org - 台湾省台南市中华电信 ...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 06 TG:@nodp...
+      - 🇯🇵 9,19|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇦 9,12|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇸🇬 9,12|🇨🇳_CN_中国->🇸🇬_SG_新加坡__
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 04 TG:@nodp...
+      - 🇨🇳 11|🇹🇼 Taiwan(ChatGPT) 07 TG:@nodp...
+      - 🇺🇸 9,19|🇨🇳_CN_中国->🇺🇸_US_美国_
+      - 🇨🇳 27|JCBB_ 台湾 03【vip1】
+      - 9,12|🇨🇳_CN_中国->🇺🇦_UA_乌克兰

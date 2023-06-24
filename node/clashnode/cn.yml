@@ -1,2 +1,4 @@
 proxies:
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 5b042591-a79c-435d-af17-e6b2e0e92116, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: zf.heigouyunzf.xyz, port: 38803, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: true}
+  - {name: 🇨🇳 _US_美国->🇹🇼_TW_台湾, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}}
+  - {name: 🇨🇳 _TW_台湾, server: hinet2.downloadvip.cfd, port: 443, type: trojan, password: d8b00b98-96fb-43d5-af14-4166a329a655, skip-cert-verify: true}

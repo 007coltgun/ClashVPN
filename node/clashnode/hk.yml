@@ -1,4 +1,5 @@
 proxies:
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: gzyd02.jcnode.top, port: 40001, type: trojan, password: fca31d04-a84c-4c7a-a506-b4f28a0eab0f, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: 00686191-4d9e-416a-b0bb-bebbd55bc546, alterId: 0, cipher: auto, tls: true}
   - {name: 🇭🇰 _HK_香港, server: 43.154.233.89, port: 45516, type: vmess, uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /hk12/getData, headers: {Host: hk12.verichains.co}}}
-  - {name: 🇭🇰 _TW_台湾->🇭🇰_HK_香港, server: gzdx1.170203.xyz, port: 22907, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, sni: hkmax02.170203.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: 5b042591-a79c-435d-af17-e6b2e0e92116, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇭🇰 _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.225, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}

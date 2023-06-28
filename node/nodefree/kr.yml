@@ -1,17 +1,9 @@
 proxies:
-  - {name: _CN_中国->🇰🇷_KR_韩国, server: 221.131.165.175, port: 19106, type: vmess, uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda}, udp: true}
-  - {name: _KR_韩国, server: 3.38.211.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-      - _CN_中国->🇰🇷_KR_韩国
-      - _KR_韩国
-      - _CN_中国->🇰🇷_KR_韩国
-      - _KR_韩国
-      - _CN_中国->🇰🇷_KR_韩国
-      - _KR_韩国
-      - _CN_中国->🇰🇷_KR_韩国
-      - _KR_韩国
-      - _CN_中国->🇰🇷_KR_韩国
-      - _KR_韩国
-      - _CN_中国->🇰🇷_KR_韩国
-      - _KR_韩国
-      - _CN_中国->🇰🇷_KR_韩国
-      - _KR_韩国
+  - {name: _US_美国->🇰🇷_KR_韩国, server: 54.192.150.188, port: 443, type: vmess, uuid: b393a93b-ae0f-4b3a-b049-b1a81a3e490a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /share, headers: {Host: d2kzpvdyi8xw4u.cloudfront.net}}, udp: true}
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🇰🇷_KR_韩国
+      - _US_美国->🇰🇷_KR_韩国

@@ -1,100 +1,136 @@
 proxies:
   - {name: 🇰🇷 _KR_韩国, server: kr1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
-  - {name: "🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国", server: zf2.678889.xyz, port: 20010, type: vmess, uuid: f5caf864-d3e4-435a-9e26-06af13c23419, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zf2.678889.xyz}}}
-  - {name: 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian, server: 52.78.238.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian, server: 43.202.55.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国", server: 54.192.150.188, port: 443, type: vmess, uuid: b393a93b-ae0f-4b3a-b049-b1a81a3e490a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: d2kzpvdyi8xw4u.cloudfront.net}}}
+  - {name: 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦, server: kr1.quickerlink.xyz, port: 3002, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: kr1.quickerlink.xyz}}}
   - {name: 🇰🇷 8|🇰🇷_KR_韩国, server: kr4.jisuyun.co, port: 443, type: vmess, uuid: 28f57cb0-f336-46e6-b040-fcc138affb29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kr4.jisuyun.co}}}
   - {name: 🇰🇷 10|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 9ed2f274-e828-4c77-8f96-66b035fc7434, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
-  - {name: 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦, server: kr1.quickerlink.xyz, port: 3002, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: kr1.quickerlink.xyz}}}
-  - {name: 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4, server: kr.ifastcdncache.com, port: 24100, type: vmess, uuid: 98418cc3-2a5c-4e9a-b43c-d395e4561cd7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: console.huaweicloud.com}}}
-  - {name: 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian, server: 43.202.55.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian", server: 140.238.20.239, port: 65008, type: vmess, uuid: 88c6d12b-614f-485f-83fc-fb0cc57c4801, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 19|韩国B|@ripaojiedian, server: kr5.elknode.buzz, port: 443, type: vmess, uuid: 6d3161b7-134f-3e3c-b43b-d40c67d51e9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20, server: 146.56.110.102, port: 80, type: vmess, uuid: e2caa52d-17ea-3231-a411-c543f8a6534e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: v9-dy.ixigua.com}}}
+  - {name: "🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国", server: cn-to-hk-443.db-link.in, port: 443, type: vmess, uuid: 40cbc750-a182-3fe2-8832-9fa6006354cf, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /db, headers: {Host: free-to-us-01.db-link.in}}}
   - {name: 🇰🇷 17|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 5987abec-9906-4192-881b-1570e2c12022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
-  - {name: "🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国", server: 54.192.150.188, port: 443, type: vmess, uuid: b393a93b-ae0f-4b3a-b049-b1a81a3e490a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: d2kzpvdyi8xw4u.cloudfront.net}}}
+  - {name: 🇰🇷 15|🇰🇷_KR_韩国_30, server: azkr.qweiop.eu.org, port: 10003, type: vmess, uuid: 67b5e697-6ef5-44df-8151-06a63b9f24bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /azkr, headers: {Host: azkr.qweiop.eu.org}}}
+  - {name: 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian, server: 140.238.20.239, port: 65008, type: vmess, uuid: 88c6d12b-614f-485f-83fc-fb0cc57c4801, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian, server: 52.78.238.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4, server: kr.ifastcdncache.com, port: 24100, type: vmess, uuid: 98418cc3-2a5c-4e9a-b43c-d395e4561cd7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: console.huaweicloud.com}}}
+  - {name: "🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国", server: zf2.678889.xyz, port: 20010, type: vmess, uuid: f5caf864-d3e4-435a-9e26-06af13c23419, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zf2.678889.xyz}}}
       - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
-      - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
       - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
       - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
       - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
       - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
       - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
       - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 1,2,3,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
       - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国
+      - 🇰🇷 _KR_韩国
+      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 1,2,4,18|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
       - 🇰🇷 8|🇰🇷_KR_韩国
       - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 8|🇰🇷_KR_韩国->🇷🇺_RU_俄罗斯联邦
-      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
-      - 🇰🇷 18|🇰🇷 首尔特殊|@ripaojiedian
-      - 🇰🇷 18,19|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 19|韩国B|@ripaojiedian
+      - 🇰🇷 16|🇰🇷 韩国免流=tg频道:@bpjzx2=20
+      - 🇰🇷 8,11|🇰🇷_KR_韩国->🇺🇸_US_美国
       - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 1,2,3,4,18,19|_US_美国->🇰🇷_KR_韩国
+      - 🇰🇷 15|🇰🇷_KR_韩国_30
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - 🇰🇷 18|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 23|🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇯🇵 1,2,4|_JP_日本->🇰🇷_KR_韩国

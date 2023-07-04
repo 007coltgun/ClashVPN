@@ -1,6 +1,5 @@
 proxies:
-  - {name: 🇸🇬 _SG_新加坡, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, skip-cert-verify: true}
+  - {name: 🇸🇬 _SG_新加坡, server: 13.215.206.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: video.tiktokuu.xyz, port: 735, type: ss, cipher: rc4-md5, password: BoomCloud2020}
   - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: 104.17.3.81, port: 443, type: vmess, uuid: 132633a9-b53e-4352-82a6-93eae114482e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /files, headers: {Host: sg.xmbb.net}}}
-  - {name: 🇸🇬 _SG_新加坡 2, server: 52.221.196.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 _SG_新加坡 3, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, skip-cert-verify: true}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: 104.18.1.196, port: 80, type: vmess, uuid: 0dfa89a7-fe08-454e-817b-374097be358f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-mlb.securev2ray.com}}}

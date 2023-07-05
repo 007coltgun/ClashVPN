@@ -101,22 +101,46 @@ proxies:
   - {name: 🇨🇳 _CN_中国_1, server: 14.116.151.100, port: 63093, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇨🇳 _CN_中国_2, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 10|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:..., server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇨🇳 17|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 3593392e-af7b-4a8c-b3c1-c49b6bbb23ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
-  - {name: "🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai", server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 17|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 3593392e-af7b-4a8c-b3c1-c49b6bbb23ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
-  - {name: 🇨🇳 10|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 10|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: "🇨🇳 2,3,4,8|_TW_台湾", server: 333333ddnstw.xn--9kqu73b.xyz, port: 15410, type: vmess, uuid: f221cb8a-ea54-4336-b004-54dc384aabbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 333333ddnstw.xn--9kqu73b.xyz}}}
-  - {name: 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl..., server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
-  - {name: 🇨🇳 17|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 3593392e-af7b-4a8c-b3c1-c49b6bbb23ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
-  - {name: 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu...., server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xt.ylks01.eu.org}}}
-  - {name: 🇨🇳 22|台湾 1, server: tw.untilmu.com, port: 29996, type: vmess, uuid: 0b988b20-77d8-4d1f-be31-41ed6b968e22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw.untilmu.com}}}
-  - {name: 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15, server: 202.108.15.135, port: 443, type: vmess, uuid: 20c08a8d-85d6-47c6-bbb0-c8389a578b71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /7803f1, headers: {Host: tk.731808.tk}}}
-  - {name: "🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239", server: 120.233.43.69, port: 41402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2}
+  - {name: 🇨🇳 21|JCBB_ 台湾 03【vip1】, server: gzyd.jcnode.top, port: 24001, type: vmess, uuid: a147cead-ae3c-444c-9eaf-a973c7d72652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
+  - {name: "🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙", server: 4p2t01.abzoones.xyz, port: 36881, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其", server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南", server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇨🇳 0,2,4|🇹🇼 _TW_台湾", server: 333333ddnstw.xn--9kqu73b.xyz, port: 15410, type: vmess, uuid: f221cb8a-ea54-4336-b004-54dc384aabbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 333333ddnstw.xn--9kqu73b.xyz}}}
+  - {name: "🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾", server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3", server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2", server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2", server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇨🇳 15,24|🇨🇳_CN_中国_分享师_239", server: 120.233.43.69, port: 41402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 21|JCBB_ 台湾 04【vip1】, server: gzdx.jcnode.top, port: 59486, type: vmess, uuid: a147cead-ae3c-444c-9eaf-a973c7d72652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: "🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西", server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1", server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2..., server: s400l.ddns1.pw, port: 26001, type: ss, cipher: chacha20-ietf-poly1305, password: dc49f295-653a-4f3c-84d5-8626d6b3efde}
+  - {name: "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国", server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港", server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1", server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 17|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 40fb9044-6cc6-4ce0-9e39-c518b2e719b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚", server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利", server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai", server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷", server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国", server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1", server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本", server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾", server: north-connect.zhihuu.top, port: 443, type: vmess, uuid: 7596fac1-ee72-4590-9fd8-92f762e9faaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /n478, headers: {Host: jp.zhihuu.top}}}
+  - {name: 🇨🇳 17|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 40fb9044-6cc6-4ce0-9e39-c518b2e719b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:..., server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: aaaa.wxx.gay}}}
+  - {name: "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡", server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 17|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 40fb9044-6cc6-4ce0-9e39-c518b2e719b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1", server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1", server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰", server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2", server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度", server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu...., server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xt.ylks01.eu.org}}}
+  - {name: 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2}
+  - {name: 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl..., server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
+  - {name: "🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大", server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: c1211bfc-3ca4-4eab-bb27-5139c8df5b87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15, server: 202.108.15.135, port: 443, type: vmess, uuid: 20c08a8d-85d6-47c6-bbb0-c8389a578b71, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /7803f1, headers: {Host: tk.731808.tk}}}
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
       - 🇨🇳 CN-121.31.49.139-002
@@ -219,22 +243,46 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
       - 🇨🇳 CN-121.31.49.139-002
@@ -337,22 +385,46 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
       - 🇨🇳 CN-121.31.49.139-002
@@ -455,22 +527,46 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
       - 🇨🇳 CN-121.31.49.139-002
@@ -573,31 +669,57 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
       - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
       - 🇨🇳 17|台湾 04  | 1x TWN
-      - 🇨🇳 22|台湾 1
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 🇨🇳 17|台湾 05  | 1x TWN
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
@@ -701,22 +823,46 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
       - 🇨🇳 CN-121.31.49.139-002
@@ -819,22 +965,46 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
       - 🇨🇳 CN-121.31.49.139-002
@@ -937,22 +1107,46 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
       - 🇨🇳 CN-121.31.49.139-000
       - 🇨🇳 CN-121.31.49.139-001
       - 🇨🇳 CN-121.31.49.139-002
@@ -1055,19 +1249,43 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾06
-      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 2,3,4,8|_TW_台湾
-      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
-      - 🇨🇳 22|台湾 1
-      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15
-      - 🇨🇳 15,16,18,19,23|🇨🇳_CN_中国_分享师_239
-      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
+      - 🇵🇹 8,10|🇨🇳_CN_中国->🇵🇹_PT_葡萄牙
+      - 🇹🇷 8,10|🇨🇳_CN_中国->🇹🇷_TR_土耳其
+      - 🇻🇳 8,10|🇨🇳_CN_中国->🇻🇳_VN_越南
+      - 🇨🇳 0,2,4|🇹🇼 _TW_台湾
+      - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #3"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - 🇨🇳 15,24|🇨🇳_CN_中国_分享师_239
+      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
+      - 🇧🇷 8,10|🇨🇳_CN_中国->🇧🇷_BR_巴西
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
       - 14|🇨🇳中国-广东-佛山-ss-s400l.ddns1.pw:2...
+      - 🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港
+      - "🇭🇰 8,10|🇨🇳_CN_中国->🇭🇰_HK_香港 #1"
+      - 🇨🇳 17|台湾 06  | 1x TWN
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - 🇭🇺 8,10|🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - 🇨🇳 9,16|🇨🇳 China 01 TG:@nodpai
+      - 🇦🇷 8,10|🇨🇳_CN_中国->🇦🇷_AR_阿根廷
+      - 🇰🇷 8,10|🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳 0,3,15|🇹🇼 _KR_韩国->🇹🇼_TW_台湾
+      - 🇨🇳 17|台湾 04  | 1x TWN
+      - 14|🇨🇳中国-广东-佛山-v2ray-aaaa.wxx.gay:...
+      - 🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇨🇳 17|台湾 05  | 1x TWN
+      - "🇸🇬 8,10|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 8,10|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+      - "🇺🇸 8,10|🇨🇳_CN_中国->🇺🇸_US_美国 #2"
+      - 🇮🇳 8,10|🇨🇳_CN_中国->🇮🇳_IN_印度
+      - 14|🇨🇳中国-广东-佛山-v2ray-xt.ylks01.eu....
+      - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
+      - 14|🇨🇳中国-浙江-温州-ss-wqfuinwqffq.dfcl...
+      - 🇨🇦 8,10|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇳 6|中国【付费推荐：https://tt.vg/vip】15

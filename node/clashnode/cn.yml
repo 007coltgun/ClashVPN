@@ -1,5 +1,4 @@
 proxies:
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: video.tiktokuu.xyz, port: 715, type: ss, cipher: rc4-md5, password: BoomCloud2020}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2, server: 183.240.221.153, port: 5622, type: ss, cipher: aes-128-gcm, password: 3570f14f-e5be-40c5-ada0-21e6780e0294}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 3, server: video.tiktokuu.xyz, port: 713, type: ss, cipher: rc4-md5, password: BoomCloud2020}
-  - {name: 🇨🇳 _TW_台湾, server: tw6.microsoft-orgwly.vip, port: 10072, type: trojan, password: 4f8cd59a-e5ac-4293-8173-e2b4e3389e3c, skip-cert-verify: true}
+  - {name: 🇨🇳 _TW_台湾, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false}}
+  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: video.tiktokuu.xyz, port: 713, type: ss, cipher: rc4-md5, password: BoomCloud2020}
+  - {name: 🇨🇳 _US_美国->🇹🇼_TW_台湾, server: 104.16.250.250, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /freedom, headers: {Host: rochinet.fullaccesstointernet.cn.eu.org}}}

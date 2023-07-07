@@ -232,7 +232,7 @@
 <div  dir="rtl">
 
 
-- کانکشن ترکیبی آلمان و هلند و فرانسه و انگلستان [لینک کانکشن](https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/conn/GermanyNetherlandsFranceUk.yaml)
+- کانکشن ترکیبی آلمان و هلند و فرانسه و انگلستان [لینک کانکشن](https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/conn/GermanyNetherlandsFranceUk-light.yaml)
 <div  dir="rtl">
 
 

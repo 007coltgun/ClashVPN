@@ -1,2 +1,3 @@
 proxies:
-  - {name: 🇭🇰 _HK_香港, server: hk7.yihaobao.xyz, port: 443, type: trojan, password: 492c73ea-7080-4554-bc41-f027d825ae15, skip-cert-verify: true}
+  - {name: 🇭🇰 _HK_香港, server: hk01.isddns.tk, port: 443, type: vmess, uuid: 2a898bd8-c0d1-4f7d-a88e-831d5682a9b9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: hk01.isddns.tk}}}
+  - {name: 🇭🇰 _HK_香港 2, server: 43.154.233.89, port: 45516, type: vmess, uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /hk12/getData, headers: {Host: hk12.verichains.co}}}

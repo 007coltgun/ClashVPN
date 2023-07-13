@@ -1,5 +1,3 @@
 proxies:
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: hk7.network-cdn-gw.cc, port: 47707, type: ss, cipher: chacha20-ietf-poly1305, password: bdf68488-54c2-498b-bb97-3ec1104b0787}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: hk10.network-cdn-gw.cc, port: 47710, type: ss, cipher: chacha20-ietf-poly1305, password: bdf68488-54c2-498b-bb97-3ec1104b0787}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 3, server: jp01.network-cdn-gw.cc, port: 48801, type: ss, cipher: chacha20-ietf-poly1305, password: bdf68488-54c2-498b-bb97-3ec1104b0787}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 4, server: hk6.network-cdn-gw.cc, port: 47706, type: ss, cipher: chacha20-ietf-poly1305, password: bdf68488-54c2-498b-bb97-3ec1104b0787}
+  - {name: 🇭🇰 _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.131, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 _HK_香港->🇯🇵_JP_日本, server: 27.126.206.62, port: 80, type: vmess, uuid: e52d79bb-b26e-4416-ac8a-7755176299a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /9SCqOah8/, headers: {Host: jp1.ielaina.com}}}

@@ -1,64 +1,370 @@
 proxies:
   - {name: 🇰🇷 _KR_韩国, server: kr1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
-  - {name: "🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian", server: pickle01.linkzoones.xyz, port: 30401, type: vmess, uuid: 1f4cdd38-6ef8-3bca-b019-ce112359aa4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr01.tomoony.xyz}
-  - {name: 🇰🇷 10|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 943018a8-83f3-4e0d-abf1-38a4df3bca01, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
-  - {name: "🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国", server: krcfahucnfd.76898102.xyz, port: 2082, type: vmess, uuid: 061393bc-8448-3854-8d1b-fa8954e837d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /awbufyuit, headers: {Host: krcfahucnfd.76898102.xyz}}}
-  - {name: 🇰🇷 17|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: b3c6d85e-4e2e-4c2e-ad54-d5a2568ecd67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
-  - {name: 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian, server: 221.150.109.69, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #4", server: 173.245.58.179, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #13", server: 190.93.244.62, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #2", server: 103.21.244.129, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: 🇰🇷 15|🇰🇷_KR_韩国_16, server: 104.16.122.37, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #16", server: 104.25.2.249, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #1", server: 162.159.15.151, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #12", server: 104.19.95.33, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #10", server: 190.93.247.228, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #22", server: 198.41.211.6, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
   - {name: 🇰🇷 1|_KR_韩国, server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #6", server: 162.159.152.138, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian, server: 221.150.109.69, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #18", server: 104.25.127.176, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #25", server: 104.24.190.205, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #14", server: 104.25.49.65, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #26", server: 104.24.6.177, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #33", server: 198.41.212.68, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #17", server: 173.245.49.137, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #30", server: 104.22.17.238, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #27", server: 104.20.218.42, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #15", server: 141.101.122.95, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #29", server: 172.67.122.209, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #19", server: 104.16.91.128, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #23", server: 104.25.35.23, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #32", server: 173.245.58.77, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #9", server: 104.19.222.74, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #11", server: 108.162.195.144, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #7", server: 141.101.120.71, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: 🇰🇷 10|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 24423c5e-bf91-4b63-bd82-3191d28cb0e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #8", server: 104.18.9.84, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: 🇰🇷 17|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: a0cd7cde-5519-46b5-97fc-1aa8c57d7cd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #5", server: 103.21.244.204, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian", server: pickle01.linkzoones.xyz, port: 30401, type: vmess, uuid: 1f4cdd38-6ef8-3bca-b019-ce112359aa4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr01.tomoony.xyz}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #3", server: 104.19.186.19, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #31", server: 104.25.250.14, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国", server: krcfahucnfd.76898102.xyz, port: 2082, type: vmess, uuid: 061393bc-8448-3854-8d1b-fa8954e837d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /awbufyuit, headers: {Host: krcfahucnfd.76898102.xyz}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #21", server: 104.25.44.92, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #28", server: 108.162.196.115, port: 443, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #24", server: 188.114.97.153, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
+  - {name: "🇰🇷 15|🇰🇷_KR_韩国_16 #20", server: 104.18.32.11, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: kr.kapacloud.eu.org}}}
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"
       - 🇰🇷 _KR_韩国
-      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 10|🇰🇷韩国04
-      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
-      - 🇰🇷 17|韩国 02 | 1x KR
-      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #4"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #13"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #2"
+      - 🇰🇷 15|🇰🇷_KR_韩国_16
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #16"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #1"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #12"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #10"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #22"
       - 🇰🇷 1|_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #6"
+      - 🇰🇷 18|🇰🇷 韩国|tg频道:@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #18"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #25"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #14"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #26"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #33"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #17"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #30"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #27"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #15"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #29"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #19"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #23"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #32"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #9"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #11"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #7"
+      - 🇰🇷 10|🇰🇷韩国04
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #8"
+      - 🇰🇷 17|韩国 02 | 1x KR
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #5"
+      - 🇰🇷 18,19|🇰🇷 韩国2|@ripaojiedian
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #3"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #31"
+      - 🇰🇷 0,1,3,4|🇰🇷 _NL_荷兰->🇰🇷_KR_韩国
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #21"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #28"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #24"
+      - "🇰🇷 15|🇰🇷_KR_韩国_16 #20"

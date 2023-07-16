@@ -1,49 +1,55 @@
 proxies:
-  - {name: _SG_新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _SG_新加坡 2, server: 52.221.214.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _SG_新加坡->🇪🇸_ES_西班牙, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: esjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡, server: 219.76.13.169, port: 443, type: vmess, uuid: 29cccaaf-6044-3029-ab76-b24fe1577fdb, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: b.cn-db.top}}, udp: true}
-  - {name: _SG_新加坡 3, server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _HK_香港->🇸🇬_SG_新加坡 2, server: 219.76.13.164, port: 443, type: vmess, uuid: 29cccaaf-6044-3029-ab76-b24fe1577fdb, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: d.cn-db.top}}, udp: true}
+  - {name: _SG_新加坡, server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _SG_新加坡->🇺🇸_US_美国, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: 173.245.59.165, port: 2095, type: vmess, uuid: f25a0058-37be-4849-90b7-806d7cc8bf38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: sg.wyhkaa0.tk}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡 2, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: linkedin.disnet.gq}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡 3, server: 104.31.16.196, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: linkedin.disnet.gq}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡 4, server: 104.25.79.213, port: 2095, type: vmess, uuid: f25a0058-37be-4849-90b7-806d7cc8bf38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: sg.wyhkaa0.tk}}, udp: true}
       - _SG_新加坡
-      - _SG_新加坡 2
-      - _SG_新加坡->🇪🇸_ES_西班牙
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡 3
-      - _HK_香港->🇸🇬_SG_新加坡 2
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4
       - _SG_新加坡
-      - _SG_新加坡 2
-      - _SG_新加坡->🇪🇸_ES_西班牙
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡 3
-      - _HK_香港->🇸🇬_SG_新加坡 2
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4
       - _SG_新加坡
-      - _SG_新加坡 2
-      - _SG_新加坡->🇪🇸_ES_西班牙
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡 3
-      - _HK_香港->🇸🇬_SG_新加坡 2
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4
       - _SG_新加坡
-      - _SG_新加坡 2
-      - _SG_新加坡->🇪🇸_ES_西班牙
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡 3
-      - _HK_香港->🇸🇬_SG_新加坡 2
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4
       - _SG_新加坡
-      - _SG_新加坡 2
-      - _SG_新加坡->🇪🇸_ES_西班牙
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡 3
-      - _HK_香港->🇸🇬_SG_新加坡 2
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4
       - _SG_新加坡
-      - _SG_新加坡 2
-      - _SG_新加坡->🇪🇸_ES_西班牙
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡 3
-      - _HK_香港->🇸🇬_SG_新加坡 2
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4
       - _SG_新加坡
-      - _SG_新加坡 2
-      - _SG_新加坡->🇪🇸_ES_西班牙
-      - _HK_香港->🇸🇬_SG_新加坡
-      - _SG_新加坡 3
-      - _HK_香港->🇸🇬_SG_新加坡 2
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4
+      - _SG_新加坡
+      - _SG_新加坡->🇺🇸_US_美国
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _US_美国->🇸🇬_SG_新加坡 3
+      - _US_美国->🇸🇬_SG_新加坡 4

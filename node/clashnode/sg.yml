@@ -1,4 +1,7 @@
 proxies:
-  - {name: 🇸🇬 _SG_新加坡, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇸🇬 _SG_新加坡 2, server: 118.107.46.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080712342310}}
-  - {name: 🇸🇬 _SG_新加坡 3, server: 52.221.214.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: linkedin.disnet.gq}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: 104.31.16.196, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: linkedin.disnet.gq}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3, server: 104.25.79.213, port: 2095, type: vmess, uuid: f25a0058-37be-4849-90b7-806d7cc8bf38, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: sg.wyhkaa0.tk}}}
+  - {name: 🇸🇬 _SG_新加坡, server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4, server: 173.245.59.165, port: 2095, type: vmess, uuid: f25a0058-37be-4849-90b7-806d7cc8bf38, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: sg.wyhkaa0.tk}}}

@@ -1,37 +1,33 @@
 proxies:
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.162, port: 49355, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: 45.199.138.173, port: 42019, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国->🇳🇱_NL_荷兰, server: 156.249.18.37, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 3, server: 45.199.138.133, port: 55523, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰, server: 185.88.141.175, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰->🇺🇸_US_美国, server: 188.114.97.133, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}, udp: true}
+  - {name: _NL_荷兰->🇺🇸_US_美国 2, server: 188.114.97.196, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}, udp: true}
+      - _NL_荷兰
       - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
+      - _NL_荷兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国 2
+      - _NL_荷兰
       - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
+      - _NL_荷兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国 2
+      - _NL_荷兰
       - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
+      - _NL_荷兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国 2
+      - _NL_荷兰
       - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
+      - _NL_荷兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国 2
+      - _NL_荷兰
       - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
+      - _NL_荷兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国 2
+      - _NL_荷兰
       - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
+      - _NL_荷兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国 2
+      - _NL_荷兰
       - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _FR_法国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 3
+      - _NL_荷兰->🇺🇸_US_美国
+      - _NL_荷兰->🇺🇸_US_美国 2

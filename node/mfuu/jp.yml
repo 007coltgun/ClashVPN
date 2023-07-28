@@ -4,14 +4,16 @@ proxies:
 - {name: 🇯🇵JP-13.112.93.234-002, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, skip-cert-verify: true}
 - {name: 🇯🇵JP-45.88.43.163-006, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 45.88.43.163}}
 - {name: 🇯🇵JP-3.112.198.209-007, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, obfs: tls1.2_ticket_auth, protocol: origin, obfsparam: , protoparam: None, group: SSRProvider}
-- {name: 🇯🇵JP-185.172.113.101-095, server: 185.172.113.101, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
-- {name: 🇯🇵JP-85.208.108.18-102, server: 85.208.108.18, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-- {name: 🇯🇵JP-157.120.35.234-103, server: 157.120.35.234, port: 443, type: trojan, password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194, sni: download.windowsupdate1.com, skip-cert-verify: true}
-- {name: 🇯🇵JP-54.199.83.239-196, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-- {name: 🇯🇵JP-13.112.93.234-217, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-- {name: 🇯🇵JP-54.199.203.246-218, server: gsawsjp1.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-- {name: 🇯🇵JP-18.181.79.67-219, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-- {name: 🇯🇵JP-52.69.48.92-220, server: gsawsjp2.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-- {name: 🇯🇵JP-18.182.37.2-221, server: pqawssg001.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-- {name: 🇯🇵JP-43.206.109.198-224, server: gsawshk1.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-- {name: 🇯🇵JP-18.181.221.240-231, server: gsawshk2.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-85.208.108.18-088, server: 85.208.108.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+- {name: 🇯🇵JP-85.208.108.60-089, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+- {name: 🇯🇵JP-85.208.108.18-093, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: 🇯🇵JP-85.208.108.58-094, server: 85.208.108.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: 🇯🇵JP-85.208.108.58-095, server: 85.208.108.58, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+- {name: 🇯🇵JP-54.199.83.239-160, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+- {name: 🇯🇵JP-13.112.93.234-176, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-54.199.203.246-177, server: gsawsjp1.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-18.181.79.67-178, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-52.69.48.92-179, server: gsawsjp2.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-18.182.37.2-180, server: pqawssg001.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-43.206.109.198-183, server: gsawshk1.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+- {name: 🇯🇵JP-18.181.221.240-190, server: gsawshk2.aiopen.cfd, port: 8443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}

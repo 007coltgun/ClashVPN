@@ -1,55 +1,91 @@
 proxies:
-  - {name: 🇬🇧 10|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 7f5f89f3-e88b-471d-9234-321f9b7795f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
-  - {name: 🇬🇧 16|英国 01, server: uk23.ulifeai.com, port: 443, type: vmess, uuid: 3e9165fe-9145-4ff2-a058-56678d85ca6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /swoole, headers: {Host: uk23.ulifeai.com}}}
-  - {name: 🇬🇧 12|英国 03, server: 45.11.104.94, port: 3389, type: trojan, password: d4e41ff772c7fd45, sni: sbank.ir, skip-cert-verify: false}
-  - {name: 🇬🇧 17|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: cb7c9d22-7c26-4fed-8393-795b87c24a97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
-  - {name: "🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国", server: jdf.shabijichang.com, port: 80, type: vmess, uuid: f0570f9c-d688-4bc0-ab35-0b18de2c115f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jdf.shabijichang.com}}}
+  - {name: 🇬🇧 12|英国 05, server: 54.37.18.204, port: 443, type: trojan, password: opentunnel.net-imohammad93, sni: ukt-2.opensvr.net, skip-cert-verify: false}
+  - {name: 🇬🇧 10|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 53bd7c36-9f9f-4d5d-989d-11ff0f8ffb66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
   - {name: "🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2", server: jd.shabijichang.com, port: 80, type: vmess, uuid: f0570f9c-d688-4bc0-ab35-0b18de2c115f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jd.shabijichang.com}}}
+  - {name: 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}}
+  - {name: "🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国", server: jdf.shabijichang.com, port: 80, type: vmess, uuid: f0570f9c-d688-4bc0-ab35-0b18de2c115f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jdf.shabijichang.com}}}
+  - {name: 🇬🇧 17|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 8947a662-1fc8-4d0b-93a6-437b12a9d27b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技), server: uk23.ulifeai.com, port: 443, type: vmess, uuid: 3e9165fe-9145-4ff2-a058-56678d85ca6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /swoole, headers: {Host: uk23.ulifeai.com}}}
+  - {name: 🇬🇧 12|英国 04, server: 5.44.249.43, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: false}
+  - {name: 🇬🇧 16|🇬🇧 英国 268, server: uk2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 2076df30-81e3-4312-840b-3e1462c0b85e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk2-vmess.greenssh.xyz}}}
+  - {name: 🇬🇧 12|英国 03, server: 45.11.104.94, port: 3389, type: trojan, password: d4e41ff772c7fd45, sni: sbank.ir, skip-cert-verify: false}
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03
+      - 🇬🇧 12|英国 05
       - 🇬🇧 10|🇬🇧英国04
-      - 🇬🇧 16|英国 01
-      - 🇬🇧 12|英国 03
-      - 🇬🇧 17|英国 04 | 1x UK
-      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
       - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 16|🇬🇧 GB(AzadNet.t.me)_006
+      - 🇺🇸 1,2,4|_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 17|英国 04 | 1x UK
+      - 🇬🇧 16|🇬🇧GB英国(youtube阿伟科技)
+      - 🇬🇧 12|英国 04
+      - 🇬🇧 16|🇬🇧 英国 268
+      - 🇬🇧 12|英国 03

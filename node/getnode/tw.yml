@@ -1,101 +1,91 @@
 proxies:
   - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 10|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 18cba0a3-5987-4057-ae4a-c454bb371801, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 16|🇹🇼台湾-1|直连|1.5x, server: 22.sanfen001.top, port: 80, type: vmess, uuid: c0e6ffc4-ece1-4de0-9128-f25354169145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
   - {name: 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2}
   - {name: 🇨🇳 16|🇹🇼台湾-2|直连|1x, server: 25.sanfen001.top, port: 2082, type: vmess, uuid: c0e6ffc4-ece1-4de0-9128-f25354169145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: 🇨🇳 10|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 18cba0a3-5987-4057-ae4a-c454bb371801, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: 🇨🇳 16|🇹🇼台湾-1|直连|1.5x, server: 22.sanfen001.top, port: 80, type: vmess, uuid: c0e6ffc4-ece1-4de0-9128-f25354169145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: 🇨🇳 16|🇹🇼台湾-2|直连|1.5x, server: 23.sanfen001.top, port: 8080, type: vmess, uuid: c0e6ffc4-ece1-4de0-9128-f25354169145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian, server: cttw1.createmofa.xyz, port: 34999, type: ss, cipher: chacha20-ietf-poly1305, password: 1f6a229b-ae27-420e-89b6-8349869890fb}
   - {name: 🇨🇳 16|🇹🇼台湾-1|直连|1x, server: 24.sanfen001.top, port: 8880, type: vmess, uuid: c0e6ffc4-ece1-4de0-9128-f25354169145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
   - {name: "🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾", server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 527f2f1e-c55c-4c36-b82c-1fb70843c063, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian, server: cttw1.createmofa.xyz, port: 34999, type: ss, cipher: chacha20-ietf-poly1305, password: 1f6a229b-ae27-420e-89b6-8349869890fb}
+  - {name: 🇨🇳 10|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: d3d8a996-d46f-4bfb-a620-172ea049655a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: 🇨🇳 10|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: d3d8a996-d46f-4bfb-a620-172ea049655a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 10|🇹🇼台湾05
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
       - 🇨🇳 18|🇹🇼 台湾独家|@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-2|直连|1x
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 16|🇹🇼台湾-1|直连|1.5x
-      - 🇨🇳 16|🇹🇼台湾-2|直连|1.5x
-      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
       - 🇨🇳 16|🇹🇼台湾-1|直连|1x
       - 🇨🇳 8,10|🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 18|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 10|🇹🇼台湾06
+      - 🇨🇳 10|🇹🇼台湾05

@@ -1,46 +1,64 @@
 proxies:
-  - {name: 🇦🇺 17|澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: c5f2ba8e-cc4d-4a0f-9b91-499ec83e81ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.lovemc.xyz}
-  - {name: 🇦🇺 17|德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: c5f2ba8e-cc4d-4a0f-9b91-499ec83e81ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.lovemc.xyz}
-  - {name: 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大, server: camtlebb.76898102.xyz, port: 2095, type: vmess, uuid: ba81f48b-7319-3866-b464-c276f43b9fef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: camtleb.76898102.xyz}}}
-  - {name: 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k..., server: v01.gutingting.com, port: 30063, type: vmess, uuid: a41d2775-aa1f-4d11-83d6-46afa793c5c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: sh01.fastcloud.club}}}
-  - {name: 🇦🇺 10|🇦🇺澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 343d9a6c-1a83-4f0b-968c-270aafa44964, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.abpilot.xyz}
+  - {name: 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k..., server: v01.gutingting.com, port: 30063, type: vmess, uuid: a41d2775-aa1f-4d11-83d6-46afa793c5c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: sh01.fastcloud.club}}}
+  - {name: 🇦🇺 17|澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: 0cb02860-4dc0-4805-8880-894f7c6c38a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.lovemc.xyz}
+  - {name: "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚", server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 343d9a6c-1a83-4f0b-968c-270aafa44964, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1", server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 343d9a6c-1a83-4f0b-968c-270aafa44964, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2", server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 343d9a6c-1a83-4f0b-968c-270aafa44964, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇦🇺 17|德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: 0cb02860-4dc0-4805-8880-894f7c6c38a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.lovemc.xyz}
+  - {name: "🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大", server: camtlebb.76898102.xyz, port: 2095, type: vmess, uuid: ba81f48b-7319-3866-b464-c276f43b9fef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: camtleb.76898102.xyz}}}
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇦🇺 23|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
       - 🇦🇺 17|澳大利亚 04 | 1x AU
+      - 🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #1"
+      - "🇦🇺 8,10|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚 #2"
       - 🇦🇺 17|德国 04 | 1x AU
-      - 🇦🇺 2|_AU_澳大利亚->🇨🇦_CA_加拿大
-      - 🇦🇺 24|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_由快嘴科技提供：k...
-      - 🇦🇺 10|🇦🇺澳大利亚04
+      - 🇦🇺 2,12|_AU_澳大利亚->🇨🇦_CA_加拿大

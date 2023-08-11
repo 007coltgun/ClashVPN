@@ -1,45 +1,64 @@
 proxies:
   - {name: 🇫🇷 _FR_法国_1, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇫🇷 _FR_法国_2, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3, server: cnamemc1.cdncisco3.co, port: 443, type: trojan, password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3, sni: c1mc.cdncisco3.co, skip-cert-verify: false}
+  - {name: "🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国", server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}}
   - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4, server: cnamemc.ciscocdn1.live, port: 443, type: trojan, password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3, sni: c3mc.ciscocdn1.live, skip-cert-verify: false}
-  - {name: 🇫🇷 16|FR 8 → tg@nicevpn123, server: 192.248.179.228, port: 2083, type: vmess, uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2, server: cnamemt.ciscocdn1.live, port: 443, type: trojan, password: 4d706727-996f-4427-930d-60f3bd414cf9, sni: c2mt.ciscocdn1.live, skip-cert-verify: false}
+  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3, server: cnamemc1.cdncisco3.co, port: 443, type: trojan, password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3, sni: c1mc.cdncisco3.co, skip-cert-verify: false}
   - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国, server: cnamemk.ciscocdn1.live, port: 443, type: trojan, password: 4d706727-996f-4427-930d-60f3bd414cf9, sni: c2mk.ciscocdn1.live, skip-cert-verify: false}
+  - {name: "🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国", server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
+  - {name: 16|🇫🇷🌏 @customv2ray کانفیگ های بی..., server: 67.21.64.84, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "🇺🇸 0,1,2,3,4,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #1", server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /SMNxcwVdTTzcou9yQftDyZcCGQui9a, headers: {Host: paris.yj2022.gq}}}
+  - {name: 🇫🇷 16|FR 14 → tg@nicevpn123, server: 192.248.179.228, port: 2083, type: vmess, uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2, server: cnamemt.ciscocdn1.live, port: 443, type: trojan, password: 4d706727-996f-4427-930d-60f3bd414cf9, sni: c2mt.ciscocdn1.live, skip-cert-verify: false}
   - {name: 🇩🇪 24|🇫🇷_FR_法国->🇩🇪_DE_德国_38, server: 51.38.110.142, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/252617081903, headers: {Host: www.12939929.xyz}}}
   - {name: "🇫🇷 0,3,16|🇫🇷 _FR_法国", server: 141.94.222.208, port: 2082, type: vmess, uuid: a79e03ad-84a7-41f6-bce9-e4c53180c507, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: "🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国", server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
   - {name: "🇫🇷 1,2,4,16|_FR_法国", server: uk2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 4e66e7d6-bab0-403d-8ab2-6397090d3612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: uk2-vmess.greenssh.xyz}}}
-  - {name: "🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国", server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}}
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3
+      - 🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
-      - 🇫🇷 16|FR 8 → tg@nicevpn123
-      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
+      - 🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 16|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - "🇺🇸 0,1,2,3,4,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
+      - 🇫🇷 16|FR 14 → tg@nicevpn123
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
       - 🇩🇪 24|🇫🇷_FR_法国->🇩🇪_DE_德国_38
       - 🇫🇷 0,3,16|🇫🇷 _FR_法国
-      - 🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 1,2,4,16|_FR_法国
-      - 🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3
+      - 🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
-      - 🇫🇷 16|FR 8 → tg@nicevpn123
-      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
+      - 🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 16|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - "🇺🇸 0,1,2,3,4,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
+      - 🇫🇷 16|FR 14 → tg@nicevpn123
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
       - 🇩🇪 24|🇫🇷_FR_法国->🇩🇪_DE_德国_38
       - 🇫🇷 0,3,16|🇫🇷 _FR_法国
-      - 🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 1,2,4,16|_FR_法国
-      - 🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3
+      - 🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
-      - 🇫🇷 16|FR 8 → tg@nicevpn123
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
+      - 🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 16|🇫🇷🌏 @customv2ray کانفیگ های بی...
+      - "🇺🇸 0,1,2,3,4,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
+      - 🇫🇷 16|FR 14 → tg@nicevpn123
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
+      - 🇩🇪 24|🇫🇷_FR_法国->🇩🇪_DE_德国_38
+      - 🇫🇷 0,3,16|🇫🇷 _FR_法国
+      - 🇫🇷 1,2,4,16|_FR_法国
+      - 🇫🇷 _FR_法国_1
+      - 🇫🇷 _FR_法国_2
+      - 🇨🇦 8,11,12,13|🇨🇦_CA_加拿大->🇫🇷_FR_法国
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
+      - 🇺🇸 0,3,11,11,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国

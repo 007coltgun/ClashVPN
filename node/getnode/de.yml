@@ -1,26 +1,19 @@
 proxies:
-  - {name: 🇩🇪 1|_DE_德国, server: 89.163.157.4, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: NGJjN}
-  - {name: 🇩🇪 16|🇩🇪_DE_德国_7@14, server: 116.202.30.76, port: 42000, type: vmess, uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 16|DE 15 → tg@nicevpn123, server: 141.94.222.208, port: 2082, type: vmess, uuid: a79e03ad-84a7-41f6-bce9-e4c53180c507, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: "🇺🇸 0,1,2,3,4,11,13|🇺🇸 _US_美国->🇩🇪_DE_德国", server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
+  - {name: 🇩🇪 10|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 08bb6407-d78b-4107-a3f7-eca50059f326, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
   - {name: "🇺🇸 8,12|🇺🇸_US_美国->🇩🇪_DE_德国", server: 162.159.251.216, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
-  - {name: 🇩🇪 10|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: f1289e6c-4f58-44ce-ba32-44d900936783, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
-  - {name: "🇩🇪 1,2,3,4|_DE_德国 2", server: 130.162.47.123, port: 6854, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zBLPou}}
-      - 🇩🇪 1|_DE_德国
-      - 🇩🇪 16|🇩🇪_DE_德国_7@14
-      - 🇩🇪 16|DE 15 → tg@nicevpn123
-      - 🇺🇸 0,1,2,3,4,11,13|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 8,12|🇺🇸_US_美国->🇩🇪_DE_德国
+  - {name: "🇩🇪 1,2,3,4,16|_DE_德国 2", server: 130.162.47.123, port: 6854, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zBLPou}}
+  - {name: 🇩🇪 1|_DE_德国, server: 89.163.157.4, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: NGJjN}
+  - {name: 🇩🇪 16|DE 15 → tg@nicevpn123, server: 141.94.222.208, port: 2082, type: vmess, uuid: a79e03ad-84a7-41f6-bce9-e4c53180c507, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: "🇺🇸 0,1,2,3,4,11|🇺🇸 _US_美国->🇩🇪_DE_德国", server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
       - 🇩🇪 10|🇩🇪德国04
-      - 🇩🇪 1,2,3,4|_DE_德国 2
-      - 🇩🇪 1|_DE_德国
-      - 🇩🇪 16|🇩🇪_DE_德国_7@14
-      - 🇩🇪 16|DE 15 → tg@nicevpn123
-      - 🇺🇸 0,1,2,3,4,11,13|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 8,12|🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 10|🇩🇪德国04
-      - 🇩🇪 1,2,3,4|_DE_德国 2
+      - 🇩🇪 1,2,3,4,16|_DE_德国 2
       - 🇩🇪 1|_DE_德国
-      - 🇩🇪 16|🇩🇪_DE_德国_7@14
       - 🇩🇪 16|DE 15 → tg@nicevpn123
-      - 🇺🇸 0,1,2,3,4,11,13|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 0,1,2,3,4,11|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,12|🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇩🇪 1,2,3,4,16|_DE_德国 2
+      - 🇩🇪 1|_DE_德国
+      - 🇩🇪 16|DE 15 → tg@nicevpn123
+      - 🇺🇸 0,1,2,3,4,11|🇺🇸 _US_美国->🇩🇪_DE_德国

@@ -1,9 +1,82 @@
 proxies:
-  - {name: 🇩🇪 16|🇩🇪_DE_德国_8@14, server: 116.202.30.76, port: 42000, type: vmess, uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国", server: 162.159.251.216, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
-  - {name: "16|Channel id: @ShadowProxy66🇩🇪", server: 49.13.19.72, port: 443, type: vmess, uuid: 254954c6-f115-4703-e196-41ba04a4a16b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 10|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: af2c1fd4-19f5-451a-ab4a-248f8c06195e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
-  - {name: "🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国", server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
-  - {name: "16|Channel id: @ShadowProxy66🇩🇪 #1", server: 91.107.131.254, port: 81, type: vmess, uuid: 56a42a67-7c20-4989-97cd-58046335e619, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 16|_DE_德国 2, server: 130.162.47.123, port: 6854, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zBLPou}}
-  - {name: 🇩🇪 16|🇩🇪 德国 352, server: 192.248.179.228, port: 2083, type: vmess, uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 16|🇩🇪_DE_德国_8@14, server: 116.202.30.76, port: 42000, client-fingerprint: chrome, type: vmess, uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国", server: 162.159.251.216, port: 8080, client-fingerprint: chrome, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
+  - {name: "16|Channel id: @ShadowProxy66🇩🇪", server: 49.13.19.72, port: 443, client-fingerprint: chrome, type: vmess, uuid: 254954c6-f115-4703-e196-41ba04a4a16b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇩🇪 10|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, client-fingerprint: chrome, type: vmess, uuid: af2c1fd4-19f5-451a-ab4a-248f8c06195e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: "🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国", server: cdn.twitter.now.cc, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
+  - {name: "16|Channel id: @ShadowProxy66🇩🇪 #1", server: 91.107.131.254, port: 81, client-fingerprint: chrome, type: vmess, uuid: 56a42a67-7c20-4989-97cd-58046335e619, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇩🇪 16|_DE_德国 2, server: 130.162.47.123, port: 6854, client-fingerprint: chrome, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zBLPou}}
+  - {name: 🇩🇪 16|🇩🇪 德国 352, server: 192.248.179.228, port: 2083, client-fingerprint: chrome, type: vmess, uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian", server: taidou.link, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 964736b7-583d-4e37-b62d-f1c1ca08415d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jojotuloveyou, headers: {Host: de6.tuyoyo.link}}}
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian
+      - 🇩🇪 16|🇩🇪_DE_德国_8@14
+      - 🇺🇸 0,8,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪"
+      - 🇩🇪 10|🇩🇪德国04
+      - 🇺🇸 8,11,13,16|🇺🇸_US_美国->🇩🇪_DE_德国
+      - "16|Channel id: @ShadowProxy66🇩🇪 #1"
+      - 🇩🇪 16|_DE_德国 2
+      - 🇩🇪 16|🇩🇪 德国 352
+      - 🇩🇪 18,19|🇩🇪 德国|tg频道:@ripaojiedian

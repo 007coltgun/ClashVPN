@@ -1,541 +1,130 @@
 proxies:
-  - {name: 🇨🇳 CN-14.18.89.198-000, server: gzdx.jcnode.top, port: 17022, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-002, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-003, server: gzdx.jcnode.top, port: 41754, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-004, server: gzyd.jcnode.top, port: 21425, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-005, server: gzyd.jcnode.top, port: 20707, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-006, server: gzdx01.jcnode.top, port: 56915, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-007, server: gzdx.jcnode.top, port: 18716, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-008, server: gzdx01.jcnode.top, port: 41390, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-009, server: gzdx.jcnode.top, port: 47321, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-010, server: gzyd.jcnode.top, port: 49486, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-011, server: gzyd.jcnode.top, port: 11936, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-012, server: gzdx.jcnode.top, port: 44885, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.116.214.232-013, server: gzyd.jcnode.top, port: 22174, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-014, server: gzdx01.jcnode.top, port: 17967, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-015, server: gzdx.jcnode.top, port: 36564, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-016, server: gzyd.jcnode.top, port: 54088, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-017, server: gzdx01.jcnode.top, port: 57230, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-018, server: gzdx.jcnode.top, port: 27753, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-019, server: gzyd.jcnode.top, port: 15431, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-020, server: gzdx01.jcnode.top, port: 16525, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-021, server: gzdx.jcnode.top, port: 33830, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-022, server: gzdx01.jcnode.top, port: 22243, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-023, server: gzdx.jcnode.top, port: 18085, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-024, server: gzyd.jcnode.top, port: 55199, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-025, server: gzdx01.jcnode.top, port: 44532, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-026, server: gzdx.jcnode.top, port: 52758, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-027, server: gzyd.jcnode.top, port: 24662, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-028, server: gzdx01.jcnode.top, port: 14643, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-029, server: gzdx.jcnode.top, port: 31550, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-030, server: gzyd.jcnode.top, port: 44891, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-031, server: gzdx01.jcnode.top, port: 10444, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-032, server: gzdx.jcnode.top, port: 49038, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-033, server: gzyd.jcnode.top, port: 24498, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-034, server: gzdx01.jcnode.top, port: 42149, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-035, server: gzdx.jcnode.top, port: 45540, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-036, server: gzyd.jcnode.top, port: 55345, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-037, server: gzyd.jcnode.top, port: 59393, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.215.47.121-038, server: gzdx01.jcnode.top, port: 16680, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx01.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.18.89.198-039, server: gzdx.jcnode.top, port: 59486, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.215.47.121-040, server: gzdx01.jcnode.top, port: 24448, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-041, server: gzdx.jcnode.top, port: 61413, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-042, server: gzyd.jcnode.top, port: 22084, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-043, server: gzdx.jcnode.top, port: 52546, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: tur01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-044, server: gzyd.jcnode.top, port: 46541, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: tur01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-045, server: gzdx01.jcnode.top, port: 55856, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: tur01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-046, server: gzyd.jcnode.top, port: 16242, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-047, server: gzdx01.jcnode.top, port: 21760, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-049, server: gzyd.jcnode.top, port: 38381, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.215.47.121-050, server: gzdx01.jcnode.top, port: 20153, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx01.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.18.89.198-051, server: gzdx.jcnode.top, port: 28204, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.116.214.232-052, server: gzyd.jcnode.top, port: 21036, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.18.89.198-053, server: gzdx.jcnode.top, port: 62684, type: vmess, uuid: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.215.47.121-054, server: gzdx01.jcnode.top, port: 17503, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-055, server: gzyd.jcnode.top, port: 56102, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-056, server: gzdx.jcnode.top, port: 65097, type: trojan, password: fdc49b5a-c5e3-4904-9bb5-4e4fc28bdba3, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-058, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 9e88cb30-67e2-48fc-a206-71c297b8318c, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-114, server: scloud15.jafiyun.world, port: 22015, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud15.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-115, server: scloud16.jafiyun.world, port: 22016, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud16.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.214-116, server: scloud41.jafiyun.world, port: 22041, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud41.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.214-117, server: scloud42.jafiyun.world, port: 22042, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud42.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-118, server: scloud43.jafiyun.world, port: 22043, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud43.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.214-119, server: scloud52.jafiyun.world, port: 22052, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud52.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.214-120, server: scloud53.jafiyun.world, port: 22053, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud53.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-121, server: scloud54.jafiyun.world, port: 22054, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud54.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-122, server: scloud55.jafiyun.world, port: 22055, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud55.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-123, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud56.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-124, server: scloud57.jafiyun.world, port: 22057, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud57.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-125, server: scloud58.jafiyun.world, port: 22058, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud58.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-126, server: scloud59.jafiyun.world, port: 22059, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud59.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-121.31.49.204-127, server: scloud60.jafiyun.world, port: 22060, type: trojan, password: 470cee56-1317-3beb-b32b-5588dac0a24f, sni: scloud60.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-186, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 6557227b-ef27-445b-b492-b6e282aea663, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-242, server: gzdx.jcnode.top, port: 29482, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-244, server: gzdx.jcnode.top, port: 39191, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-245, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-246, server: gzyd.jcnode.top, port: 47020, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-111.47.212.59-247, server: gzyd01.jcnode.top, port: 27934, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-248, server: gzdx.jcnode.top, port: 42630, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-249, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-250, server: gzyd.jcnode.top, port: 38624, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-251, server: gzdx.jcnode.top, port: 41063, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-252, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-253, server: gzyd.jcnode.top, port: 13734, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-254, server: gzdx.jcnode.top, port: 41032, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-255, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-256, server: gzyd.jcnode.top, port: 64328, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-257, server: gzdx.jcnode.top, port: 44283, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-258, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-259, server: gzyd.jcnode.top, port: 36554, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-260, server: gzdx.jcnode.top, port: 19390, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: jp001.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-261, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: jp001.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-262, server: gzyd.jcnode.top, port: 27897, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: jp001.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-263, server: gzdx.jcnode.top, port: 17217, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-264, server: gzyd.jcnode.top, port: 51840, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-265, server: gzdx.jcnode.top, port: 47492, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-266, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-267, server: gzyd.jcnode.top, port: 29679, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-268, server: gzdx.jcnode.top, port: 16614, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-269, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-270, server: gzyd.jcnode.top, port: 53826, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-272, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-273, server: gzyd.jcnode.top, port: 52702, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-274, server: gzyd.jcnode.top, port: 28474, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-275, server: gzdx.jcnode.top, port: 27880, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.215.47.121-276, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-277, server: gzdx.jcnode.top, port: 50173, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: us2.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-278, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: a06389f2-f5ec-47e3-93ba-6ea220508579, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 CN-14.18.89.198-279, server: gzdx.jcnode.top, port: 61802, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-280, server: gzyd.jcnode.top, port: 10340, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-281, server: gzdx.jcnode.top, port: 48479, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.116.214.232-282, server: gzyd.jcnode.top, port: 56586, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-283, server: gzdx.jcnode.top, port: 48426, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: aus01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-284, server: gzdx.jcnode.top, port: 62951, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-111.47.212.59-285, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-286, server: gzdx.jcnode.top, port: 59832, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-111.47.212.59-287, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: a06389f2-f5ec-47e3-93ba-6ea220508579, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-14.18.89.198-303, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 33d1429a-1e6f-4131-b0d9-e035606d0cc5, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-001, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-003, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-004, server: gzdx.jcnode.top, port: 41754, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-005, server: gzyd.jcnode.top, port: 21425, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-006, server: gzyd.jcnode.top, port: 20707, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-007, server: gzdx01.jcnode.top, port: 56915, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-008, server: gzdx.jcnode.top, port: 18716, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-009, server: gzdx01.jcnode.top, port: 41390, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-010, server: gzdx.jcnode.top, port: 47321, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-011, server: gzyd.jcnode.top, port: 49486, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-012, server: gzyd.jcnode.top, port: 11936, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-013, server: gzdx.jcnode.top, port: 44885, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.116.214.232-014, server: gzyd.jcnode.top, port: 22174, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-015, server: gzdx01.jcnode.top, port: 17967, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-016, server: gzdx.jcnode.top, port: 36564, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-017, server: gzyd.jcnode.top, port: 54088, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-018, server: gzdx01.jcnode.top, port: 57230, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-019, server: gzdx.jcnode.top, port: 27753, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-020, server: gzyd.jcnode.top, port: 15431, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: de01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-021, server: gzdx01.jcnode.top, port: 16525, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: de01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-022, server: gzdx.jcnode.top, port: 33830, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: de01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-023, server: gzdx01.jcnode.top, port: 22243, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-024, server: gzdx.jcnode.top, port: 18085, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-025, server: gzyd.jcnode.top, port: 55199, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-026, server: gzdx01.jcnode.top, port: 44532, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: uk01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-027, server: gzdx.jcnode.top, port: 52758, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: uk01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-028, server: gzyd.jcnode.top, port: 24662, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: uk01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-029, server: gzdx01.jcnode.top, port: 14643, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: jp01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-030, server: gzdx.jcnode.top, port: 31550, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: jp01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-031, server: gzyd.jcnode.top, port: 44891, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: jp01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-032, server: gzdx01.jcnode.top, port: 10444, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: jp03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-033, server: gzdx.jcnode.top, port: 49038, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: jp03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-034, server: gzyd.jcnode.top, port: 24498, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: jp03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-035, server: gzdx01.jcnode.top, port: 42149, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-036, server: gzdx.jcnode.top, port: 45540, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-037, server: gzyd.jcnode.top, port: 55345, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-038, server: gzyd.jcnode.top, port: 59393, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.215.47.121-039, server: gzdx01.jcnode.top, port: 16680, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx01.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.18.89.198-040, server: gzdx.jcnode.top, port: 59486, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.215.47.121-041, server: gzdx01.jcnode.top, port: 24448, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-042, server: gzdx.jcnode.top, port: 61413, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-043, server: gzyd.jcnode.top, port: 22084, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-044, server: gzdx.jcnode.top, port: 52546, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: tur01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-045, server: gzyd.jcnode.top, port: 46541, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: tur01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-046, server: gzdx01.jcnode.top, port: 55856, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: tur01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-047, server: gzyd.jcnode.top, port: 16242, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-048, server: gzdx01.jcnode.top, port: 21760, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-050, server: gzyd.jcnode.top, port: 38381, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.215.47.121-051, server: gzdx01.jcnode.top, port: 20153, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx01.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.18.89.198-052, server: gzdx.jcnode.top, port: 28204, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.116.214.232-053, server: gzyd.jcnode.top, port: 21036, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.18.89.198-054, server: gzdx.jcnode.top, port: 62684, type: vmess, uuid: 1939d913-2ac1-4208-864b-b3780b9ba6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.215.47.121-055, server: gzdx01.jcnode.top, port: 17503, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: us04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-056, server: gzyd.jcnode.top, port: 56102, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: us04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-057, server: gzdx.jcnode.top, port: 65097, type: trojan, password: 1939d913-2ac1-4208-864b-b3780b9ba6da, sni: us04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-059, server: scloud15.jafiyun.world, port: 22015, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud15.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-060, server: scloud16.jafiyun.world, port: 22016, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud16.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.214-061, server: scloud41.jafiyun.world, port: 22041, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud41.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.214-062, server: scloud42.jafiyun.world, port: 22042, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud42.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-063, server: scloud43.jafiyun.world, port: 22043, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud43.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.214-064, server: scloud52.jafiyun.world, port: 22052, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud52.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.214-065, server: scloud53.jafiyun.world, port: 22053, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud53.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-066, server: scloud54.jafiyun.world, port: 22054, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud54.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-067, server: scloud55.jafiyun.world, port: 22055, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud55.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-068, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud56.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-069, server: scloud57.jafiyun.world, port: 22057, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud57.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-070, server: scloud58.jafiyun.world, port: 22058, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud58.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-071, server: scloud59.jafiyun.world, port: 22059, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud59.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-121.31.49.204-072, server: scloud60.jafiyun.world, port: 22060, type: trojan, password: 3c762f4b-1743-3a91-a008-56b7bbbbfc1e, sni: scloud60.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-073, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-075, server: gzdx.jcnode.top, port: 39191, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-076, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-077, server: gzyd.jcnode.top, port: 47020, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-111.47.212.59-078, server: gzyd01.jcnode.top, port: 27934, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-079, server: gzdx.jcnode.top, port: 42630, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-080, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-081, server: gzyd.jcnode.top, port: 38624, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-082, server: gzdx.jcnode.top, port: 41063, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-083, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-084, server: gzyd.jcnode.top, port: 13734, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-085, server: gzdx.jcnode.top, port: 41032, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-086, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-087, server: gzyd.jcnode.top, port: 64328, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-088, server: gzdx.jcnode.top, port: 44283, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-089, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-090, server: gzyd.jcnode.top, port: 36554, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-091, server: gzdx.jcnode.top, port: 19390, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: jp001.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-092, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: jp001.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-093, server: gzyd.jcnode.top, port: 27897, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: jp001.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-094, server: gzdx.jcnode.top, port: 17217, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: jp03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-095, server: gzyd.jcnode.top, port: 51840, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: jp03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-096, server: gzdx.jcnode.top, port: 47492, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-097, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-098, server: gzyd.jcnode.top, port: 29679, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-099, server: gzdx.jcnode.top, port: 16614, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-100, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-101, server: gzyd.jcnode.top, port: 53826, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-103, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-104, server: gzyd.jcnode.top, port: 52702, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-105, server: gzyd.jcnode.top, port: 28474, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-106, server: gzdx.jcnode.top, port: 27880, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.215.47.121-107, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-108, server: gzdx.jcnode.top, port: 50173, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: us2.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-109, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.18.89.198-110, server: gzdx.jcnode.top, port: 61802, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: us04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-111, server: gzyd.jcnode.top, port: 10340, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: us04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-112, server: gzdx.jcnode.top, port: 48479, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.116.214.232-113, server: gzyd.jcnode.top, port: 56586, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-114, server: gzdx.jcnode.top, port: 48426, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: aus01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-115, server: gzdx.jcnode.top, port: 62951, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: de01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-111.47.212.59-116, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: de01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-117, server: gzdx.jcnode.top, port: 59832, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: uk01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-111.47.212.59-118, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: 2de2d5bd-b765-490f-91f7-c33f7c0ea5fc, sni: uk01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-120, server: gzdx.jcnode.top, port: 17022, type: trojan, password: daca76b3-d97f-42bd-9e45-bc42cbc37b4a, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-14.18.89.198-191, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 28c3cc0a-a784-4711-bac5-4ea3f6b41ed7, sni: sg03.ckcloud.info, skip-cert-verify: false}
   - {name: 🇨🇳 _CN_中国_1, server: 14.116.151.100, port: 63093, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇨🇳 _CN_中国_2, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 17|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 8d9596ee-3685-4fda-9281-5fa38e2c2324, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
-  - {name: 🇨🇳 17|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 8d9596ee-3685-4fda-9281-5fa38e2c2324, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
-  - {name: "🇨🇳 1,18|_TW_台湾", server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2}
-  - {name: "🇨🇳 1,2,3,4|_CN_中国 #1", server: 101.42.30.206, port: 80, type: vmess, uuid: 24bc9855-8f7c-4543-e29d-970045f205f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 10|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 08bb6407-d78b-4107-a3f7-eca50059f326, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 21|JCBB_ 台湾 04【vip1】, server: gzdx.jcnode.top, port: 59486, type: vmess, uuid: 3353e941-49ed-4521-b3b2-dd0d39f5b89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 10|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 08bb6407-d78b-4107-a3f7-eca50059f326, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: 🇨🇳 10|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 08bb6407-d78b-4107-a3f7-eca50059f326, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: 🇨🇳 9|🇨🇳 China 01 TG:@nodpai, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 21|JCBB_ 台湾 03_1【vip1】, server: gzdx01.jcnode.top, port: 16680, type: vmess, uuid: 3353e941-49ed-4521-b3b2-dd0d39f5b89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx01.jcnode.top}}}
-  - {name: 🇨🇳 21|JCBB_ 台湾 03【vip1】, server: gzyd.jcnode.top, port: 59393, type: vmess, uuid: 3353e941-49ed-4521-b3b2-dd0d39f5b89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
   - {name: 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_2_40, server: 103.184.44.201, port: 443, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /blue03, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇨🇳 18|🇹🇼 台湾A|@ripaojiedian, server: 61.220.130.70, port: 50701, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 16|🇨🇳 台湾 258, server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 17|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 8d9596ee-3685-4fda-9281-5fa38e2c2324, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: "🇨🇳 16|_CN_中国 #2", server: 103.184.44.224, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: ecc.vtcss.top}}}
   - {name: 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz..., server: 103.184.45.232, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue03, headers: {Host: ecc.vtcss.top}}}
-      - 🇨🇳 CN-14.18.89.198-000
-      - 🇨🇳 CN-14.215.47.121-002
-      - 🇨🇳 CN-14.18.89.198-003
-      - 🇨🇳 CN-14.116.214.232-004
-      - 🇨🇳 CN-14.116.214.232-005
-      - 🇨🇳 CN-14.215.47.121-006
-      - 🇨🇳 CN-14.18.89.198-007
-      - 🇨🇳 CN-14.215.47.121-008
-      - 🇨🇳 CN-14.18.89.198-009
-      - 🇨🇳 CN-14.116.214.232-010
-      - 🇨🇳 CN-14.116.214.232-011
-      - 🇨🇳 CN-14.18.89.198-012
-      - 🇨🇳 CN-14.116.214.232-013
-      - 🇨🇳 CN-14.215.47.121-014
-      - 🇨🇳 CN-14.18.89.198-015
-      - 🇨🇳 CN-14.116.214.232-016
-      - 🇨🇳 CN-14.215.47.121-017
-      - 🇨🇳 CN-14.18.89.198-018
-      - 🇨🇳 CN-14.116.214.232-019
-      - 🇨🇳 CN-14.215.47.121-020
-      - 🇨🇳 CN-14.18.89.198-021
-      - 🇨🇳 CN-14.215.47.121-022
-      - 🇨🇳 CN-14.18.89.198-023
-      - 🇨🇳 CN-14.116.214.232-024
-      - 🇨🇳 CN-14.215.47.121-025
-      - 🇨🇳 CN-14.18.89.198-026
-      - 🇨🇳 CN-14.116.214.232-027
-      - 🇨🇳 CN-14.215.47.121-028
-      - 🇨🇳 CN-14.18.89.198-029
-      - 🇨🇳 CN-14.116.214.232-030
-      - 🇨🇳 CN-14.215.47.121-031
-      - 🇨🇳 CN-14.18.89.198-032
-      - 🇨🇳 CN-14.116.214.232-033
-      - 🇨🇳 CN-14.215.47.121-034
-      - 🇨🇳 CN-14.18.89.198-035
-      - 🇨🇳 CN-14.116.214.232-036
-      - 🇨🇳 CN-14.116.214.232-037
-      - 🇨🇳 CN-14.215.47.121-038
-      - 🇨🇳 CN-14.18.89.198-039
-      - 🇨🇳 CN-14.215.47.121-040
-      - 🇨🇳 CN-14.18.89.198-041
-      - 🇨🇳 CN-14.116.214.232-042
-      - 🇨🇳 CN-14.18.89.198-043
-      - 🇨🇳 CN-14.116.214.232-044
-      - 🇨🇳 CN-14.215.47.121-045
-      - 🇨🇳 CN-14.116.214.232-046
-      - 🇨🇳 CN-14.215.47.121-047
-      - 🇨🇳 CN-14.116.214.232-049
-      - 🇨🇳 CN-14.215.47.121-050
-      - 🇨🇳 CN-14.18.89.198-051
-      - 🇨🇳 CN-14.116.214.232-052
-      - 🇨🇳 CN-14.18.89.198-053
-      - 🇨🇳 CN-14.215.47.121-054
-      - 🇨🇳 CN-14.116.214.232-055
-      - 🇨🇳 CN-14.18.89.198-056
-      - 🇨🇳 CN-14.18.89.198-058
-      - 🇨🇳 CN-121.31.49.204-114
-      - 🇨🇳 CN-121.31.49.204-115
-      - 🇨🇳 CN-121.31.49.214-116
-      - 🇨🇳 CN-121.31.49.214-117
-      - 🇨🇳 CN-121.31.49.204-118
-      - 🇨🇳 CN-121.31.49.214-119
-      - 🇨🇳 CN-121.31.49.214-120
-      - 🇨🇳 CN-121.31.49.204-121
-      - 🇨🇳 CN-121.31.49.204-122
-      - 🇨🇳 CN-121.31.49.204-123
-      - 🇨🇳 CN-121.31.49.204-124
-      - 🇨🇳 CN-121.31.49.204-125
-      - 🇨🇳 CN-121.31.49.204-126
-      - 🇨🇳 CN-121.31.49.204-127
-      - 🇨🇳 CN-14.18.89.198-186
-      - 🇨🇳 CN-14.18.89.198-242
-      - 🇨🇳 CN-14.18.89.198-244
-      - 🇨🇳 CN-14.215.47.121-245
-      - 🇨🇳 CN-14.116.214.232-246
-      - 🇨🇳 CN-111.47.212.59-247
-      - 🇨🇳 CN-14.18.89.198-248
-      - 🇨🇳 CN-14.215.47.121-249
-      - 🇨🇳 CN-14.116.214.232-250
-      - 🇨🇳 CN-14.18.89.198-251
-      - 🇨🇳 CN-14.215.47.121-252
-      - 🇨🇳 CN-14.116.214.232-253
-      - 🇨🇳 CN-14.18.89.198-254
-      - 🇨🇳 CN-14.215.47.121-255
-      - 🇨🇳 CN-14.116.214.232-256
-      - 🇨🇳 CN-14.18.89.198-257
-      - 🇨🇳 CN-14.215.47.121-258
-      - 🇨🇳 CN-14.116.214.232-259
-      - 🇨🇳 CN-14.18.89.198-260
-      - 🇨🇳 CN-14.215.47.121-261
-      - 🇨🇳 CN-14.116.214.232-262
-      - 🇨🇳 CN-14.18.89.198-263
-      - 🇨🇳 CN-14.116.214.232-264
-      - 🇨🇳 CN-14.18.89.198-265
-      - 🇨🇳 CN-14.215.47.121-266
-      - 🇨🇳 CN-14.116.214.232-267
-      - 🇨🇳 CN-14.18.89.198-268
-      - 🇨🇳 CN-14.215.47.121-269
-      - 🇨🇳 CN-14.116.214.232-270
-      - 🇨🇳 CN-14.215.47.121-272
-      - 🇨🇳 CN-14.116.214.232-273
-      - 🇨🇳 CN-14.116.214.232-274
-      - 🇨🇳 CN-14.18.89.198-275
-      - 🇨🇳 CN-14.215.47.121-276
-      - 🇨🇳 CN-14.18.89.198-277
-      - 🇨🇳 CN-14.18.89.198-278
-      - 🇨🇳 CN-14.18.89.198-279
-      - 🇨🇳 CN-14.116.214.232-280
-      - 🇨🇳 CN-14.18.89.198-281
-      - 🇨🇳 CN-14.116.214.232-282
-      - 🇨🇳 CN-14.18.89.198-283
-      - 🇨🇳 CN-14.18.89.198-284
-      - 🇨🇳 CN-111.47.212.59-285
-      - 🇨🇳 CN-14.18.89.198-286
-      - 🇨🇳 CN-111.47.212.59-287
-      - 🇨🇳 CN-14.18.89.198-303
-      - 🇨🇳 _CN_中国_1
-      - 🇨🇳 _CN_中国_2
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 🇨🇳 1,18|_TW_台湾
-      - "🇨🇳 1,2,3,4|_CN_中国 #1"
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 21|JCBB_ 台湾 03_1【vip1】
-      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
-      - 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_2_40
-      - 🇨🇳 18|🇹🇼 台湾A|@ripaojiedian
-      - 🇨🇳 16|🇨🇳 台湾 258
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 CN-14.18.89.198-000
-      - 🇨🇳 CN-14.215.47.121-002
-      - 🇨🇳 CN-14.18.89.198-003
-      - 🇨🇳 CN-14.116.214.232-004
-      - 🇨🇳 CN-14.116.214.232-005
-      - 🇨🇳 CN-14.215.47.121-006
-      - 🇨🇳 CN-14.18.89.198-007
-      - 🇨🇳 CN-14.215.47.121-008
-      - 🇨🇳 CN-14.18.89.198-009
-      - 🇨🇳 CN-14.116.214.232-010
-      - 🇨🇳 CN-14.116.214.232-011
-      - 🇨🇳 CN-14.18.89.198-012
-      - 🇨🇳 CN-14.116.214.232-013
-      - 🇨🇳 CN-14.215.47.121-014
-      - 🇨🇳 CN-14.18.89.198-015
-      - 🇨🇳 CN-14.116.214.232-016
-      - 🇨🇳 CN-14.215.47.121-017
-      - 🇨🇳 CN-14.18.89.198-018
-      - 🇨🇳 CN-14.116.214.232-019
-      - 🇨🇳 CN-14.215.47.121-020
-      - 🇨🇳 CN-14.18.89.198-021
-      - 🇨🇳 CN-14.215.47.121-022
-      - 🇨🇳 CN-14.18.89.198-023
-      - 🇨🇳 CN-14.116.214.232-024
-      - 🇨🇳 CN-14.215.47.121-025
-      - 🇨🇳 CN-14.18.89.198-026
-      - 🇨🇳 CN-14.116.214.232-027
-      - 🇨🇳 CN-14.215.47.121-028
-      - 🇨🇳 CN-14.18.89.198-029
-      - 🇨🇳 CN-14.116.214.232-030
-      - 🇨🇳 CN-14.215.47.121-031
-      - 🇨🇳 CN-14.18.89.198-032
-      - 🇨🇳 CN-14.116.214.232-033
-      - 🇨🇳 CN-14.215.47.121-034
-      - 🇨🇳 CN-14.18.89.198-035
-      - 🇨🇳 CN-14.116.214.232-036
-      - 🇨🇳 CN-14.116.214.232-037
-      - 🇨🇳 CN-14.215.47.121-038
-      - 🇨🇳 CN-14.18.89.198-039
-      - 🇨🇳 CN-14.215.47.121-040
-      - 🇨🇳 CN-14.18.89.198-041
-      - 🇨🇳 CN-14.116.214.232-042
-      - 🇨🇳 CN-14.18.89.198-043
-      - 🇨🇳 CN-14.116.214.232-044
-      - 🇨🇳 CN-14.215.47.121-045
-      - 🇨🇳 CN-14.116.214.232-046
-      - 🇨🇳 CN-14.215.47.121-047
-      - 🇨🇳 CN-14.116.214.232-049
-      - 🇨🇳 CN-14.215.47.121-050
-      - 🇨🇳 CN-14.18.89.198-051
-      - 🇨🇳 CN-14.116.214.232-052
-      - 🇨🇳 CN-14.18.89.198-053
-      - 🇨🇳 CN-14.215.47.121-054
-      - 🇨🇳 CN-14.116.214.232-055
-      - 🇨🇳 CN-14.18.89.198-056
-      - 🇨🇳 CN-14.18.89.198-058
-      - 🇨🇳 CN-121.31.49.204-114
-      - 🇨🇳 CN-121.31.49.204-115
-      - 🇨🇳 CN-121.31.49.214-116
-      - 🇨🇳 CN-121.31.49.214-117
-      - 🇨🇳 CN-121.31.49.204-118
-      - 🇨🇳 CN-121.31.49.214-119
-      - 🇨🇳 CN-121.31.49.214-120
-      - 🇨🇳 CN-121.31.49.204-121
-      - 🇨🇳 CN-121.31.49.204-122
-      - 🇨🇳 CN-121.31.49.204-123
-      - 🇨🇳 CN-121.31.49.204-124
-      - 🇨🇳 CN-121.31.49.204-125
-      - 🇨🇳 CN-121.31.49.204-126
-      - 🇨🇳 CN-121.31.49.204-127
-      - 🇨🇳 CN-14.18.89.198-186
-      - 🇨🇳 CN-14.18.89.198-242
-      - 🇨🇳 CN-14.18.89.198-244
-      - 🇨🇳 CN-14.215.47.121-245
-      - 🇨🇳 CN-14.116.214.232-246
-      - 🇨🇳 CN-111.47.212.59-247
-      - 🇨🇳 CN-14.18.89.198-248
-      - 🇨🇳 CN-14.215.47.121-249
-      - 🇨🇳 CN-14.116.214.232-250
-      - 🇨🇳 CN-14.18.89.198-251
-      - 🇨🇳 CN-14.215.47.121-252
-      - 🇨🇳 CN-14.116.214.232-253
-      - 🇨🇳 CN-14.18.89.198-254
-      - 🇨🇳 CN-14.215.47.121-255
-      - 🇨🇳 CN-14.116.214.232-256
-      - 🇨🇳 CN-14.18.89.198-257
-      - 🇨🇳 CN-14.215.47.121-258
-      - 🇨🇳 CN-14.116.214.232-259
-      - 🇨🇳 CN-14.18.89.198-260
-      - 🇨🇳 CN-14.215.47.121-261
-      - 🇨🇳 CN-14.116.214.232-262
-      - 🇨🇳 CN-14.18.89.198-263
-      - 🇨🇳 CN-14.116.214.232-264
-      - 🇨🇳 CN-14.18.89.198-265
-      - 🇨🇳 CN-14.215.47.121-266
-      - 🇨🇳 CN-14.116.214.232-267
-      - 🇨🇳 CN-14.18.89.198-268
-      - 🇨🇳 CN-14.215.47.121-269
-      - 🇨🇳 CN-14.116.214.232-270
-      - 🇨🇳 CN-14.215.47.121-272
-      - 🇨🇳 CN-14.116.214.232-273
-      - 🇨🇳 CN-14.116.214.232-274
-      - 🇨🇳 CN-14.18.89.198-275
-      - 🇨🇳 CN-14.215.47.121-276
-      - 🇨🇳 CN-14.18.89.198-277
-      - 🇨🇳 CN-14.18.89.198-278
-      - 🇨🇳 CN-14.18.89.198-279
-      - 🇨🇳 CN-14.116.214.232-280
-      - 🇨🇳 CN-14.18.89.198-281
-      - 🇨🇳 CN-14.116.214.232-282
-      - 🇨🇳 CN-14.18.89.198-283
-      - 🇨🇳 CN-14.18.89.198-284
-      - 🇨🇳 CN-111.47.212.59-285
-      - 🇨🇳 CN-14.18.89.198-286
-      - 🇨🇳 CN-111.47.212.59-287
-      - 🇨🇳 CN-14.18.89.198-303
-      - 🇨🇳 _CN_中国_1
-      - 🇨🇳 _CN_中国_2
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 🇨🇳 1,18|_TW_台湾
-      - "🇨🇳 1,2,3,4|_CN_中国 #1"
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 21|JCBB_ 台湾 03_1【vip1】
-      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
-      - 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_2_40
-      - 🇨🇳 18|🇹🇼 台湾A|@ripaojiedian
-      - 🇨🇳 16|🇨🇳 台湾 258
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 CN-14.18.89.198-000
-      - 🇨🇳 CN-14.215.47.121-002
-      - 🇨🇳 CN-14.18.89.198-003
-      - 🇨🇳 CN-14.116.214.232-004
-      - 🇨🇳 CN-14.116.214.232-005
-      - 🇨🇳 CN-14.215.47.121-006
-      - 🇨🇳 CN-14.18.89.198-007
-      - 🇨🇳 CN-14.215.47.121-008
-      - 🇨🇳 CN-14.18.89.198-009
-      - 🇨🇳 CN-14.116.214.232-010
-      - 🇨🇳 CN-14.116.214.232-011
-      - 🇨🇳 CN-14.18.89.198-012
-      - 🇨🇳 CN-14.116.214.232-013
-      - 🇨🇳 CN-14.215.47.121-014
-      - 🇨🇳 CN-14.18.89.198-015
-      - 🇨🇳 CN-14.116.214.232-016
-      - 🇨🇳 CN-14.215.47.121-017
-      - 🇨🇳 CN-14.18.89.198-018
-      - 🇨🇳 CN-14.116.214.232-019
-      - 🇨🇳 CN-14.215.47.121-020
-      - 🇨🇳 CN-14.18.89.198-021
-      - 🇨🇳 CN-14.215.47.121-022
-      - 🇨🇳 CN-14.18.89.198-023
-      - 🇨🇳 CN-14.116.214.232-024
-      - 🇨🇳 CN-14.215.47.121-025
-      - 🇨🇳 CN-14.18.89.198-026
-      - 🇨🇳 CN-14.116.214.232-027
-      - 🇨🇳 CN-14.215.47.121-028
-      - 🇨🇳 CN-14.18.89.198-029
-      - 🇨🇳 CN-14.116.214.232-030
-      - 🇨🇳 CN-14.215.47.121-031
-      - 🇨🇳 CN-14.18.89.198-032
-      - 🇨🇳 CN-14.116.214.232-033
-      - 🇨🇳 CN-14.215.47.121-034
-      - 🇨🇳 CN-14.18.89.198-035
-      - 🇨🇳 CN-14.116.214.232-036
-      - 🇨🇳 CN-14.116.214.232-037
-      - 🇨🇳 CN-14.215.47.121-038
-      - 🇨🇳 CN-14.18.89.198-039
-      - 🇨🇳 CN-14.215.47.121-040
-      - 🇨🇳 CN-14.18.89.198-041
-      - 🇨🇳 CN-14.116.214.232-042
-      - 🇨🇳 CN-14.18.89.198-043
-      - 🇨🇳 CN-14.116.214.232-044
-      - 🇨🇳 CN-14.215.47.121-045
-      - 🇨🇳 CN-14.116.214.232-046
-      - 🇨🇳 CN-14.215.47.121-047
-      - 🇨🇳 CN-14.116.214.232-049
-      - 🇨🇳 CN-14.215.47.121-050
-      - 🇨🇳 CN-14.18.89.198-051
-      - 🇨🇳 CN-14.116.214.232-052
-      - 🇨🇳 CN-14.18.89.198-053
-      - 🇨🇳 CN-14.215.47.121-054
-      - 🇨🇳 CN-14.116.214.232-055
-      - 🇨🇳 CN-14.18.89.198-056
-      - 🇨🇳 CN-14.18.89.198-058
-      - 🇨🇳 CN-121.31.49.204-114
-      - 🇨🇳 CN-121.31.49.204-115
-      - 🇨🇳 CN-121.31.49.214-116
-      - 🇨🇳 CN-121.31.49.214-117
-      - 🇨🇳 CN-121.31.49.204-118
-      - 🇨🇳 CN-121.31.49.214-119
-      - 🇨🇳 CN-121.31.49.214-120
-      - 🇨🇳 CN-121.31.49.204-121
-      - 🇨🇳 CN-121.31.49.204-122
-      - 🇨🇳 CN-121.31.49.204-123
-      - 🇨🇳 CN-121.31.49.204-124
-      - 🇨🇳 CN-121.31.49.204-125
-      - 🇨🇳 CN-121.31.49.204-126
-      - 🇨🇳 CN-121.31.49.204-127
-      - 🇨🇳 CN-14.18.89.198-186
-      - 🇨🇳 CN-14.18.89.198-242
-      - 🇨🇳 CN-14.18.89.198-244
-      - 🇨🇳 CN-14.215.47.121-245
-      - 🇨🇳 CN-14.116.214.232-246
-      - 🇨🇳 CN-111.47.212.59-247
-      - 🇨🇳 CN-14.18.89.198-248
-      - 🇨🇳 CN-14.215.47.121-249
-      - 🇨🇳 CN-14.116.214.232-250
-      - 🇨🇳 CN-14.18.89.198-251
-      - 🇨🇳 CN-14.215.47.121-252
-      - 🇨🇳 CN-14.116.214.232-253
-      - 🇨🇳 CN-14.18.89.198-254
-      - 🇨🇳 CN-14.215.47.121-255
-      - 🇨🇳 CN-14.116.214.232-256
-      - 🇨🇳 CN-14.18.89.198-257
-      - 🇨🇳 CN-14.215.47.121-258
-      - 🇨🇳 CN-14.116.214.232-259
-      - 🇨🇳 CN-14.18.89.198-260
-      - 🇨🇳 CN-14.215.47.121-261
-      - 🇨🇳 CN-14.116.214.232-262
-      - 🇨🇳 CN-14.18.89.198-263
-      - 🇨🇳 CN-14.116.214.232-264
-      - 🇨🇳 CN-14.18.89.198-265
-      - 🇨🇳 CN-14.215.47.121-266
-      - 🇨🇳 CN-14.116.214.232-267
-      - 🇨🇳 CN-14.18.89.198-268
-      - 🇨🇳 CN-14.215.47.121-269
-      - 🇨🇳 CN-14.116.214.232-270
-      - 🇨🇳 CN-14.215.47.121-272
-      - 🇨🇳 CN-14.116.214.232-273
-      - 🇨🇳 CN-14.116.214.232-274
-      - 🇨🇳 CN-14.18.89.198-275
-      - 🇨🇳 CN-14.215.47.121-276
-      - 🇨🇳 CN-14.18.89.198-277
-      - 🇨🇳 CN-14.18.89.198-278
-      - 🇨🇳 CN-14.18.89.198-279
-      - 🇨🇳 CN-14.116.214.232-280
-      - 🇨🇳 CN-14.18.89.198-281
-      - 🇨🇳 CN-14.116.214.232-282
-      - 🇨🇳 CN-14.18.89.198-283
-      - 🇨🇳 CN-14.18.89.198-284
-      - 🇨🇳 CN-111.47.212.59-285
-      - 🇨🇳 CN-14.18.89.198-286
-      - 🇨🇳 CN-111.47.212.59-287
-      - 🇨🇳 CN-14.18.89.198-303
-      - 🇨🇳 _CN_中国_1
-      - 🇨🇳 _CN_中国_2
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 17|台湾 06  | 1x TWN
-      - 🇨🇳 17|台湾 04  | 1x TWN
-      - 🇨🇳 1,18|_TW_台湾
-      - "🇨🇳 1,2,3,4|_CN_中国 #1"
-      - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 21|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 10|🇹🇼台湾06
-      - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 21|JCBB_ 台湾 03_1【vip1】
-      - 🇨🇳 21|JCBB_ 台湾 03【vip1】
-      - 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_2_40
-      - 🇨🇳 18|🇹🇼 台湾A|@ripaojiedian
-      - 🇨🇳 16|🇨🇳 台湾 258
-      - 🇨🇳 17|台湾 05  | 1x TWN
-      - 🇺🇸 24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  - {name: "🇨🇳 1,18|_TW_台湾", server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2}
+  - {name: 🇨🇳 17|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 69df4888-5f74-491e-87a2-bae07c1d5e26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: 🇨🇳 17|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 69df4888-5f74-491e-87a2-bae07c1d5e26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: 🇨🇳 10|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 9e3e0a68-0d77-40fb-8262-a78747ceb0a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 9|🇨🇳 China 01 TG:@nodpai, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 21|JCBB_ 台湾 04【vip1】, server: gzdx.jcnode.top, port: 59486, type: vmess, uuid: 56a40ac3-c0dc-4cff-b6d2-26b3039f9ef2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 17|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 69df4888-5f74-491e-87a2-bae07c1d5e26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: 🇨🇳 16|🇨🇳 台湾 258, server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}

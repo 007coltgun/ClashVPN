@@ -1,91 +1,82 @@
 proxies:
   - {name: 🇫🇷 _FR_法国_1, server: 54.36.174.181, port: 8000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
   - {name: 🇫🇷 _FR_法国_2, server: 54.36.174.181, port: 5600, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: 🇫🇷 1|_FR_法国, server: 57.128.173.6, port: 443, client-fingerprint: chrome, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, tfo: false, sni: www.speedtest.net, skip-cert-verify: false}
   - {name: 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技), server: 149.202.55.79, port: 10000, client-fingerprint: chrome, type: vmess, uuid: 29d81b38-3783-11ee-85a3-9bc543dcf9c5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnjantit, headers: {Host: 149.202.55.79}}}
-  - {name: 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国, server: ns1.v2-vip.fun, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2, server: cnamemk.ciscocdn1.live, port: 443, client-fingerprint: chrome, type: trojan, password: 4d706727-996f-4427-930d-60f3bd414cf9, tfo: false, sni: c2mk.ciscocdn1.live, skip-cert-verify: false}
-  - {name: 🇫🇷 12|github.com/freefq - 法国  3, server: uk3.ifastcdncache.com, port: 23881, client-fingerprint: chrome, type: vmess, uuid: f17cef96-8399-4bf5-aa38-f2c04e9d029d, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk3.ifastcdncache.com}}}
-  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国, server: cnamemc.cdncisco.org, port: 443, client-fingerprint: chrome, type: trojan, password: 0ad5e311-7189-4124-ac8f-f828b681f10e, tfo: false, sni: c5mc.cdncisco.org, skip-cert-verify: false}
-  - {name: "🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国", server: 173.245.49.36, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue04, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇫🇷 15|🇫🇷 法国 343, server: 172.232.34.195, port: 4531, client-fingerprint: chrome, type: vmess, uuid: 947f2396-73e3-4a34-b7f6-93eb13863b31, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇫🇷 1|_FR_法国, server: 57.128.173.6, port: 443, client-fingerprint: chrome, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, tfo: false, sni: www.speedtest.net, skip-cert-verify: false}
+  - {name: "🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国", server: 173.245.49.36, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue04, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2, server: cnamemt.ciscocdn1.live, port: 443, client-fingerprint: chrome, type: trojan, password: 4d706727-996f-4427-930d-60f3bd414cf9, tfo: false, sni: c2mt.ciscocdn1.live, skip-cert-verify: false}
+  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4, server: cnamemc.cdncisco.org, port: 443, client-fingerprint: chrome, type: trojan, password: 0ad5e311-7189-4124-ac8f-f828b681f10e, tfo: false, sni: c5mc.cdncisco.org, skip-cert-verify: false}
+  - {name: "🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3", server: ns1.v2-vip.fun, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
+  - {name: 🇺🇸 1|_US_美国->🇫🇷_FR_法国, server: cnamemk.ciscocdn1.live, port: 443, client-fingerprint: chrome, type: trojan, password: 4d706727-996f-4427-930d-60f3bd414cf9, tfo: false, sni: c2mk.ciscocdn1.live, skip-cert-verify: false}
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343
       - 🇫🇷 _FR_法国_1
       - 🇫🇷 _FR_法国_2
-      - 🇫🇷 1|_FR_法国
       - 🇫🇷 15|🇫🇷FR法国(youtube阿伟科技)
-      - 🇺🇸 8|🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇫🇷 1|_FR_法国
+      - 🇺🇸 8,22|🇫🇷_FR_法国->🇺🇸_US_美国
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 2
-      - 🇫🇷 12|github.com/freefq - 法国  3
+      - 🇺🇸 1|_US_美国->🇫🇷_FR_法国 4
+      - 🇺🇸 1,8,12,15|_US_美国->🇫🇷_FR_法国 3
       - 🇺🇸 1|_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 8,23|🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇫🇷 15|🇫🇷 法国 343

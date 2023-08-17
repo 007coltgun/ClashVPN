@@ -117,22 +117,20 @@ proxies:
   - {name: 🇨🇳 _CN_中国_1, server: 14.116.151.100, port: 63093, client-fingerprint: chrome, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇳 _CN_中国_2, server: 123.249.101.15, port: 19709, client-fingerprint: chrome, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, client-fingerprint: chrome, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, tfo: false}
+  - {name: 🇨🇳 1|_TW_台湾, server: gshinet1.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, tfo: false, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false}
-  - {name: 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, client-fingerprint: chrome, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
-  - {name: 🇨🇳 9|🇨🇳 China 01 TG:@nodpai, server: 108.186.116.177, port: 55005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 20|JCBB_ 台湾 04【vip1】, server: gzdx.jcnode.top, port: 59486, client-fingerprint: chrome, type: vmess, uuid: de2918d2-f804-4a83-9bc9-ab8746eb52c5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇨🇳 20|JCBB_ 台湾 03_1【vip1】, server: gzdx01.jcnode.top, port: 16680, client-fingerprint: chrome, type: vmess, uuid: de2918d2-f804-4a83-9bc9-ab8746eb52c5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx01.jcnode.top}}}
-  - {name: 🇨🇳 10|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: 4bc04069-76d2-49e5-9f4d-22d1c5b510d4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 16|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, client-fingerprint: chrome, type: vmess, uuid: a38657d4-9c45-4936-8364-8df0ef6ae688, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.lovemc.xyz}
-  - {name: "🇨🇳 15,17,18|台湾 CN2|练气", server: 103.137.63.243, port: 45311, client-fingerprint: chrome, type: vmess, uuid: 947f2396-73e3-4a34-b7f6-93eb13863b31, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 20|JCBB_ 台湾 03【vip1】, server: gzyd.jcnode.top, port: 59393, client-fingerprint: chrome, type: vmess, uuid: de2918d2-f804-4a83-9bc9-ab8746eb52c5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
-  - {name: 🇨🇳 16|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, client-fingerprint: chrome, type: vmess, uuid: a38657d4-9c45-4936-8364-8df0ef6ae688, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.lovemc.xyz}
-  - {name: 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22, server: 36.141.40.34, port: 51002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 16|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, client-fingerprint: chrome, type: vmess, uuid: a38657d4-9c45-4936-8364-8df0ef6ae688, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.lovemc.xyz}
-  - {name: 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian, server: gzdx0.156786.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: c1b2f451-b488-40c7-8487-62b927f9c43d, tfo: false, sni: gzdx0.156786.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 10|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: 4bc04069-76d2-49e5-9f4d-22d1c5b510d4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 10|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: 80b8db12-84ea-4c9f-81ce-da746456f5ac, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
   - {name: 🇨🇳 15|🇨🇳 台湾 258, server: gamespeed-gateway-1.numastergame.com, port: 11872, client-fingerprint: chrome, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 10|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: 4bc04069-76d2-49e5-9f4d-22d1c5b510d4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian, server: gzdx0.156786.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: c1b2f451-b488-40c7-8487-62b927f9c43d, tfo: false, sni: gzdx0.156786.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 10|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: 80b8db12-84ea-4c9f-81ce-da746456f5ac, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 9|🇨🇳 China 01 TG:@nodpai, server: 108.186.116.177, port: 55005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 16|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, client-fingerprint: chrome, type: vmess, uuid: 44b4bc63-d67a-4a61-b9ca-b2fb81bdb54a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: "🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian", server: 103.137.63.243, port: 45311, client-fingerprint: chrome, type: vmess, uuid: 947f2396-73e3-4a34-b7f6-93eb13863b31, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22, server: 36.141.40.34, port: 51002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 16|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, client-fingerprint: chrome, type: vmess, uuid: 44b4bc63-d67a-4a61-b9ca-b2fb81bdb54a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: "🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡", server: gzdx0.156786.xyz, port: 27539, client-fingerprint: chrome, type: trojan, password: c1b2f451-b488-40c7-8487-62b927f9c43d, tfo: false, sni: sgmax01.170203.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 16|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, client-fingerprint: chrome, type: vmess, uuid: 44b4bc63-d67a-4a61-b9ca-b2fb81bdb54a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: 🇨🇳 10|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: 80b8db12-84ea-4c9f-81ce-da746456f5ac, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
       - 🇨🇳 CN-14.18.89.198-003
@@ -251,21 +249,19 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
@@ -385,21 +381,19 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
@@ -519,21 +513,19 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
@@ -653,35 +645,32 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
@@ -801,21 +790,19 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
@@ -935,21 +922,19 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
@@ -1069,21 +1054,19 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06
       - 🇨🇳 CN-14.18.89.198-000
       - 🇨🇳 CN-183.56.207.20-002
@@ -1203,19 +1186,17 @@ proxies:
       - 🇨🇳 _CN_中国_1
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 1|_TW_台湾
       - 🇨🇳 17|🇹🇼 台湾独家|@ripaojiedian
-      - 🇺🇸 8|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 20|JCBB_ 台湾 04【vip1】
-      - 🇨🇳 20|JCBB_ 台湾 03_1【vip1】
       - 🇨🇳 10|🇹🇼台湾04
-      - 🇨🇳 16|台湾 05  | 1x TWN
-      - 🇨🇳 15,17,18|台湾 CN2|练气
-      - 🇨🇳 20|JCBB_ 台湾 03【vip1】
-      - 🇨🇳 16|台湾 04  | 1x TWN
-      - 🇺🇸 23|🇨🇳_CN_中国->🇺🇸_US_美国_22
-      - 🇨🇳 16|台湾 06  | 1x TWN
+      - 🇨🇳 15|🇨🇳 台湾 258
       - 🇨🇳 17|🇹🇼 台湾B|@ripaojiedian
       - 🇨🇳 10|🇹🇼台湾05
-      - 🇨🇳 15|🇨🇳 台湾 258
+      - 🇨🇳 9|🇨🇳 China 01 TG:@nodpai
+      - 🇨🇳 16|台湾 05  | 1x TWN
+      - 🇨🇳 17,18|🇹🇼 台湾A|@ripaojiedian
+      - 🇺🇸 22|🇨🇳_CN_中国->🇺🇸_US_美国_22
+      - 🇨🇳 16|台湾 04  | 1x TWN
+      - 🇨🇳 1,17|_TW_台湾->🇸🇬_SG_新加坡
+      - 🇨🇳 16|台湾 06  | 1x TWN
       - 🇨🇳 10|🇹🇼台湾06

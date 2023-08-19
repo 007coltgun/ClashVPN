@@ -1,3 +1,7 @@
 proxies:
-- {name: 🇯🇵JP-172.105.236.208-076, server: 172.105.236.208, port: 443, type: trojan, password: cc4d8b7f-1c8f-4f1b-b292-ce5ad9238240, sni: cdn.qchwnd.moe, skip-cert-verify: true}
-- {name: 🇯🇵JP-54.199.83.239-189, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+- {name: 🇯🇵JP-139.162.77.244-071, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /chat, tls: true, ws-headers: {Host: vjp1.0bad.com}}
+- {name: 🇯🇵JP-168.138.207.66-075, server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 168.138.207.66}}
+- {name: 🇯🇵JP-168.138.207.66-109, server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 168.138.207.66}}
+- {name: 🇯🇵JP-168.138.207.66-110, server: 168.138.207.66, port: 21365, type: vmess, uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 168.138.207.66}}
+- {name: 🇯🇵JP-35.77.14.109-124, server: 35.77.14.109, port: 58611, type: vmess, uuid: fb7fbd8f-6c61-40f2-858e-58502833497a, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 35.77.14.109}}
+- {name: 🇯🇵JP-54.199.83.239-206, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}

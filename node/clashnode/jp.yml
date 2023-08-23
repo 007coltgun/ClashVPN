@@ -1,3 +1,11 @@
 proxies:
-  - {name: 🇯🇵 _JP_日本, server: 54.95.169.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 _JP_日本 2, server: 18.183.166.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: wbgsba.cdn.node.a.tddns-ounk.com, port: 13698, type: vmess, uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, headers: {Host: wbgsba.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: scloud60.jafiyun.world, port: 22060, type: trojan, password: b977b966-2e65-3ee5-acde-ee3409ad3597, sni: scloud60.jafiyun.world, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本, server: jp02.vipnode.online, port: 80, type: vmess, uuid: 95d58891-4ff4-403b-b120-e656169621cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.vipnode.online}}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 3, server: zjxc.pmxu.link, port: 25153, type: vmess, uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 4, server: gg.58n.net, port: 20141, type: trojan, password: ef82a674-5b2b-322b-b9ea-f92ceb85c89e, sni: z141.hongkongnode.top, skip-cert-verify: true}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 5, server: xrbjz1.cdn.node.a.tddns-ounk.com, port: 40365, type: vmess, uuid: b5247d82-9f56-3978-a202-80fae30331c7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8, headers: {Host: xrbjz1.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 6, server: weace1.cdn.node.a.tddns-ounk.com, port: 13703, type: vmess, uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, headers: {Host: weace1.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 7, server: gg.58n.net, port: 20142, type: trojan, password: ef82a674-5b2b-322b-b9ea-f92ceb85c89e, sni: z142.hongkongnode.top, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本->🇬🇧_GB_英国, server: uk.stablize.top, port: 443, type: trojan, password: 5e65f547-15ec-49f0-9fe6-2340cf1aa2e0, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本 2, server: jp1.lxjc.app, port: 443, type: trojan, password: a00330bc-7f67-4bad-a59b-481cd2d67456, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: true}

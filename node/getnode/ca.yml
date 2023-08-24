@@ -1,28 +1,145 @@
 proxies:
-  - {name: 🇨🇦 17|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: 15bfbac7-4d8b-4314-ae1e-70d139452e82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.lovemc.xyz}
-  - {name: "🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大", server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇨🇦 10|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 39902bc1-16e1-482a-9bfa-251c6ccf9b01, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.abpilot.xyz}
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
-      - 🇨🇦 17|加拿大 02 | 1x CA
-      - 🇨🇦 0,6,11,12,13,16,18,19,24|🇨🇦 _CA_加拿大
-      - 🇨🇦 10|🇨🇦加拿大04
+  - {name: 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国, server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: "🇨🇦 6,12,19|🇨🇦_CA_加拿大", server: 23.227.39.110, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1", server: 23.227.39.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: "🇨🇦 6,12|🇨🇦_CA_加拿大 #2", server: 23.227.38.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: 🇨🇦 12|加拿大 215, server: lille.kotick.site, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6147f065-9ac0-4081-a5a3-a2eb4ebb8958, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: lille.kotick.site}}}
+  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, client-fingerprint: chrome, type: vmess, uuid: b0985194-d387-464f-a146-342dec26f056, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.lovemc.xyz}
+  - {name: 🇨🇦 8|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, client-fingerprint: chrome, type: vmess, uuid: 740de615-7a97-43e4-b49b-b1b5509ec0e1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.abpilot.xyz}
+  - {name: 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: ca-01.cloudlion.me, port: 2082, client-fingerprint: chrome, type: vmess, uuid: c6a00fb6-7cf9-43ad-b699-6c334b4a7611, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca-01.cloudlion.me}}}
+  - {name: "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2", server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai, server: orionis.weltknoten.xyz, port: 30018, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: "🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai", server: piscium.verdens.xyz, port: 25016, client-fingerprint: chrome, type: vmess, uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1", server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 12|🇨🇦🌏 @customv2ray کانفیگ های بی..., server: 45.199.138.176, port: 49852, client-fingerprint: chrome, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇨🇦 12,19|加拿大 127", server: scw-fr.iiio.wiki, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-fr.iiio.wiki}}}
+  - {name: "🇨🇦 0,12|🇨🇦 _CA_加拿大", server: 23.227.39.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai, server: 15019.kuaiyin.win, port: 15019, client-fingerprint: chrome, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 6|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇨🇦 6,12,19|🇨🇦_CA_加拿大
+      - "🇨🇦 6,9,9,10,12|🇨🇦_CA_加拿大 #1"
+      - "🇨🇦 6,12|🇨🇦_CA_加拿大 #2"
+      - 🇨🇦 12|加拿大 215
+      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|🇨🇦加拿大04
+      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - "🇨🇦 0,6,10,12,19|🇨🇦 _CA_加拿大 #2"
+      - 🇨🇦 7|中转 🇨🇦 Canada 05 @nodpai
+      - 🇨🇦 7,7|中转 🇨🇦 Canada 03 @nodpai
+      - "🇨🇦 0,9,14,15|🇨🇦 _CA_加拿大 #1"
+      - 12|🇨🇦🌏 @customv2ray کانفیگ های بی...
+      - 🇨🇦 12,19|加拿大 127
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai

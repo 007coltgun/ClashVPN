@@ -1,190 +1,469 @@
 proxies:
-  - {name: 🇸🇬 _SG_新加坡->🇯🇵_JP_日本, server: nsaghhfhintt100tw.559xp5.cn, port: 443, type: trojan, password: 659bb4b2-8d8d-4bd5-8db9-16ec53b71201, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vjp1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
-  - {name: 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1", server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: 434ec7b0-da24-45f1-aa53-997dfa0b9b0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 16|🇯🇵 日本 362, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 17|日本 04  | 1x JP, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 15bfbac7-4d8b-4314-ae1e-70d139452e82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp04.lovemc.xyz}
-  - {name: "🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151", server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 16|🇯🇵 日本 319, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本", server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 369d0f3d-e900-4df6-95ea-d388e166e361, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian, server: 3.112.43.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 16|🇯🇵 日本 152, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 10|🇯🇵日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 39902bc1-16e1-482a-9bfa-251c6ccf9b01, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp06.abpilot.xyz}
-  - {name: "🇯🇵 1,2,3,4|_JP_日本 2", server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 18|🇯🇵 日本快|@ripaojiedian, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: f0366e33-84c9-4a20-ad40-4f1e2c230c36, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇯🇵 1|_JP_日本, server: jp8.421421.xyz, port: 20230, type: trojan, password: d6eafa01-5d46-4329-9831-ba25323a32b0, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 10|🇯🇵日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 39902bc1-16e1-482a-9bfa-251c6ccf9b01, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp04.abpilot.xyz}
-  - {name: 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:..., server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 17|日本 05  | 1x JP, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: 15bfbac7-4d8b-4314-ae1e-70d139452e82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp05.lovemc.xyz}
-  - {name: 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian, server: kqs-jp.kunlun-three.com, port: 20670, type: ss, cipher: aes-256-gcm, password: 091ee749-0f28-4a05-a9f0-5f35e6c8cba3}
-  - {name: "🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian", server: dqvag9k80e66x.cloudfront.net, port: 80, type: vmess, uuid: 42f317ac-9619-4f9c-cfa0-79e5b695ea2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dqvag9k80e66x.cloudfront.net}}}
-  - {name: 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa..., server: 45.88.43.239, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 _SG_新加坡->🇯🇵_JP_日本, server: nsaghhfhintt100tw.559xp5.cn, port: 443, client-fingerprint: chrome, type: trojan, password: 659bb4b2-8d8d-4bd5-8db9-16ec53b71201, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 _JP_日本, server: vjp1.0bad.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: vjp1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
+  - {name: 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333, server: 54.199.83.239, port: 2333, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: doub.io, tfo: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai, server: scorpii.weltknoten.xyz, port: 30006, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai, server: cdn.node.user-sub.pddns-usersdk.com, port: 14110, client-fingerprint: chrome, type: vmess, uuid: 464bd596-8faa-34bc-82c4-0be0b41b052d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: 🇯🇵 7|🇯🇵 Japan 15 @nodpai, server: cfcdn5.sanfencdn.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: fafd190d-847d-4424-9b01-5d3d80674c00, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cfcdn5.sanfencdn.net}}}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai, server: cdn.node.user-sub.pddns-usersdk.com, port: 14109, client-fingerprint: chrome, type: vmess, uuid: 464bd596-8faa-34bc-82c4-0be0b41b052d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: 🇯🇵 12|🇯🇵 日本 210, server: 131.186.41.192, port: 26297, client-fingerprint: chrome, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2", server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13023, client-fingerprint: chrome, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai, server: nn3p.tntbooms.com, port: 51022, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn3p.tntbooms.com}}}
+  - {name: 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2, server: 140.83.63.38, port: 24445, client-fingerprint: chrome, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 8|🇯🇵日本04, server: 1j8p04.abzoones.xyz, port: 36116, client-fingerprint: chrome, type: vmess, uuid: 740de615-7a97-43e4-b49b-b1b5509ec0e1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: jp04.abpilot.xyz}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai, server: nn3p.tntbooms.com, port: 51023, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn3p.tntbooms.com}}}
+  - {name: 🇯🇵 13|日本 06  | 1x JP, server: 6w7j3p06.mcfront.xyz, port: 31111, client-fingerprint: chrome, type: vmess, uuid: b0985194-d387-464f-a146-342dec26f056, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: jp06.lovemc.xyz}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai, server: nn3s.tntbooms.com, port: 51023, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn3s.tntbooms.com}}}
+  - {name: 🇯🇵 7|🇯🇵 Japan 16 @nodpai, server: cfcdn5.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: fafd190d-847d-4424-9b01-5d3d80674c00, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cfcdn5.sanfencdn.net}}}
+  - {name: "🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5", server: wbgsba.cdn.node.a.tddns-ounk.com, port: 13696, client-fingerprint: chrome, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, headers: {Host: wbgsba.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian, server: 18.183.235.22, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: "🇯🇵 2,3,4,6|_JP_日本", server: jp6.lianpi.xyz, port: 23234, client-fingerprint: chrome, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 13|日本 05  | 1x JP, server: 6w7j3p05.mcfront.xyz, port: 31106, client-fingerprint: chrome, type: vmess, uuid: b0985194-d387-464f-a146-342dec26f056, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: jp05.lovemc.xyz}
+  - {name: 🇯🇵 7|🇯🇵 Japan 18 @nodpai, server: jp01-alt-vm0.entry.srthdw.art, port: 21581, client-fingerprint: chrome, type: vmess, uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai, server: nn3s.tntbooms.com, port: 51022, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn3s.tntbooms.com}}}
+  - {name: "🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本", server: q8eq.cdn.node.a.tddns-ounk.com, port: 13598, client-fingerprint: chrome, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}}}
+  - {name: "🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai", server: centauri.verdens.xyz, port: 25024, client-fingerprint: chrome, type: vmess, uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 12|🇯🇵白嫖-061, server: 138.2.44.211, port: 20081, client-fingerprint: chrome, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 12|🇯🇵 日本 360, server: 141.147.153.244, port: 41545, client-fingerprint: chrome, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 7|🇯🇵 Japan 10 @nodpai, server: jp02-vm0.entry.srthdw.art, port: 11773, client-fingerprint: chrome, type: vmess, uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 12|🇯🇵 日本 350, server: 45.88.43.143, port: 51801, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 8|🇯🇵日本06, server: 1j8p06.abzoones.xyz, port: 36111, client-fingerprint: chrome, type: vmess, uuid: 740de615-7a97-43e4-b49b-b1b5509ec0e1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: jp06.abpilot.xyz}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai, server: zjxc.pmxu.link, port: 25153, client-fingerprint: chrome, type: vmess, uuid: a1a85124-6a4d-3a42-a6be-0183fa2df4a4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3", server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13477, client-fingerprint: chrome, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai, server: nn3p.tntbooms.com, port: 51021, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn3p.tntbooms.com}}}
+  - {name: 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian, server: 183.232.170.32, port: 20012, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", tfo: false}
+  - {name: 🇯🇵 7|🇯🇵 Japan 08 @nodpai, server: jp05-vm0.entry.srthdw.art, port: 46482, client-fingerprint: chrome, type: vmess, uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 7|🇯🇵 Japan 17 @nodpai, server: jp06-vm0.entry.jpojpoh.art, port: 28783, client-fingerprint: chrome, type: vmess, uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai, server: phoenicis.weltknoten.xyz, port: 30005, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: "🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4", server: q8eq.cdn.node.a.tddns-ounk.com, port: 13596, client-fingerprint: chrome, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 12|日本 019, server: 36.bbzbb.top, port: 11110, client-fingerprint: chrome, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 12|🇯🇵白嫖-053, server: 152.69.197.60, port: 1069, client-fingerprint: chrome, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 14|🇯🇵 日本A|@ripaojiedian, server: ah-cmi-1000m.ikun666.club, port: 62972, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: bad5fba5-a7bc-4709-882b-e15edad16cef, tfo: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai, server: 19.v2-ray.cyou, port: 23619, client-fingerprint: chrome, type: vmess, uuid: 9b5c52d8-c164-3dac-b595-91976958470f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}}
+  - {name: 🇯🇵 12|🇯🇵 日本 319, server: 45.88.43.163, port: 51801, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai, server: nn2b.tntbooms.com, port: 51021, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn2b.tntbooms.com}}}
+  - {name: "🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai", server: zjxc.pmxu.link, port: 19278, client-fingerprint: chrome, type: vmess, uuid: a1a85124-6a4d-3a42-a6be-0183fa2df4a4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 13|日本 04  | 1x JP, server: 6w7j3p04.mcfront.xyz, port: 31116, client-fingerprint: chrome, type: vmess, uuid: b0985194-d387-464f-a146-342dec26f056, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: jp04.lovemc.xyz}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai, server: nnip.tntbooms.com, port: 22003, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 30004, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", tfo: false}
+  - {name: 🇯🇵 8|🇯🇵日本05, server: 1j8p05.abzoones.xyz, port: 36106, client-fingerprint: chrome, type: vmess, uuid: 740de615-7a97-43e4-b49b-b1b5509ec0e1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: jp05.abpilot.xyz}
+  - {name: "🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai", server: aquaril.verdens.xyz, port: 25027, client-fingerprint: chrome, type: vmess, uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian, server: 13.114.170.208, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai, server: 8.v2-ray.cyou, port: 23608, client-fingerprint: chrome, type: vmess, uuid: 9b5c52d8-c164-3dac-b595-91976958470f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai, server: nn2a.tntbooms.com, port: 51021, client-fingerprint: chrome, type: vmess, uuid: 62a91cb0-2185-3cba-9f44-b6e8cce1c920, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: nn2a.tntbooms.com}}}
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai
       - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - "🇯🇵 8,17|🇨🇳_CN_中国->🇯🇵_JP_日本 #1"
-      - 🇯🇵 16|🇯🇵 日本 362
-      - 🇯🇵 17|日本 04  | 1x JP
-      - 🇯🇵 6,15,16,24|日本【付费推荐：https://tt.vg/vip】151
-      - 🇯🇵 16|🇯🇵 日本 319
-      - 🇯🇵 8,10|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 18|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 16|🇯🇵 日本 152
-      - 🇯🇵 10|🇯🇵日本06
-      - 🇯🇵 1,2,3,4|_JP_日本 2
-      - 🇯🇵 18|🇯🇵 日本快|@ripaojiedian
-      - 🇯🇵 1|_JP_日本
-      - 🇯🇵 10|🇯🇵日本04
-      - 🇯🇵 9|Relay 🇯🇵 Japan(ChatGPT) 05 TG:...
-      - 🇯🇵 17|日本 05  | 1x JP
-      - 🇯🇵 18|🇯🇵 日本中转|@ripaojiedian
-      - 🇯🇵 18,19|🇯🇵 日本B|@ripaojiedian
-      - 🇯🇵 9|🇯🇵 Japan(ChatGPT) 04 TG:@nodpa...
+      - 🇯🇵 7|中转 🇯🇵 Japan 14 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 29 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 15 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 28 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 210
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 7|中转 🇯🇵 Japan 19 @nodpai
+      - 🇯🇵 12|🇯🇵 JP日本(youtube阿伟科技) 2
+      - 🇯🇵 8|🇯🇵日本04
+      - 🇯🇵 7|中转 🇯🇵 Japan 20 @nodpai
+      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 24 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 16 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 5
+      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 2,3,4,6|_JP_日本
+      - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 7|🇯🇵 Japan 18 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 23 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 09 @nodpai
+      - 12|🇯🇵白嫖-061
+      - 🇯🇵 12|🇯🇵 日本 360
+      - 🇯🇵 7|🇯🇵 Japan 10 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 350
+      - 🇯🇵 8|🇯🇵日本06
+      - 🇯🇵 7|中转 🇯🇵 Japan 03 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 7|中转 🇯🇵 Japan 25 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
+      - 🇯🇵 7|🇯🇵 Japan 08 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 17 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 11 @nodpai
+      - 🇯🇵 1,2,3,4|_CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 12|日本 019
+      - 12|🇯🇵白嫖-053
+      - 🇯🇵 14|🇯🇵 日本A|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 06 @nodpai
+      - 🇯🇵 12|🇯🇵 日本 319
+      - 🇯🇵 7|中转 🇯🇵 Japan 21 @nodpai
+      - 🇯🇵 7,15|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 7|中转 🇯🇵 Japan 26 @nodpai
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
+      - 🇯🇵 8|🇯🇵日本05
+      - 🇯🇵 7,7|中转 🇯🇵 Japan 07 @nodpai
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 7|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 7|中转 🇯🇵 Japan 22 @nodpai

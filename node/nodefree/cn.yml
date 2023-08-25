@@ -1,296 +1,81 @@
 proxies:
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: r97q.cdn.node.a.tddns-ounk.com, port: 13368, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, headers: {Host: r97q.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: syrbp.cdn.node.a.tddns-ounk.com, port: 13736, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, headers: {Host: syrbp.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13598, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: syhkv2.cdn.node.a.tddns-ounk.com, port: 13405, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9974f731e8cb457b17143895.v1.live.m3u8, headers: {Host: syhkv2.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 4, server: syhkv2.cdn.node.a.tddns-ounk.com, port: 13345, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: syhkv2.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 5, server: r97q.cdn.node.a.tddns-ounk.com, port: 13367, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, headers: {Host: r97q.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13023, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 6, server: hfa1.cdn.node.a.tddns-ounk.com, port: 13648, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /80080f42e36c6478a808050e.v1.live.m3u8, headers: {Host: hfa1.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: z5sa6is.cdn.node.a.tddns-ounk.com, port: 13684, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, headers: {Host: z5sa6is.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: ahq9.cdn.node.a.tddns-ounk.com, port: 13019, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5534757c8f76f4deb8e17d1b.v1.live.m3u8, headers: {Host: ahq9.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: fpxs9.cdn.node.a.tddns-ounk.com, port: 13339, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9974f731e8cb457b17143895.v1.live.m3u8, headers: {Host: fpxs9.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 7, server: syhkv2.cdn.node.a.tddns-ounk.com, port: 13275, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: syhkv2.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: lld9k6.cdn.node.a.tddns-ounk.com, port: 13320, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: lld9k6.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 3, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13477, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, headers: {Host: xrbsy1.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇫🇷_FR_法国, server: m.lwvzmdu.cn, port: 16645, type: vmess, uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 8, server: wzfla.cdn.node.a.tddns-ounk.com, port: 13377, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: wzfla.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 9, server: yes.iamagoodman.net, port: 16622, type: vmess, uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 4, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13596, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 3, server: cd69.cdn.node.a.tddns-ounk.com, port: 13476, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, headers: {Host: cd69.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 10, server: r97q.cdn.node.a.tddns-ounk.com, port: 13364, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, headers: {Host: r97q.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 11, server: hfa1.cdn.node.a.tddns-ounk.com, port: 13457, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /80080f42e36c6478a808050e.v1.live.m3u8, headers: {Host: hfa1.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 5, server: wbgsba.cdn.node.a.tddns-ounk.com, port: 13696, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, headers: {Host: wbgsba.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾 3, server: lld9k6.cdn.node.a.tddns-ounk.com, port: 13321, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: lld9k6.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 12, server: syrbp.cdn.node.a.tddns-ounk.com, port: 13743, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, headers: {Host: syrbp.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 13, server: syhkv2.cdn.node.a.tddns-ounk.com, port: 13472, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, headers: {Host: syhkv2.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 14, server: hfa1.cdn.node.a.tddns-ounk.com, port: 13455, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /80080f42e36c6478a808050e.v1.live.m3u8, headers: {Host: hfa1.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国, server: 36.150.27.31, port: 80, type: vmess, uuid: db8d12d5-1968-4125-b775-77d50aa65923, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 15, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 16, server: syrbp.cdn.node.a.tddns-ounk.com, port: 13732, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8, headers: {Host: syrbp.cdn.node.a.tddns-ounk.com}}, udp: true}
-  - {name: _CN_中国 2, server: 120.241.47.99, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 4, server: z5sa6is.cdn.node.a.tddns-ounk.com, port: 13685, type: vmess, uuid: bbbbcaee-2fb5-3809-8722-d0b5ed0cd2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4900-495a-aa20-da0626e0e87d.v2..live03.m3u8, headers: {Host: z5sa6is.cdn.node.a.tddns-ounk.com}}, udp: true}
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
+  - {name: _US_美国->🇨🇳_CN_中国, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: 19212tj.matrixxx888.com, port: 19212, type: trojan, password: 8e7a723b-3eb8-3c32-83cf-2148d5765de1, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国, server: 120.226.50.91, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 2, server: 162.159.253.16, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _CN_中国->🇮🇳_IN_印度, server: zjxc.pmxu.link, port: 40270, type: vmess, uuid: 517b3e38-1bd1-3bb9-b7a3-25999da34844, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇵🇱_PL_波兰, server: 19247tj.matrixxx888.com, port: 19247, type: trojan, password: 8e7a723b-3eb8-3c32-83cf-2148d5765de1, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 3, server: 172.67.196.139, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: zjxc.pmxu.link, port: 44207, type: vmess, uuid: 517b3e38-1bd1-3bb9-b7a3-25999da34844, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇭🇰_HK_香港, server: 19206tj.matrixxx888.com, port: 19206, type: trojan, password: 8e7a723b-3eb8-3c32-83cf-2148d5765de1, sni: eplcgame.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 4, server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+      - _US_美国->🇨🇳_CN_中国
       - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇬🇧_GB_英国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _CN_中国->🇮🇳_IN_印度
+      - _CN_中国->🇵🇱_PL_波兰
+      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 4
+      - _US_美国->🇨🇳_CN_中国
       - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇬🇧_GB_英国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _CN_中国->🇮🇳_IN_印度
+      - _CN_中国->🇵🇱_PL_波兰
+      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 4
+      - _US_美国->🇨🇳_CN_中国
       - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇬🇧_GB_英国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _CN_中国->🇮🇳_IN_印度
+      - _CN_中国->🇵🇱_PL_波兰
+      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 4
+      - _US_美国->🇨🇳_CN_中国
       - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇬🇧_GB_英国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _CN_中国->🇮🇳_IN_印度
+      - _CN_中国->🇵🇱_PL_波兰
+      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 4
+      - _US_美国->🇨🇳_CN_中国
       - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇬🇧_GB_英国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _CN_中国->🇮🇳_IN_印度
+      - _CN_中国->🇵🇱_PL_波兰
+      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 4
+      - _US_美国->🇨🇳_CN_中国
       - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇬🇧_GB_英国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _CN_中国->🇮🇳_IN_印度
+      - _CN_中国->🇵🇱_PL_波兰
+      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 4
+      - _US_美国->🇨🇳_CN_中国
       - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇬🇧_GB_英国
+      - _US_美国->🇨🇳_CN_中国 2
+      - _CN_中国->🇮🇳_IN_印度
+      - _CN_中国->🇵🇱_PL_波兰
+      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
       - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇹🇼_TW_台湾 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇫🇷_FR_法国
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇯🇵_JP_日本 4
-      - _CN_中国->🇭🇰_HK_香港 3
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇯🇵_JP_日本 5
-      - _CN_中国->🇹🇼_TW_台湾 3
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇺🇸_US_美国 14
-      - _CN_中国
-      - _CN_中国->🇺🇸_US_美国 15
-      - _CN_中国->🇺🇸_US_美国 16
-      - _CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港 4
+      - _US_美国->🇨🇳_CN_中国 4

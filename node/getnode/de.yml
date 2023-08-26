@@ -1,145 +1,91 @@
 proxies:
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai, server: scorpii.weltknoten.xyz, port: 30017, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 🇩🇪 7|🇩🇪 Germany 10 @nodpai, server: 89.163.129.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/252617081903}}
-  - {name: 🇩🇪 7|🇩🇪 Germany 11 @nodpai, server: 89.163.150.44, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/252617081903}}
+  - {name: "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1", server: 104.31.16.65, port: 443, client-fingerprint: chrome, type: vmess, uuid: ea0259d7-9d3c-45ba-9230-3895ad34034c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de2vm.cdn-03.live}}}
   - {name: 12|🇩🇪白嫖-118, server: vde1.0bad.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
+  - {name: 🇩🇪 8|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, client-fingerprint: chrome, type: vmess, uuid: 4e69489f-42bd-4a20-b59e-0134a094dede, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: "🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2", server: yd1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
   - {name: 🇩🇪 12|🇩🇪 DE 20, server: 116.202.30.76, port: 42000, client-fingerprint: chrome, type: vmess, uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇩🇪 8|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, client-fingerprint: chrome, type: vmess, uuid: 3b8ae8d8-4834-43e6-98bc-81ef4d7c76e6, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: 🇩🇪 7|🇩🇪 Germany 02 @nodpai, server: dx1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dx1.992688.xyz}}}
   - {name: 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30, server: dx1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
-  - {name: "🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国", server: dx1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: euserv2.vpn66.eu.org}}}
-  - {name: 🇩🇪 7|🇩🇪 Germany 09 @nodpai, server: 89.163.150.201, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/252617081903}}
-  - {name: 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz..., server: yd1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
-  - {name: "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1", server: 104.31.16.65, port: 443, client-fingerprint: chrome, type: vmess, uuid: ea0259d7-9d3c-45ba-9230-3895ad34034c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de2vm.cdn-03.live}}}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai, server: 16.v2-ray.cyou, port: 23616, client-fingerprint: chrome, type: vmess, uuid: b5f4efb1-891f-33fb-8238-82a925c7a34c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}}
-  - {name: 🇩🇪 7|🇩🇪 Germany 03 @nodpai, server: 104.31.16.3, port: 2087, client-fingerprint: chrome, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: grpc, servername: "", grpc-opts: {grpc-mode: none, grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai, server: 18.v2-ray.cyou, port: 23618, client-fingerprint: chrome, type: vmess, uuid: b5f4efb1-891f-33fb-8238-82a925c7a34c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}}
   - {name: "🇩🇪 7,7|🇩🇪 Germany 01 @nodpai", server: 104.21.231.123, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2677d1ca-af44-493e-96a5-e1b7fb468821, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest}}
-  - {name: "🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai", server: centauri.verdens.xyz, port: 25017, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+  - {name: 🇩🇪 7|🇩🇪 Germany 04 @nodpai, server: soap2day.to, port: 443, client-fingerprint: chrome, type: vmess, uuid: 7522a28c-f9a1-40a0-bd92-67cf39ab5d5b, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: soap2day.to}}}
+  - {name: "🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国", server: dx1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: euserv2.vpn66.eu.org}}}
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 10 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 11 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 12|🇩🇪 DE 20
       - 🇩🇪 8|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国 2
+      - 🇩🇪 12|🇩🇪 DE 20
+      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
       - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_2_30
-      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|🇩🇪 Germany 09 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - "🇺🇸 3,12|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 05 @nodpai
       - 🇩🇪 7,7|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,7|中转 🇩🇪 Germany 07 @nodpai
+      - 🇩🇪 7|🇩🇪 Germany 04 @nodpai
+      - 🇺🇸 0,3|🇺🇸 _US_美国->🇩🇪_DE_德国

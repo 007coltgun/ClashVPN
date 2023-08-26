@@ -1,77 +1,176 @@
 proxies:
-  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai, server: yd.ktmwan.top, port: 27260, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
-  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: 5b589f2e-5b17-4b52-a2e7-617f4cfddaf5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai, server: zjxc.pmxu.link, port: 44207, client-fingerprint: chrome, type: vmess, uuid: 1656210d-5b59-3d28-9028-1271f27eb03c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: 5b589f2e-5b17-4b52-a2e7-617f4cfddaf5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 14|🇹🇼 台湾|@ripaojiedian, server: a.52forest.com, port: 32302, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6b9e7c1f-3f7a-4831-9761-be4cac614b2b, tfo: false}
-  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai, server: dx.ktmwan.top, port: 27260, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
-  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: 5b589f2e-5b17-4b52-a2e7-617f4cfddaf5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai, server: hinet.henyo.us, port: 21443, client-fingerprint: chrome, type: vmess, uuid: 85917b31-5b73-38c0-8ba5-6205bc482aad, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/us8.m3u8, headers: {Host: hinet.henyo.us}}}
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai", server: v01.gutingting.com, port: 30064, client-fingerprint: chrome, type: vmess, uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai, server: dx.ktmwan.top, port: 27260, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai", server: v02.gutingting.com, port: 30058, client-fingerprint: chrome, type: vmess, uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v02.gutingting.com}}}
+  - {name: 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai, server: tw2.enuotime.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3535d93b-cd19-444e-be33-05c02c6e2df5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw2.enuotime.com}}}
+  - {name: 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai, server: tw1.enuotime.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3535d93b-cd19-444e-be33-05c02c6e2df5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw1.enuotime.com}}}
+  - {name: 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai, server: newtw.henyo.us, port: 1443, client-fingerprint: chrome, type: vmess, uuid: 85917b31-5b73-38c0-8ba5-6205bc482aad, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/us8.m3u8, headers: {Host: newtw.henyo.us}}}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: c857046e-9262-43bc-946f-93c2fe2e2ceb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
   - {name: "🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai", server: 103.177.33.188, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b0f52ff5be5b, tfo: false}
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai, server: piscium.verdens.xyz, port: 25014, client-fingerprint: chrome, type: vmess, uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: c857046e-9262-43bc-946f-93c2fe2e2ceb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai, server: tw3.enuotime.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3535d93b-cd19-444e-be33-05c02c6e2df5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw3.enuotime.com}}}
+  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai, server: yd.ktmwan.top, port: 27260, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: c857046e-9262-43bc-946f-93c2fe2e2ceb, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai", server: v02.gutingting.com, port: 30065, client-fingerprint: chrome, type: vmess, uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v02.gutingting.com}}}
+  - {name: 🇨🇳 14|🇹🇼 台湾|@ripaojiedian, server: a.52forest.com, port: 32302, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6b9e7c1f-3f7a-4831-9761-be4cac614b2b, tfo: false}
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai", server: v01.gutingting.com, port: 30063, client-fingerprint: chrome, type: vmess, uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
+  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai, server: lt.ktmwan.top, port: 27260, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai, server: twtw.henyo.us, port: 443, client-fingerprint: chrome, type: vmess, uuid: 85917b31-5b73-38c0-8ba5-6205bc482aad, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/us8.m3u8, headers: {Host: twtw.henyo.us}}}
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
       - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
       - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
       - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
       - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
       - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
       - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
-      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
       - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
+      - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai
+      - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
       - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
       - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
       - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
       - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
       - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
       - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 08 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 13 @nodpai
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 8,14|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 12|🇹🇼 Taiwan 09 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 07 @nodpai
+      - 🇨🇳 14|🇹🇼 台湾|@ripaojiedian
+      - 🇨🇳 7,8|中转 🇹🇼 Taiwan 10 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 05 @nodpai
+      - 🇨🇳 12|🇹🇼 Taiwan 11 @nodpai

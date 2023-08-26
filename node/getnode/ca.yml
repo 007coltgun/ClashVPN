@@ -1,55 +1,91 @@
 proxies:
+  - {name: 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33, server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 540f26d3-a91f-334d-a8c1-bdfc149c0ad5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai, server: lt.ktmwan.top, port: 27256, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, client-fingerprint: chrome, type: vmess, uuid: f8179c06-b0d1-40b8-9941-1853d9a8a285, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.lovemc.xyz}
+  - {name: 🇨🇦 9|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, client-fingerprint: chrome, type: vmess, uuid: 7d61cf93-6b8d-4be3-83f3-542fcd708c78, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.abpilot.xyz}
+  - {name: "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1", server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 1656210d-5b59-3d28-9028-1271f27eb03c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大", server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai, server: yd.ktmwan.top, port: 27256, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai, server: dx.ktmwan.top, port: 27256, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai, server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 1656210d-5b59-3d28-9028-1271f27eb03c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇦 12|🇨🇦 加拿大 256, server: us.freebaipiao.tk, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 03221b25-1a6a-4501-e519-1745b25f6c1f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /freebaipiao, headers: {Host: us.freebaipiao.tk}}}
-  - {name: 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai, server: orionis.weltknoten.xyz, port: 30018, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇦 8|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, client-fingerprint: chrome, type: vmess, uuid: 51d4cdf5-8fcd-4e9a-aa82-f47a4f44b98f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.abpilot.xyz}
-  - {name: "🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai", server: piscium.verdens.xyz, port: 25016, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, client-fingerprint: chrome, type: vmess, uuid: 85c5915d-f7a7-4bb1-825f-c1e33001181b, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.lovemc.xyz}
-  - {name: "🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大", server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-      - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
       - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
       - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
       - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
       - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
       - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
       - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
       - 🇨🇦 12|🇨🇦 加拿大 256
-      - 🇨🇦 7|中转 🇨🇦 Canada 02 @nodpai
-      - 🇨🇦 8|🇨🇦加拿大04
-      - 🇨🇦 7,7|中转 🇨🇦 Canada 01 @nodpai
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_33
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 0,3,19|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 9|🇨🇦加拿大04
+      - "🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai #1"
+      - 🇨🇦 0,3|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
+      - 🇨🇦 8|中转 🇨🇦 Canada 02 @nodpai
+      - 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 7|中转 🇨🇦 Canada 03 @nodpai
+      - 🇨🇦 12|🇨🇦 加拿大 256

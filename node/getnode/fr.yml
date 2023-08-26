@@ -1,73 +1,82 @@
 proxies:
   - {name: 🇫🇷 _FR_法国->🇨🇳_CN_中国, server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: ns1.v2-vip.fun, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: ns1.v2-vip.fun}}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 04 @nodpai", server: 57.ddzdd.top, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 57.ddzdd.top}}}
+  - {name: 🇫🇷 8|中转 🇫🇷 France 03 @nodpai, server: lt.ktmwan.top, port: 27258, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
   - {name: "🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国", server: ns1.v2-vip.fun, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: 🇫🇷 8|中转 🇫🇷 France 02 @nodpai, server: dx.ktmwan.top, port: 27258, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
-  - {name: 🇫🇷 8|中转 🇫🇷 France 03 @nodpai, server: yd.ktmwan.top, port: 27258, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: 🇫🇷 8|中转 🇫🇷 France 01 @nodpai, server: dx.ktmwan.top, port: 27258, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
   - {name: "🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国", server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇫🇷 8|中转 🇫🇷 France 01 @nodpai, server: lt.ktmwan.top, port: 27258, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
+  - {name: 🇫🇷 8|中转 🇫🇷 France 02 @nodpai, server: yd.ktmwan.top, port: 27258, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dad81c22-947e-4fab-bec8-313d57ebc9a6, tfo: false}
   - {name: 12|🇫🇷🌏 @customv2ray کانفیگ های بی..., server: 45.199.138.195, port: 30358, client-fingerprint: chrome, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
+      - 🇫🇷 7,8|🇫🇷 France 04 @nodpai
       - 🇫🇷 8|中转 🇫🇷 France 03 @nodpai
-      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 0,3,6|🇺🇸 _US_美国->🇫🇷_FR_法国
       - 🇫🇷 8|中转 🇫🇷 France 01 @nodpai
+      - 🇫🇷 6,10,11|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇫🇷 8|中转 🇫🇷 France 02 @nodpai
       - 12|🇫🇷🌏 @customv2ray کانفیگ های بی...

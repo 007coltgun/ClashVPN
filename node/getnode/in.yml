@@ -1,55 +1,82 @@
 proxies:
-  - {name: 🇮🇳 9|🇮🇳印度04, server: 7i4n04.abzoones.xyz, port: 36831, client-fingerprint: chrome, type: vmess, uuid: c1f3c0d1-f7d2-4037-aea7-d26d02000477, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: in04.abpilot.xyz}
-  - {name: "🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度", server: zjxc.pmxu.link, port: 40270, client-fingerprint: chrome, type: vmess, uuid: e33aee02-9ab2-365e-840b-47fe8597c425, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇮🇳 7|中转 🇮🇳 India 02 @nodpai, server: leonis.verdens.xyz, port: 25018, client-fingerprint: chrome, type: vmess, uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 🇮🇳 13|印度 04 | 1x IN, server: 6q3i1n04.mcfront.xyz, port: 31831, client-fingerprint: chrome, type: vmess, uuid: f73ccdff-d672-4d93-b6dd-7e047bf9c751, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: in04.lovemc.xyz}
+  - {name: 🇮🇳 7|中转 🇮🇳 India 03 @nodpai, server: zjxc.pmxu.link, port: 36988, client-fingerprint: chrome, type: vmess, uuid: a21d6580-f978-3fd2-95f3-230a7f29099a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇮🇳 7,8|🇮🇳 India 05 @nodpai", server: 172.67.191.240, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2f5a7d64-be9c-4be2-81cf-82ecdcc95787, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇮🇳 13|印度 04 | 1x IN, server: 6q3i1n04.mcfront.xyz, port: 31831, client-fingerprint: chrome, type: vmess, uuid: 5f3fabdc-d5b6-4ceb-b22a-6aca484f3181, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: in04.lovemc.xyz}
   - {name: "🇮🇳 7,8,12|🇮🇳 India 01 @nodpai", server: ydarm.e5outllok.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ydarm.e5outllok.me}}}
-  - {name: "🇮🇳 10,11|印度 v2rayfree.eu.org", server: 103.160.204.228, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
-      - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
-      - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+  - {name: "🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度", server: zjxc.pmxu.link, port: 40270, client-fingerprint: chrome, type: vmess, uuid: e33aee02-9ab2-365e-840b-47fe8597c425, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇮🇳 10|印度 v2rayfree.eu.org, server: 103.160.204.228, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇮🇳 8|中转 🇮🇳 India 04 @nodpai, server: a.52forest.com, port: 32403, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32b722c7-ab42-4aee-b01f-38b7d7f07bb3, tfo: false}
+  - {name: 🇮🇳 9|🇮🇳印度04, server: 7i4n04.abzoones.xyz, port: 36831, client-fingerprint: chrome, type: vmess, uuid: 761012da-3bc2-4f87-a09d-86848380e96c, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: in04.abpilot.xyz}
+  - {name: 🇮🇳 7|中转 🇮🇳 India 02 @nodpai, server: leonis.verdens.xyz, port: 25018, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
       - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
       - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
       - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
       - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
       - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
       - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
       - 🇮🇳 9|🇮🇳印度04
-      - 🇮🇳 0,3|🇮🇳 _CN_中国->🇮🇳_IN_印度
       - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai
+      - 🇮🇳 7|中转 🇮🇳 India 03 @nodpai
+      - 🇮🇳 7,8|🇮🇳 India 05 @nodpai
       - 🇮🇳 13|印度 04 | 1x IN
       - 🇮🇳 7,8,12|🇮🇳 India 01 @nodpai
-      - 🇮🇳 10,11|印度 v2rayfree.eu.org
+      - 🇮🇳 0,2,3,4|🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇮🇳 10|印度 v2rayfree.eu.org
+      - 🇮🇳 8|中转 🇮🇳 India 04 @nodpai
+      - 🇮🇳 9|🇮🇳印度04
+      - 🇮🇳 7|中转 🇮🇳 India 02 @nodpai

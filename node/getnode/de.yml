@@ -1,127 +1,82 @@
 proxies:
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 07 @nodpai", server: 89.163.150.44, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/252617081903}}
-  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, client-fingerprint: chrome, type: vmess, uuid: e9c17892-2caa-45f6-87fd-c6dbf36d7795, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.abpilot.xyz}
-  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国", server: 172.67.51.152, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 02 @nodpai", server: 172.67.8.239, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun}}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai, server: centauri.verdens.xyz, port: 25017, client-fingerprint: chrome, type: vmess, uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 🇩🇪 _DE_德国, server: 45.32.153.201, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国", server: yd1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
   - {name: 12|🇩🇪白嫖-118, server: vde1.0bad.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 06 @nodpai", server: 89.163.150.201, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/252617081903}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 03 @nodpai", server: 89.163.129.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/252617081903}}
-  - {name: 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心, server: wi.saintink.eu.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai", server: 172.67.51.152, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun}}
-  - {name: "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1", server: 172.67.8.239, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
-  - {name: "12|Channel id: @ShadowProxy66🇩🇪", server: 3.71.79.197, port: 48793, client-fingerprint: chrome, type: vmess, uuid: f28189cc-6dda-4e6b-94fc-5ad0da17bde4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 08 @nodpai", server: 104.25.63.151, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 05 @nodpai", server: 45.32.153.201, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+  - {name: "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai", server: 185.59.218.177, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9}}
+  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1", server: 172.67.51.152, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
+  - {name: "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2", server: 172.67.8.239, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
+  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, client-fingerprint: chrome, type: vmess, uuid: de2c2a0d-f099-4a5e-953c-dabed7fbc073, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: "🇩🇪 6,7,8,12|🇩🇪_DE_德国", server: 45.32.153.201, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai", server: 45.32.153.201, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 07 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai
+      - 🇩🇪 _DE_德国
+      - 🇺🇸 0,10|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 12|🇩🇪白嫖-118
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 10|德国 黑森州法兰克福Choopa数据中心
       - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - "12|Channel id: @ShadowProxy66🇩🇪"
-      - 🇩🇪 7,8|🇩🇪 Germany 08 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 05 @nodpai
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 6,7,8,12|🇩🇪_DE_德国
+      - 🇩🇪 7,8,12|🇩🇪 Germany 03 @nodpai

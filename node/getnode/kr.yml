@@ -1,28 +1,100 @@
 proxies:
-  - {name: 🇰🇷 13|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, client-fingerprint: chrome, type: vmess, uuid: 6b44f520-e38f-484a-b3aa-c67c283099a0, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: kr04.lovemc.xyz}
-  - {name: 🇰🇷 8|🇰🇷 South Korea 01 @nodpai, server: 43.201.55.91, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇰🇷 9|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, client-fingerprint: chrome, type: vmess, uuid: bb9a7c59-4e03-4592-9272-b11968533bd2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: kr04.abpilot.xyz}
+  - {name: 12|🇰🇷 春川5, server: 7.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 7.620720.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 7.620720.xyz}}}
+  - {name: 🇰🇷 8|🇰🇷 South Korea 02 @nodpai, server: 43.201.61.124, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai, server: andromedae.weltknoten.xyz, port: 30024, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 12|🇰🇷 春川2, server: 2.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 2.620720.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2.620720.xyz}}}
+  - {name: 🇰🇷 13|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, client-fingerprint: chrome, type: vmess, uuid: 8ae8f6b3-a034-460c-a739-3635aac27f47, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: kr04.lovemc.xyz}
+  - {name: 🇰🇷 12|🇰🇷 首尔1, server: kr.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: kr.620720.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.620720.xyz}}}
+  - {name: 🇰🇷 12|🇰🇷 首尔2, server: hg.620720.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: hg.620720.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hg.620720.xyz}}}
+  - {name: 12|🇰🇷 春川3, server: 3.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 3.620720.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3.620720.xyz}}}
+  - {name: 🇰🇷 8|🇰🇷 South Korea 03 @nodpai, server: 43.201.54.68, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 12|🇰🇷 春川6, server: hk.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: hk.620720.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.620720.xyz}}}
+  - {name: 🇰🇷 9|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, client-fingerprint: chrome, type: vmess, uuid: 94d20fc3-40dd-4438-beb5-9a18395932d4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: kr04.abpilot.xyz}
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04
+      - 12|🇰🇷 春川5
+      - 🇰🇷 8|🇰🇷 South Korea 02 @nodpai
+      - 🇰🇷 7|中转 🇰🇷 South Korea 01 @nodpai
+      - 12|🇰🇷 春川2
       - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 8|🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 12|🇰🇷 首尔1
+      - 🇰🇷 12|🇰🇷 首尔2
+      - 12|🇰🇷 春川3
+      - 🇰🇷 8|🇰🇷 South Korea 03 @nodpai
+      - 12|🇰🇷 春川6
       - 🇰🇷 9|🇰🇷韩国04

@@ -1,82 +1,46 @@
 proxies:
-  - {name: "🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai", server: in06.my1188.org, port: 64092, client-fingerprint: chrome, type: vmess, uuid: 49caece5-2a9f-32a0-a02d-f55d966a9155, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: in06.my1188.org}}}
-  - {name: "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...", server: 45.77.141.170, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1", server: 45.32.153.201, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 4134efe7-d935-416c-c2cc-24943e4a80ca, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 7|🇩🇪 Germany 02 @nodpai, server: yd1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yd1.992688.xyz}}}
-  - {name: 12|🇩🇪白嫖-118, server: vde1.0bad.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai, server: scorpii.weltknoten.xyz, port: 30017, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国", server: dx1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
-  - {name: 🇩🇪 12|🇩🇪_DE_德国_29, server: static.110.100.140.128.clients.your-server.de, port: 2083, client-fingerprint: chrome, type: vmess, uuid: 90e968f5-58a5-42ce-a2de-c81894054563, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, client-fingerprint: chrome, type: vmess, uuid: 65dc2e4d-162a-421e-a4eb-1727d868c193, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.abpilot.xyz}
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+  - {name: "🇩🇪 7,8|🇩🇪 Germany 02 @nodpai", server: dx1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dx1.992688.xyz}}}
+  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, client-fingerprint: chrome, type: vmess, uuid: 54e38d05-a17b-44ee-978b-334d405c9434, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: "🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国", server: dx1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
+  - {name: 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135, server: 51vfly1.win, port: 443, client-fingerprint: chrome, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /myblog, headers: {Host: 51vfly1.win}}}
+  - {name: 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai, server: cm1-xg.go001.buzz, port: 19891, client-fingerprint: chrome, type: vmess, uuid: 3d530091-7113-3df4-aab3-a53cec94e991, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C...
-      - "🇩🇪 11,12|github.com/freefq - 德国黑森州法兰克福C... #1"
-      - 🇩🇪 7|🇩🇪 Germany 02 @nodpai
-      - 12|🇩🇪白嫖-118
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 1,2,4,17|_US_美国->🇩🇪_DE_德国
-      - 🇩🇪 12|🇩🇪_DE_德国_29
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
+      - 🇺🇸 1,2,4,18|_US_美国->🇩🇪_DE_德国
+      - 🇺🇸 12|🇺🇸 Relay_🇺🇸US-🇩🇪DE_135
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai

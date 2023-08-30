@@ -1,55 +1,91 @@
 proxies:
-  - {name: 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46, server: 10.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 3a47bbc1-8bb4-4d98-b7be-17129393a651, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 10.620720.xyz}}}
-  - {name: 🇦🇺 13|澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, client-fingerprint: chrome, type: vmess, uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: au04.lovemc.xyz}
+  - {name: 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai, server: gz.daxun.cyou, port: 38017, client-fingerprint: chrome, type: vmess, uuid: 668561f4-3332-4b83-a382-da05975040f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai, server: gz.daxun.cyou, port: 26033, client-fingerprint: chrome, type: vmess, uuid: 668561f4-3332-4b83-a382-da05975040f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇦🇺 9|🇦🇺澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, client-fingerprint: chrome, type: vmess, uuid: 8dc4ef83-8f10-41a3-b9fe-42c6bcd3c641, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: au04.abpilot.xyz}
+  - {name: 🇦🇺 13|德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, client-fingerprint: chrome, type: vmess, uuid: a4fd8afb-ae97-4c76-b162-a6cf21363006, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.lovemc.xyz}
+  - {name: 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai, server: gz.daxun.cyou, port: 26035, client-fingerprint: chrome, type: vmess, uuid: 668561f4-3332-4b83-a382-da05975040f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai, server: gz.daxun.cyou, port: 38023, client-fingerprint: chrome, type: vmess, uuid: 668561f4-3332-4b83-a382-da05975040f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇦🇺 13|澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, client-fingerprint: chrome, type: vmess, uuid: a4fd8afb-ae97-4c76-b162-a6cf21363006, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: au04.lovemc.xyz}
   - {name: 12|🇦🇺白嫖-299, server: vau1.0bad.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}}
-  - {name: 🇦🇺 13|德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, client-fingerprint: chrome, type: vmess, uuid: f7f87702-36bb-4a25-9b0e-ac5a3f88cb62, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: de04.lovemc.xyz}
-  - {name: 🇦🇺 9|🇦🇺澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, client-fingerprint: chrome, type: vmess, uuid: 890baecd-2f1b-4466-a8c3-c77981d0275a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: au04.abpilot.xyz}
   - {name: "🇦🇺 7,12|🇦🇺 Australia 01 @nodpai", server: 139.99.245.164, port: 49921, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-      - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+  - {name: 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46, server: 10.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 3a47bbc1-8bb4-4d98-b7be-17129393a651, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 10.620720.xyz}}}
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
       - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
       - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
       - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
       - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
       - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
       - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
       - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46
+      - 🇦🇺 7|中转 🇦🇺 Australia 05 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 7|中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 7|中转 🇦🇺 Australia 02 @nodpai
       - 🇦🇺 13|澳大利亚 04 | 1x AU
       - 12|🇦🇺白嫖-299
-      - 🇦🇺 13|德国 04 | 1x AU
-      - 🇦🇺 9|🇦🇺澳大利亚04
       - 🇦🇺 7,12|🇦🇺 Australia 01 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_46

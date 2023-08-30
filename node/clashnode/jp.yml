@@ -1,5 +1,4 @@
 proxies:
-  - {name: 🇯🇵 _JP_日本, server: 13.115.145.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 _JP_日本 2, server: 13.115.245.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 _JP_日本 3, server: 18.181.211.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 183.232.170.14, port: 61001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 _US_美国->🇯🇵_JP_日本, server: 6.620720.xyz, port: 443, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 6.620720.xyz}}}
+  - {name: 🇯🇵 _US_美国->🇯🇵_JP_日本 2, server: 18.620720.xyz, port: 8443, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 18.620720.xyz}}}
+  - {name: 🇯🇵 _US_美国->🇯🇵_JP_日本 3, server: 5.620720.xyz, port: 443, type: vmess, uuid: 9173b0b8-a80b-4617-b90f-1d375afbb962, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 5.620720.xyz}}}

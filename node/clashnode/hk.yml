@@ -1,3 +1,5 @@
 proxies:
-  - {name: 🇭🇰 _HK_香港, server: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com, port: 80, type: vmess, uuid: 4a75c3ba-f2e9-11ed-bf1b-f23c91369f2d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com}}}
   - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国, server: 103.160.204.98, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 _HK_香港, server: 45.11.104.94, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: 120.233.43.62, port: 51904, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: 120.226.50.92, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}

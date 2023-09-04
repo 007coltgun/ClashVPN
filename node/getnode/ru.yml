@@ -1,55 +1,64 @@
 proxies:
   - {name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦, server: fusion.mlinuu.top, port: 10010, client-fingerprint: chrome, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇷🇺 9|🇷🇺俄罗斯04, server: 8r5u04.abzoones.xyz, port: 36851, client-fingerprint: chrome, type: vmess, uuid: 49b3c448-415f-432b-8700-f07fd7ead11b, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ru04.abpilot.xyz}
   - {name: 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦, server: fusion.mlinuu.top, port: 10010, client-fingerprint: chrome, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇷🇺 13|俄罗斯 04 | 1x RU, server: 4t1r5u04.mcfront.xyz, port: 31851, client-fingerprint: chrome, type: vmess, uuid: 5cc93725-4774-4686-8787-c0366ad816ad, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ru04.lovemc.xyz}
+  - {name: "🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai", server: in06.my1188.org, port: 64009, client-fingerprint: chrome, type: vmess, uuid: 886ac452-590a-3dae-bed9-96203e9aacfb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: in06.my1188.org}}}
   - {name: 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai, server: piscium.verdens.xyz, port: 25020, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
   - {name: 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai, server: andromedae.weltknoten.xyz, port: 30019, client-fingerprint: chrome, type: vmess, uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
+  - {name: 🇷🇺 13|俄罗斯 04 | 1x RU, server: 4t1r5u04.mcfront.xyz, port: 31851, client-fingerprint: chrome, type: vmess, uuid: 5005165e-3043-4e97-9f41-a7319f7d931d, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ru04.lovemc.xyz}
+  - {name: 🇷🇺 9|🇷🇺俄罗斯04, server: 8r5u04.abzoones.xyz, port: 36851, client-fingerprint: chrome, type: vmess, uuid: 5293295d-9cf7-4b1d-8223-20e8f3737433, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ru04.abpilot.xyz}
       - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
       - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
-      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
-      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
       - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
-      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
-      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
       - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
-      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
-      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
       - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
-      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
-      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
       - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
-      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
-      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
       - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
-      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
-      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
       - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
-      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-      - 🇷🇺 9|🇷🇺俄罗斯04
-      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
       - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 6|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇷🇺 7,8|中转 🇷🇺 Russia 03 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 01 @nodpai
       - 🇷🇺 7|中转 🇷🇺 Russia 02 @nodpai
+      - 🇷🇺 13|俄罗斯 04 | 1x RU
+      - 🇷🇺 9|🇷🇺俄罗斯04

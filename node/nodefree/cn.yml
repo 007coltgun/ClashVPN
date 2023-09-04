@@ -1,85 +1,49 @@
 proxies:
-  - {name: _US_美国->🇨🇳_CN_中国, server: 172.67.49.28, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _CN_中国, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国 2, server: 172.67.148.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: in06.my1188.org, port: 64096, type: vmess, uuid: 886ac452-590a-3dae-bed9-96203e9aacfb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: in06.my1188.org, port: 64003, type: vmess, uuid: 886ac452-590a-3dae-bed9-96203e9aacfb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: 221.131.165.186, port: 18075, type: vmess, uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda}, udp: true}
-  - {name: _US_美国->🇨🇳_CN_中国 3, server: 172.67.6.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国, server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 2, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国, server: 183.232.249.40, port: 54004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港 2, server: 120.233.43.62, port: 51904, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 3, server: 172.67.148.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 4, server: 172.67.6.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: 120.241.47.40, port: 58602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
       - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
       - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
       - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
       - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
       - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇹🇼_TW_台湾
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
       - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
       - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
       - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
-      - _US_美国->🇨🇳_CN_中国 3
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国
-      - _US_美国->🇨🇳_CN_中国 2
-      - _CN_中国->🇭🇰_HK_香港
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇹🇼_TW_台湾
       - _US_美国->🇨🇳_CN_中国 3
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇭🇰_HK_香港 2
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇺🇸_US_美国 2

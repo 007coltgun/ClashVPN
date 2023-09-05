@@ -113,40 +113,36 @@ proxies:
   - {name: 🇨🇳 CN-183.56.247.206-231, server: gzdx.jcnode.top, port: 29482, client-fingerprint: chrome, type: trojan, password: 56d032cc-fba9-43eb-93bc-315635a47786, tfo: false, sni: sg03.ckcloud.info, skip-cert-verify: false}
   - {name: 🇨🇳 CN-183.56.247.206-335, server: gzdx.jcnode.top, port: 29482, client-fingerprint: chrome, type: trojan, password: 44d864e8-bdfb-4c9b-865e-169377b2fea5, tfo: false, sni: sg03.ckcloud.info, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 172.67.49.28, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 05 @nodpai, server: 175.27.154.61, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国", server: 162.159.253.16, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai, server: 1.tw.zz.xxxxx.x-t-fuckword.network, port: 53137, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai, server: 103.234.128.130, port: 48752, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5", server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1", server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: ac48fd33-3544-4aaf-b52e-a6e8771d10d4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai, server: tw1.v3.zz.cn.fuckword.club, port: 49111, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2", server: 172.67.10.151, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, client-fingerprint: chrome, type: vmess, uuid: f2a39c98-d7ca-4c34-81d7-c278799e5945, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.lovemc.xyz}
-  - {name: "🇨🇳 10,11,12|广东省云浮市移动 4", server: iepl2.airtcp.vip, port: 30026, client-fingerprint: chrome, type: vmess, uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai", server: game.hk.udp.01.fuckword.club, port: 60317, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 03 @nodpai, server: 112.132.212.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai, server: 103.234.128.130, port: 60317, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai, server: 2.tw.zz.xxxxx.x-t-fuckword.network, port: 49484, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 07 @nodpai, server: 114.117.234.12, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: ac48fd33-3544-4aaf-b52e-a6e8771d10d4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3", server: 172.67.92.119, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, client-fingerprint: chrome, type: vmess, uuid: f2a39c98-d7ca-4c34-81d7-c278799e5945, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: "🇨🇳 12,18|YouTube面具人哈乐_中国_48", server: hkbgp.0111.tg.network-cdn-gw-zz.com, port: 34795, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, client-fingerprint: chrome, type: vmess, uuid: f7c9af32-ba1a-44da-b2ba-40ed4e91a847, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.lovemc.xyz}
   - {name: "🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国", server: 172.67.49.28, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6", server: 172.67.148.210, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai, server: 1-1.drd3d.ere3.221dss.tw.zz.xxxxx.x-t-fuckword.network, port: 48716, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3", server: 172.67.149.100, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k..., server: 1.5.1.fuckppppp.today, port: 50810, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3", server: 172.67.92.119, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, client-fingerprint: chrome, type: vmess, uuid: f7c9af32-ba1a-44da-b2ba-40ed4e91a847, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz..., server: game.hk.udp.01.fuckword.club, port: 60317, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2", server: 172.67.10.151, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 7|中转 🇨🇳 China 08 @nodpai, server: 39.103.165.178, port: 56002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国", server: 172.67.211.253, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 06 @nodpai, server: 39.103.165.178, port: 56002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai, server: tw1.v6.zz.cn.fuckword.club, port: 49434, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 15|台湾bgp|@ripaojiedian, server: 1.sg.zz.xxxxx.x-t-fuckword.network, port: 36674, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai, server: 5.jp.zz.xxxxx.x-t-fuckword.network, port: 48752, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇨🇳 10,11|四川省泸州市移动 15", server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, client-fingerprint: chrome, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
-  - {name: "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai", server: 123.249.101.15, port: 19709, client-fingerprint: chrome, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 04 @nodpai, server: 111.230.252.149, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: ac48fd33-3544-4aaf-b52e-a6e8771d10d4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 7|中转 🇨🇳 China 09 @nodpai, server: 175.27.154.61, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai", server: tw1.kidcc.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw1.kidcc.xyz}}}
+  - {name: 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141, server: gamespeed-gateway-1.numastergame.com, port: 11872, client-fingerprint: chrome, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 7|中转 🇨🇳 China 10 @nodpai, server: 112.132.212.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: dd56971a-655b-4c05-b2e2-cdd5a8074b56, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1", server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 10|广东省云浮市移动 4, server: iepl2.airtcp.vip, port: 30026, client-fingerprint: chrome, type: vmess, uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国", server: 162.159.253.16, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4", server: 172.64.203.172, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, client-fingerprint: chrome, type: vmess, uuid: f2a39c98-d7ca-4c34-81d7-c278799e5945, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3", server: 172.67.149.100, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, client-fingerprint: chrome, type: vmess, uuid: f7c9af32-ba1a-44da-b2ba-40ed4e91a847, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: dd56971a-655b-4c05-b2e2-cdd5a8074b56, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai, server: 103.234.128.130, port: 48752, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 7|中转 🇨🇳 China 11 @nodpai, server: 111.230.252.149, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 7|中转 🇨🇳 China 12 @nodpai, server: 114.117.234.12, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai", server: 1.sg.zz.xxxxx.x-t-fuckword.network, port: 36674, client-fingerprint: chrome, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5", server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6", server: 172.67.148.210, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: dd56971a-655b-4c05-b2e2-cdd5a8074b56, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai", server: 123.249.101.15, port: 19709, client-fingerprint: chrome, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -261,40 +257,36 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -409,40 +401,36 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -557,40 +545,36 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -705,47 +689,43 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
       - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -860,40 +840,36 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -1008,40 +984,36 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -1156,40 +1128,36 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -1304,37 +1272,33 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-231
       - 🇨🇳 CN-183.56.247.206-335
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 05 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 10,11,12|广东省云浮市移动 4
-      - 🇨🇳 7,18|中转 🇹🇼 Taiwan 12 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 04 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 07 @nodpai
-      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 12,18|YouTube面具人哈乐_中国_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇯🇵 18|🇨🇳_CN_中国->🇯🇵_JP_日本_2_由快嘴科技提供：k...
       - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇺🇸 6,10|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 29 @nodpai
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 18|🇨🇳_CN_中国->🇹🇼_TW_台湾_由快嘴科技提供：kkz...
+      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇨🇳 China 08 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 08 @nodpai
-      - 🇨🇳 15|台湾bgp|@ripaojiedian
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 10,11|四川省泸州市移动 15
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 04 @nodpai
-      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7|中转 🇨🇳 China 09 @nodpai
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7|中转 🇨🇳 China 10 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 10|广东省云浮市移动 4
+      - 🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 11 @nodpai
+      - 🇨🇳 7|中转 🇨🇳 China 12 @nodpai
+      - 🇨🇳 7,15|中转 🇹🇼 Taiwan 01 @nodpai
+      - "🇺🇸 0,1,2,3,4,10,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - "🇺🇸 0,1,2,3,4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai

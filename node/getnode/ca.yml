@@ -3,36 +3,16 @@ proxies:
   - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: singapore.com}}}
   - {name: 🇨🇦 _CA_加拿大_1, server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com}}
   - {name: 🇨🇦 _CA_加拿大_2, server: 198.57.27.212, port: 22324, client-fingerprint: chrome, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 04 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10712, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: acfd348f-4429-476c-b0f8-31eca5be0b5d, tfo: false}
+  - {name: "🇨🇦 7,8|🇨🇦 Canada 90 @nodpai", server: 162.159.142.212, port: 80, client-fingerprint: chrome, type: vmess, uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431}}
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 03 @nodpai, server: hefei.chiguayun.cc, port: 27106, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4712117e-ca95-411a-98e9-abd57667754e, tfo: false}
+  - {name: "🇭🇰 0,18|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1", server: 103.160.204.108, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 16.wyhkaa0.gq}}}
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai, server: foshan.chiguayun.cc, port: 27106, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4712117e-ca95-411a-98e9-abd57667754e, tfo: false}
+  - {name: 🇯🇵 12|🇨🇦_CA_加拿大_分享日记, server: 23.227.39.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: "🇨🇦 6,12|🇨🇦_CA_加拿大", server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: "🇨🇦 7,8|🇨🇦 Canada 86 @nodpai", server: 162.159.142.214, port: 80, client-fingerprint: chrome, type: vmess, uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431}}
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 15 @nodpai, server: jh.xianyuwangluo.cyou, port: 27210, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 156419d9-fcee-4ad4-90b4-ca067d7a3ed9, tfo: false}
+  - {name: "🇨🇦 7,8|🇨🇦 Canada 91 @nodpai", server: 162.159.142.216, port: 80, client-fingerprint: chrome, type: vmess, uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431}}
+  - {name: "🇭🇰 6,18|🇭🇰_HK_香港->🇨🇦_CA_加拿大", server: 103.160.204.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
+  - {name: "🇨🇦 6,12|🇨🇦_CA_加拿大 #1", server: 198.57.27.212, port: 22324, client-fingerprint: chrome, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇦 7|中转 🇨🇦 Canada 31 @nodpai, server: 15037.kuaiyin.win, port: 15037, client-fingerprint: chrome, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}

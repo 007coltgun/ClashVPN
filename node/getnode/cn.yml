@@ -115,46 +115,40 @@ proxies:
   - {name: 🇨🇳 CN-111.47.212.59-119, server: gzyd02.jcnode.top, port: 36403, client-fingerprint: chrome, type: trojan, password: 29dcf703-5795-4a19-9066-c67f70e1aefb, tfo: false, sni: uk01.ckcloud.info, skip-cert-verify: false}
   - {name: 🇨🇳 CN-183.56.247.206-122, server: gzdx.jcnode.top, port: 17022, client-fingerprint: chrome, type: trojan, password: 5c6766e1-9853-4327-acce-ac81db5e0bdf, tfo: false, sni: vn01.ckcloud.info, skip-cert-verify: false}
   - {name: 🇨🇳 CN-183.56.247.206-294, server: gzdx.jcnode.top, port: 17022, client-fingerprint: chrome, type: trojan, password: b4bab1d4-17b5-4d83-b400-0e3b035860aa, tfo: false, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_1, server: 172.64.202.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇫🇷 _FR_法国->🇨🇳_CN_中国, server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_2, server: 172.67.149.100, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_3, server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: 33dc70a7-d2e0-4bd8-ac3c-8fb738da2152, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国, server: 172.67.148.210, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48, server: 10.kccic2pa.xyz, port: 50010, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5, server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_1, server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_2, server: 172.64.203.172, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, client-fingerprint: chrome, type: vmess, uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai, server: xiongda006.daxiongda.top, port: 18804, client-fingerprint: chrome, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xiongda006.daxiongda.top}}}
   - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3", server: 172.67.10.151, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz..., server: 31.kccic2pa.xyz, port: 50031, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇨🇳 11,12|github.com/freefq - 北京市移动 5", server: 39.kccic2pa.xyz, port: 50039, client-fingerprint: chrome, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141, server: gamespeed-gateway-1.numastergame.com, port: 11872, client-fingerprint: chrome, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3, server: 41.kccic2pa.xyz, port: 50041, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4", server: 172.67.92.119, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1", server: 172.67.149.100, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian, server: 103.177.33.68, port: 15405, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: EhbOd1BRf4BMzhwx, tfo: false}
-  - {name: 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz..., server: zjxc.pmxu.link, port: 36988, client-fingerprint: chrome, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39, server: 30.kccic2pa.xyz, port: 50030, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2", server: 172.64.90.186, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾, server: fusion.mlinuu.top, port: 10008, client-fingerprint: chrome, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 10|北京市移动 16, server: 07.kccic2pa.xyz, port: 50007, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国", server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南, server: zjxc.pmxu.link, port: 40270, client-fingerprint: chrome, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1", server: 221.131.165.175, port: 11810, client-fingerprint: chrome, type: vmess, uuid: 126a61d9-14ea-39d7-883b-7e6075c73bef, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
-  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: 33dc70a7-d2e0-4bd8-ac3c-8fb738da2152, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50, server: 43.kccic2pa.xyz, port: 50043, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾", server: zjxc.pmxu.link, port: 44207, client-fingerprint: chrome, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37, server: 33.kccic2pa.xyz, port: 50033, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, client-fingerprint: chrome, type: vmess, uuid: 1b2fb5bb-18b2-4fe3-9932-bb38b5b2d8a9, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.lovemc.xyz}
   - {name: 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47, server: 09.kccic2pa.xyz, port: 50009, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, client-fingerprint: chrome, type: vmess, uuid: 1b2fb5bb-18b2-4fe3-9932-bb38b5b2d8a9, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.lovemc.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: 33dc70a7-d2e0-4bd8-ac3c-8fb738da2152, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: "🇨🇳 11,12|github.com/freefq - 北京市移动 3", server: 19.kccic2pa.xyz, port: 50019, client-fingerprint: chrome, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2", server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国", server: 172.64.161.58, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 10|北京市移动 4, server: 04.kccic2pa.xyz, port: 50004, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国, server: 172.64.202.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 10|甘肃省兰州市 移动, server: 03.kccic2pa.xyz, port: 50003, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3, server: 41.kccic2pa.xyz, port: 50041, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, client-fingerprint: chrome, type: vmess, uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: 🇨🇳 10|北京市移动 16, server: 07.kccic2pa.xyz, port: 50007, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24, server: 34.kccic2pa.xyz, port: 50034, client-fingerprint: chrome, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz..., server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, client-fingerprint: chrome, type: vmess, uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50, server: 43.kccic2pa.xyz, port: 50043, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, client-fingerprint: chrome, type: vmess, uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34, server: fusion.mlinuu.top, port: 10010, client-fingerprint: chrome, type: vmess, uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian, server: 103.177.33.68, port: 15405, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: EhbOd1BRf4BMzhwx, tfo: false}
+  - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37, server: 33.kccic2pa.xyz, port: 50033, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49, server: 01.kccic2pa.xyz, port: 50001, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, client-fingerprint: chrome, type: vmess, uuid: 1b2fb5bb-18b2-4fe3-9932-bb38b5b2d8a9, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: "🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国", server: 172.64.161.58, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39, server: 30.kccic2pa.xyz, port: 50030, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48, server: 10.kccic2pa.xyz, port: 50010, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, client-fingerprint: chrome, type: vmess, uuid: a43b0e60-4928-4b64-a54c-b6622b6b3cee, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: 🇨🇳 10|甘肃省兰州市 移动, server: 03.kccic2pa.xyz, port: 50003, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 10|北京市移动 4, server: 04.kccic2pa.xyz, port: 50004, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, client-fingerprint: chrome, type: vmess, uuid: 7a48d9a8-1b5a-4276-92ce-4bb8574529c8, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1", server: 172.64.203.172, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2", server: 172.64.90.186, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141, server: gamespeed-gateway-1.numastergame.com, port: 11872, client-fingerprint: chrome, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz..., server: zjxc.pmxu.link, port: 36988, client-fingerprint: chrome, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5, server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾", server: zjxc.pmxu.link, port: 44207, client-fingerprint: chrome, type: vmess, uuid: 67febe58-6831-3c16-93dd-34706ef61a63, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz..., server: 31.kccic2pa.xyz, port: 50031, client-fingerprint: chrome, type: vmess, uuid: 120cadf2-e254-4069-97b2-acd33cfc4f3f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4", server: 172.67.92.119, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国, server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -272,45 +266,39 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -428,45 +416,39 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -584,45 +566,39 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -740,56 +716,48 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
-      - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾05
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
       - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -907,45 +875,39 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -1063,45 +1025,39 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -1219,45 +1175,39 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇨🇳 CN-183.56.247.206-000
       - 🇨🇳 CN-183.56.229.236-002
       - 🇨🇳 CN-183.56.247.206-003
@@ -1375,42 +1325,36 @@ proxies:
       - 🇨🇳 CN-183.56.247.206-122
       - 🇨🇳 CN-183.56.247.206-294
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
-      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
       - 🇨🇳 9|🇹🇼台湾05
-      - 🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
-      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 12|🇹🇼 Taiwan 18 @nodpai
       - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 5
-      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
-      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
-      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 10|北京市移动 16
-      - 🇫🇷 0,6,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇻🇳 6|🇨🇳_CN_中国->🇻🇳_VN_越南
-      - "🇨🇳 0|🇹🇼 _CN_中国->🇹🇼_TW_台湾 #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
-      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
-      - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_47
+      - 🇫🇷 18|🇨🇳_CN_中国->🇫🇷_FR_法国_3
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 10|北京市移动 16
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+      - 🇫🇷 18|🇫🇷_FR_法国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11,12|github.com/freefq - 北京市移动 3
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|北京市移动 4
-      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇨🇳 10|甘肃省兰州市 移动
-      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 18|🇨🇳_CN_中国->🇱🇮_LI_列支敦士登_50
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇷🇺 12|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4@34
+      - 🇨🇳 14|🇹🇼 台湾独家|@ripaojiedian
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_3_37
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_5_49
+      - 🇺🇸 1,2,3,4,18|_US_美国->🇨🇳_CN_中国
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_4_39
+      - 🇭🇰 18|🇨🇳_CN_中国->🇭🇰_HK_香港_48
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 10|甘肃省兰州市 移动
+      - 🇨🇳 10|北京市移动 4
+      - 🇨🇳 9|🇹🇼台湾06
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇮🇳 18|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+      - 🇨🇦 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_5
+      - 🇨🇳 2,3,4,18|_CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+      - 🇺🇸 1,2,3,4|_US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国

@@ -1,4 +1,9 @@
 proxies:
+  - {name: 🇨🇦 _CA_加拿大_1, server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: dongtaiwang2.com}}}
+  - {name: 🇨🇦 _CA_加拿大_2, server: 23.227.38.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com}}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1, server: 103.160.204.108, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2, server: 103.160.204.72, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3, server: 103.160.204.234, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
   - {name: 🇨🇦 12|CA 17 → tg@nicevpn123, server: 198.57.27.212, port: 22324, client-fingerprint: chrome, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇦 12|加拿大_Telegram@kxswa, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
   - {name: 🇨🇦 9|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, client-fingerprint: chrome, type: vmess, uuid: 7a5025b6-154c-4547-bc74-e1444be2e049, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.abpilot.xyz}
@@ -13,6 +18,11 @@ proxies:
   - {name: "🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3", server: 103.160.204.108, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 16.wyhkaa0.gq}}}
   - {name: 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大, server: 103.160.204.36, port: 80, client-fingerprint: chrome, type: vmess, uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 18.wyhkaa0.gq}}}
   - {name: "🇨🇦 6,10,11,12|🇨🇦_CA_加拿大", server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04
@@ -27,6 +37,11 @@ proxies:
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04
@@ -41,6 +56,11 @@ proxies:
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04
@@ -55,6 +75,11 @@ proxies:
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04
@@ -69,11 +94,19 @@ proxies:
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇭🇰 1,2,3,4|_HK_香港->🇨🇦_CA_加拿大 2
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 4
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04
@@ -88,6 +121,11 @@ proxies:
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04
@@ -102,6 +140,11 @@ proxies:
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04
@@ -116,6 +159,11 @@ proxies:
       - 🇭🇰 1,2,3,4,6,18|_HK_香港->🇨🇦_CA_加拿大 3
       - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
+      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 _CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_1
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大_3
       - 🇨🇦 12|CA 17 → tg@nicevpn123
       - 🇨🇦 12|加拿大_Telegram@kxswa
       - 🇨🇦 9|🇨🇦加拿大04

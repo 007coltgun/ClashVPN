@@ -1,177 +1,28 @@
 proxies:
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: yidong.liulangdiqiu.cyou, port: 10711, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385, tfo: false}
-  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大, server: 103.160.204.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
-  - {name: 🇨🇦 _CA_加拿大_1, server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: dongtaiwang2.com}}}
-  - {name: 🇨🇦 _CA_加拿大_2, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: dongtaiwang3.com}}}
-  - {name: 🇨🇦 _CA_加拿大_3, server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com}}
-  - {name: "🇨🇦 0,6,12|🇨🇦 _CA_加拿大", server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: "🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2", server: 103.160.204.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
-  - {name: "🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3", server: 103.160.204.36, port: 80, client-fingerprint: chrome, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
-  - {name: "🇨🇦 1,2,3,4|_CA_加拿大", server: 23.227.39.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇨🇦 _CA_加拿大_1, server: 23.227.39.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com}}
+  - {name: 🇨🇦 _CA_加拿大_2, server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com}}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 172.67.75.194, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com}}
+  - {name: "🇨🇦 1,2,3,4,6,12|_CA_加拿大", server: 23.227.39.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: "🇨🇦 0,6,11,12|🇨🇦 _CA_加拿大", server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
   - {name: "🇨🇦 1,2,3,4,10|_CA_加拿大 2", server: 23.227.38.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai, server: dx.ktmwan.top, port: 27256, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400, tfo: false}
-  - {name: "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1", server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
-  - {name: "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1", server: 103.160.204.97, port: 80, client-fingerprint: chrome, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
-  - {name: "🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大", server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: "🇨🇦 6,11,12|🇨🇦_CA_加拿大", server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大, server: 103.160.204.108, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 16.wyhkaa0.gq}}}
-  - {name: 🇨🇦 12|CA 10 → tg@nicevpn123, server: 198.57.27.212, port: 22324, client-fingerprint: chrome, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇦 9|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, client-fingerprint: chrome, type: vmess, uuid: 1185cc29-3281-462e-a771-36ac815ecc14, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.abpilot.xyz}
-  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, client-fingerprint: chrome, type: vmess, uuid: 0376ffd8-0369-4884-93a4-691851315845, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.lovemc.xyz}
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+  - {name: 🇨🇦 12|🇨🇦_CA_加拿大_2_5@11, server: 198.57.27.212, port: 22324, client-fingerprint: chrome, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇦 9|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, client-fingerprint: chrome, type: vmess, uuid: 195accdb-4d21-4101-8330-fd2370787f6e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.abpilot.xyz}
+  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, client-fingerprint: chrome, type: vmess, uuid: ee8e6f05-721f-4587-9bc5-26f993f1433b, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: ca04.lovemc.xyz}
+  - {name: "🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3", server: 103.160.204.36, port: 80, client-fingerprint: chrome, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: "🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大", server: 103.160.204.97, port: 80, client-fingerprint: chrome, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
       - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇨🇦 1,2,3,4,6,12|_CA_加拿大
+      - 🇨🇦 0,6,11,12|🇨🇦 _CA_加拿大
       - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
+      - 🇨🇦 12|🇨🇦_CA_加拿大_2_5@11
       - 🇨🇦 9|🇨🇦加拿大04
       - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
+      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 _CA_加拿大_1
       - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
-      - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
-      - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
-      - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
-      - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
-      - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
-      - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 13|加拿大 02 | 1x CA
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 _CA_加拿大_1
-      - 🇨🇦 _CA_加拿大_2
-      - 🇨🇦 _CA_加拿大_3
-      - 🇨🇦 0,6,12|🇨🇦 _CA_加拿大
-      - 🇭🇰 1,2,3,4,6,11|_HK_香港->🇨🇦_CA_加拿大 2
-      - 🇭🇰 1,2,3,4,10,11|_HK_香港->🇨🇦_CA_加拿大 3
-      - 🇨🇦 1,2,3,4|_CA_加拿大
-      - 🇨🇦 1,2,3,4,10|_CA_加拿大 2
-      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
-      - "🇨🇦 0,6,10,11,18|🇨🇦 _CA_加拿大 #1"
-      - "🇭🇰 0,1,2,3,4,10,11|🇭🇰 _HK_香港->🇨🇦_CA_加拿大 #1"
-      - 🇺🇸 0,10,18|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇦 6,11,12|🇨🇦_CA_加拿大
-      - 🇭🇰 0|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 12|CA 10 → tg@nicevpn123
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇨🇦 1,2,3,4,6,12|_CA_加拿大
+      - 🇨🇦 0,6,11,12|🇨🇦 _CA_加拿大

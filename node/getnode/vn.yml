@@ -1,28 +1,20 @@
 proxies:
-  - {name: "🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南", server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 🇻🇳 9|🇻🇳越南04, server: 3v4n04.abzoones.xyz, port: 36874, client-fingerprint: chrome, type: vmess, uuid: 1185cc29-3281-462e-a771-36ac815ecc14, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: vn04.abpilot.xyz}
-  - {name: 🇻🇳 13|越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, client-fingerprint: chrome, type: vmess, uuid: 0376ffd8-0369-4884-93a4-691851315845, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: vn04.lovemc.xyz}
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
+  - {name: 🇻🇳 _CN_中国->🇻🇳_VN_越南, server: 39.175.1.22, port: 33004, client-fingerprint: chrome, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, tfo: false, sni: client.asucaeva.net, skip-cert-verify: false}
+  - {name: 8|中转 🇻🇳 Viet Nam 01 @nodpai, server: xxx1.meiyiss.club, port: 34102, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa, tfo: false}
+  - {name: 🇻🇳 9|🇻🇳越南04, server: 3v4n04.abzoones.xyz, port: 36874, client-fingerprint: chrome, type: vmess, uuid: 195accdb-4d21-4101-8330-fd2370787f6e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: vn04.abpilot.xyz}
+  - {name: "7,8|🇻🇳 Viet Nam 04 @nodpai", server: vn5.4gspeed.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 89159225-9acc-419c-aa39-1940f8b792ab, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
+  - {name: 8|🇻🇳 Viet Nam 02 @nodpai, server: zzzz.meiyiss.club, port: 32801, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa, tfo: false}
+  - {name: "7,8|🇻🇳 Viet Nam 05 @nodpai", server: tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tokyo.mfa.ee}}}
+  - {name: 🇻🇳 13|越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, client-fingerprint: chrome, type: vmess, uuid: ee8e6f05-721f-4587-9bc5-26f993f1433b, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: vn04.lovemc.xyz}
+  - {name: "7,8|🇻🇳 Viet Nam 03 @nodpai", server: vn4.4gspeed.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: 89159225-9acc-419c-aa39-1940f8b792ab, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn4.4gspeed.me}}}
+      - 🇻🇳 _CN_中国->🇻🇳_VN_越南
+      - 8|中转 🇻🇳 Viet Nam 01 @nodpai
       - 🇻🇳 9|🇻🇳越南04
+      - 7,8|🇻🇳 Viet Nam 04 @nodpai
+      - 8|🇻🇳 Viet Nam 02 @nodpai
+      - 7,8|🇻🇳 Viet Nam 05 @nodpai
       - 🇻🇳 13|越南 04 | 1x VN
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
+      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 _CN_中国->🇻🇳_VN_越南
+      - 8|中转 🇻🇳 Viet Nam 01 @nodpai
       - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 13|越南 04 | 1x VN
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 13|越南 04 | 1x VN
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 13|越南 04 | 1x VN
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 13|越南 04 | 1x VN
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 13|越南 04 | 1x VN
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 13|越南 04 | 1x VN
-      - 🇺🇸 0,18|🇺🇸 _US_美国->🇻🇳_VN_越南
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 13|越南 04 | 1x VN

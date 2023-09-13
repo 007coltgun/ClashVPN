@@ -1,9 +1,73 @@
 proxies:
-  - {name: _CN_中国->🇺🇸_US_美国, server: 183.233.187.232, port: 51165, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国, server: 172.67.92.119, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 2, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 14.18.106.137, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: nl01.lovehjq.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 3, server: 172.67.149.100, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇨🇳_CN_中国 4, server: 172.67.196.139, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: in06.my1188.org, port: 64097, type: vmess, uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: 110.72.99.118, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: in06.my1188.org, port: 64003, type: vmess, uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: in06.my1188.org, port: 64099, type: vmess, uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
       - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
       - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
       - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
       - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
       - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
       - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国
+      - _US_美国->🇨🇳_CN_中国
+      - _US_美国->🇨🇳_CN_中国 2
       - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇳_CN_中国 3
+      - _US_美国->🇨🇳_CN_中国 4
+      - _CN_中国->🇰🇷_KR_韩国
+      - _CN_中国->🇯🇵_JP_日本
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国

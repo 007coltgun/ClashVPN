@@ -1,64 +1,73 @@
 proxies:
   - {name: 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚, server: 172.64.195.218, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇦🇺 13|澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: 78cae6ca-2da0-4e2c-ac08-3bbce63a2101, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.lovemc.xyz}
-  - {name: "🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai", server: xn.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn.shabijichang.com}}}
-  - {name: "🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai", server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
+  - {name: 🇦🇺 13|澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: b5295e42-7d8a-46c9-906e-8b0b3c2de799, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.lovemc.xyz}
+  - {name: 🇦🇺 12|🇦🇺 Australia 04 @nodpai, server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
+  - {name: 🇦🇺 13|德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: b5295e42-7d8a-46c9-906e-8b0b3c2de799, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.lovemc.xyz}
+  - {name: 🇦🇺 9|🇦🇺澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: bc90b7b7-ccd8-4e1f-9a29-eb6588fd5a3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.abpilot.xyz}
+  - {name: 🇦🇺 12|🇦🇺 Australia 03 @nodpai, server: xn.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn.shabijichang.com}}}
   - {name: "🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚", server: 172.64.195.218, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
-  - {name: 🇦🇺 9|🇦🇺澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: aa061fd2-c096-4706-bb7c-da966880812b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: au04.abpilot.xyz}
-  - {name: 🇦🇺 13|德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: 78cae6ca-2da0-4e2c-ac08-3bbce63a2101, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.lovemc.xyz}
+  - {name: 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai, server: dhwksb.xzcloud.pro, port: 16994, type: vmess, uuid: e5fc076c-b71d-4f6e-ad61-7e03037ace9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai
       - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇦🇺 13|澳大利亚 04 | 1x AU
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 03 @nodpai
-      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 04 @nodpai
       - 🇦🇺 13|德国 04 | 1x AU
+      - 🇦🇺 9|🇦🇺澳大利亚04
+      - 🇦🇺 12|🇦🇺 Australia 03 @nodpai
+      - 🇺🇸 6,12|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+      - 🇦🇺 7|中转 🇦🇺 Australia 01 @nodpai

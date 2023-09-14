@@ -1,156 +1,165 @@
 proxies:
   - {name: 🇨🇦 _CA_加拿大, server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com}}
   - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大, server: 103.160.204.108, port: 80, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
-  - {name: 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38, server: ca-01.gujuji.top, port: 8080, type: vmess, uuid: d46d992a-8d80-4586-84fb-f1823757552e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca-01.gujuji.top}}}
-  - {name: 🇨🇦 12|🇨🇦 Canada 01 @nodpai, server: dld.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dld.shabijichang.com}}}
-  - {name: "🇨🇦 6,10,11,12|🇨🇦_CA_加拿大", server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇨🇦 0|🇨🇦 _CA_加拿大, server: 23.227.38.80, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: singapore.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61, server: alvvin.click, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
+  - {name: "🇨🇦 0,12|🇨🇦 _CA_加拿大", server: 23.227.38.80, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: 1027c0ee-9e80-4312-ae51-e624c85f321a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.lovemc.xyz}
+  - {name: 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10712, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
   - {name: "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1", server: 23.227.38.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: "🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国", server: dongtaiwang2.com, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
-  - {name: "🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大", server: 103.160.204.108, port: 80, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 16.wyhkaa0.gq}}}
-  - {name: "🇨🇦 11,12|github.com/freefq - 加拿大  1", server: 108.181.10.17, port: 443, type: vmess, uuid: e83e3080-518b-11ee-b933-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 108.181.10.17}}}
+  - {name: "🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国", server: dongtaiwang2.com, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
   - {name: "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2", server: 23.227.39.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004, server: ca1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca1-vmess.greenssh.xyz}}}
-  - {name: 🇨🇦 9|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: bc90b7b7-ccd8-4e1f-9a29-eb6588fd5a3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.abpilot.xyz}
+  - {name: 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38, server: ca-01.gujuji.top, port: 8080, type: vmess, uuid: d46d992a-8d80-4586-84fb-f1823757552e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca-01.gujuji.top}}}
+  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2, server: edeen.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇦 12|🇨🇦 Canada 04 @nodpai, server: mtlr.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mtlr.shabijichang.com}}}
-  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: b5295e42-7d8a-46c9-906e-8b0b3c2de799, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.lovemc.xyz}
+  - {name: 🇨🇦 9|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 425e6b48-b7da-4d3a-9ae2-ab7e89e7db21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.abpilot.xyz}
+  - {name: 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大, server: 103.160.204.108, port: 80, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 16.wyhkaa0.gq}}}
+  - {name: "🇨🇦 6,10,12|🇨🇦_CA_加拿大", server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇨🇦 12|🇨🇦_加拿大_fd_232, server: ca1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca1-vmess.greenssh.xyz}}}
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232
       - 🇨🇦 _CA_加拿大
       - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
-      - 🇨🇦 12|🇨🇦 Canada 01 @nodpai
-      - 🇨🇦 6,10,11,12|🇨🇦_CA_加拿大
-      - 🇨🇦 0|🇨🇦 _CA_加拿大
-      - 🇺🇸 12|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
-      - 🇺🇸 6,10,11,12|🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 6,11|🇭🇰_HK_香港->🇨🇦_CA_加拿大
-      - 🇨🇦 11,12|github.com/freefq - 加拿大  1
-      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
-      - 🇨🇦 12|🇨🇦 CA(AzadNet.t.me)_004
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
-      - 🇨🇦 12|🇨🇦 Canada 04 @nodpai
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 10
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 61
+      - 🇨🇦 0,12|🇨🇦 _CA_加拿大
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 39
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 8|中转 🇨🇦 Canada 01 @nodpai
+      - "🇨🇦 0,1,2,3,4,12|🇨🇦 _CA_加拿大 #1"
+      - 🇺🇸 6,10,11|🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - "🇨🇦 1,2,3,4|🇨🇦 _CA_加拿大 #2"
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇦_CA_加拿大_38
+      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
+      - 🇨🇦 12|🇨🇦 CA 14 → tg@nicevpn123
+      - 🇨🇦 9|🇨🇦加拿大04
+      - 🇭🇰 6|🇭🇰_HK_香港->🇨🇦_CA_加拿大
+      - 🇨🇦 6,10,12|🇨🇦_CA_加拿大
+      - 🇨🇦 12|🇨🇦_加拿大_fd_232

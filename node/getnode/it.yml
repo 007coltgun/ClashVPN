@@ -1,82 +1,73 @@
 proxies:
   - {name: 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利, server: ml4.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
-  - {name: "🇮🇹 7,8|🇮🇹 Italy 04 @nodpai", server: 172.67.128.217, port: 80, type: vmess, uuid: 6cce9ee4-c274-4ea7-a783-b26ae5987edd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai, server: 120.195.184.63, port: 27141, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
-  - {name: "🇮🇹 7,8|🇮🇹 Italy 08 @nodpai", server: ml.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
-  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利", server: 172.64.101.98, port: 80, type: vmess, uuid: dd93cca1-c21b-484f-a104-07a797e4161f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
-  - {name: "🇮🇹 7,8|🇮🇹 Italy 01 @nodpai", server: 172.67.146.22, port: 80, type: vmess, uuid: 29c7364f-34f7-498e-80f9-3761884216ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2", server: 172.67.128.217, port: 80, type: vmess, uuid: 6cce9ee4-c274-4ea7-a783-b26ae5987edd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
-  - {name: 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai, server: foshan.chiguayun.cc, port: 27141, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
-  - {name: "🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai", server: ml4.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
+  - {name: "🇮🇹 7,8|🇮🇹 Italy 03 @nodpai", server: 172.67.128.217, port: 80, type: vmess, uuid: 00d3cc1c-1af0-4f52-8410-6fad778111e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2", server: 172.67.128.217, port: 80, type: vmess, uuid: 6cce9ee4-c274-4ea7-a783-b26ae5987edd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
+  - {name: "🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利", server: 172.64.101.98, port: 80, type: vmess, uuid: dd93cca1-c21b-484f-a104-07a797e4161f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
+  - {name: 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai, server: 120.195.184.63, port: 27141, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
+  - {name: 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai, server: foshan.chiguayun.cc, port: 27141, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
+  - {name: "🇮🇹 7,8|🇮🇹 Italy 04 @nodpai", server: 172.64.101.98, port: 80, type: vmess, uuid: dd93cca1-c21b-484f-a104-07a797e4161f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1", server: ml4.shabijichang.com, port: 80, type: vmess, uuid: f1865e50-2510-46d1-bcb2-e00b4b656305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"
       - 🇺🇸 12|🇺🇸_US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 7,8|🇮🇹 Italy 03 @nodpai
+      - 🇺🇸 1,2,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
+      - 🇺🇸 0,1,2,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇮🇹 8|中转 🇮🇹 Italy 01 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 02 @nodpai
       - 🇮🇹 7,8|🇮🇹 Italy 04 @nodpai
-      - 🇮🇹 8|中转 🇮🇹 Italy 07 @nodpai
-      - 🇮🇹 7,8|🇮🇹 Italy 08 @nodpai
-      - 🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-      - 🇮🇹 7,8|🇮🇹 Italy 01 @nodpai
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇮🇹_IT_意大利 2
-      - 🇮🇹 8|中转 🇮🇹 Italy 06 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 02 @nodpai
+      - "🇮🇹 12|🇮🇹 Italy 03 @nodpai #1"

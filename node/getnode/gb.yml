@@ -1,109 +1,73 @@
 proxies:
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_1, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_2, server: 172.67.1.123, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_3, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: wi.saintink.eu.org}}}
-  - {name: "🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: f2d9639a-638c-32bb-a1b2-01a7ad5a54c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}}
-  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai", server: fd.shabijichang.com, port: 80, type: vmess, uuid: 318a419c-f01b-4a2e-be91-dd9e41191ef8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fd.shabijichang.com}}}
-  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: dd2d62b9-dfcf-4d53-b7fb-ee77b4e8e197, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: wi.saintink.eu.org}}}
+  - {name: 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
+  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: a3191a3c-6910-4c26-86dc-53c9d0857841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: f2d9639a-638c-32bb-a1b2-01a7ad5a54c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}}
   - {name: 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa..., server: jh.xianyuwangluo.cyou, port: 27209, type: ss, cipher: chacha20-ietf-poly1305, password: 0d940b60-7669-42a7-a2f6-95cb088a2300}
-  - {name: "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1", server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
-  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 218653dc-d699-4644-b893-3632c4e839c3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
-  - {name: "🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2", server: xn4.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: "🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国", server: 172.67.1.123, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: "🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国", server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
-      - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 3170a4f0-d036-49c9-ac03-e8fb3fa36f94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: "🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2", server: xn4.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
+  - {name: 🇬🇧 12|🇬🇧_GB_英国_10@2, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
-      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
       - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
-      - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_3
-      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇬🇧 9|🇬🇧英国04
-      - 🇺🇸 1,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇺🇸 6,18|🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇬🇧 12|🇬🇧_GB_英国_10@2

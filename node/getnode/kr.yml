@@ -1,82 +1,91 @@
 proxies:
   - {name: 🇰🇷 _CN_中国->🇰🇷_KR_韩国, server: yidong.liulangdiqiu.cyou, port: 10703, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
-  - {name: "🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai", server: 13.124.124.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 13|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: beb16c55-b7b1-4895-a97b-7c8563809dfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
-  - {name: 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian, server: yidong.liulangdiqiu.cyou, port: 10703, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
-  - {name: 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian, server: 43.201.1.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 12|🇰🇷 韩国_0915004, server: 146.56.184.135, port: 8880, type: vmess, uuid: 25465c09-633c-30d1-a538-d05009f6cd85, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /db, headers: {Host: b.cn-db.top}}}
-  - {name: 🇰🇷 9|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 6a2c1e2d-7bca-46f5-8288-fc0b2ea8dafd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
+  - {name: "🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai", server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: f2d9639a-638c-32bb-a1b2-01a7ad5a54c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}}
+  - {name: 🇰🇷 13|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 818d488c-ba19-4672-a382-e94aacaa1415, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
+  - {name: 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai, server: kr1.relay-idc.top, port: 40892, type: ss, cipher: chacha20-ietf-poly1305, password: c2154903-bf82-42b5-85d4-747b9d593c4d}
+  - {name: "🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai", server: yidong.liulangdiqiu.cyou, port: 10703, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
+  - {name: "🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai", server: 43.201.1.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 9|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: ebab4b0d-fff0-4927-b8fe-58dcc78c2452, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
   - {name: 🇰🇷 12|🇰🇷_韩国_fd_167, server: 3.37.89.182, port: 443, type: vmess, uuid: dcd146ed-19fa-4aeb-a8c2-283fe3aa3888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai", server: cnyzcm01.fastbiubiu.com, port: 24200, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: cnyzcm01.fastbiubiu.com}}}
+  - {name: 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian, server: 13.124.124.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
-      - 🇰🇷 13|韩国 02 | 1x KR
-      - 🇰🇷 14|🇰🇷 韩国A|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 首尔特殊|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国_0915004
+      - 🇰🇷 7,8|中转 🇰🇷 South Korea 03 @nodpai
+      - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 8,14|中转 🇰🇷 South Korea 04 @nodpai
+      - 🇰🇷 8,14|🇰🇷 South Korea 02 @nodpai
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷_韩国_fd_167
-      - 🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian

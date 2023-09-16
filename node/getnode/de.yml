@@ -1,100 +1,46 @@
 proxies:
   - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: flkf3.shabijichang.com, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf3.shabijichang.com}}}
-  - {name: 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39, server: cnyzcm01.fastbiubiu.com, port: 6113, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: cnyzcm01.fastbiubiu.com}}}
+  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: dd3c4bcf-21c4-48ec-8aae-0c814c1ae5ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3, server: 104.27.19.105, port: 2052, type: vmess, uuid: 345d8dde-084b-478e-aa8d-5fb062652889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/public?ed=4096", headers: {Host: de2.biqibao.site}}}
+  - {name: 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39, server: cnyzcm01.fastbiubiu.com, port: 6113, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: cnyzcm01.fastbiubiu.com}}}
   - {name: "🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国", server: flkf3.shabijichang.com, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf3.shabijichang.com}}}
-  - {name: 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai, server: hefei.chiguayun.cc, port: 27108, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai, server: liao.jcffgo.top, port: 62421, type: vmess, uuid: b33926a6-f259-4d75-b282-9a46c6a38a07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 0046d27f-1787-4306-9b95-05cd15b38d94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
-  - {name: 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01, server: icu.cloudff.top, port: 12979, type: vmess, uuid: b33926a6-f259-4d75-b282-9a46c6a38a07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 9ccd8e39-cf91-3182-b5eb-99394d870788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}}
-  - {name: 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3, server: 104.27.19.105, port: 2052, type: vmess, uuid: 345d8dde-084b-478e-aa8d-5fb062652889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/public?ed=4096", headers: {Host: de2.biqibao.site}}}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai, server: centauri.verdens.xyz, port: 25017, type: vmess, uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai, server: icu.cloudff.top, port: 56891, type: vmess, uuid: b33926a6-f259-4d75-b282-9a46c6a38a07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 18|🇨🇳_CN_中国->🇩🇪_DE_德国_39
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 8|中转 🇩🇪 Germany 07 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 7|「节点冠名招商 @nodpai」🇩🇪 DE 01
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_3
-      - 🇩🇪 7|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_3
+      - 🇩🇪 17|🇨🇳_CN_中国->🇩🇪_DE_德国_39
+      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国

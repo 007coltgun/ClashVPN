@@ -1,100 +1,64 @@
 proxies:
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: flkf3.shabijichang.com, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf3.shabijichang.com}}}
-  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 3c3a702a-aa98-4750-8273-a4a646d826b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: iran01.biqibao.site, port: 2052, type: vmess, uuid: 4931e941-77c6-4144-a8b9-5c252ee36c30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/public?ed=4096", headers: {Host: iran01.biqibao.site}}}
+  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: e8dfb8cf-cc65-4189-b0a1-db2b36c4d589, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: 🇩🇪 12|🇩🇪_DE_德国_11@3, server: 23.158.56.89, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国", server: flkf3.shabijichang.com, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf3.shabijichang.com}}}
+  - {name: 🇩🇪 0|🇩🇪 _DE_德国, server: 78.46.162.14, port: 43739, type: vmess, uuid: 576d2043-7a12-4903-9d38-e5580052a97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国", server: iran01.biqibao.site, port: 2052, type: vmess, uuid: 4931e941-77c6-4144-a8b9-5c252ee36c30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/public?ed=4096", headers: {Host: de2.biqibao.site}}}
   - {name: 🇩🇪 12|🇩🇪_DE_德国_15@6, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
-  - {name: 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai, server: hefei.chiguayun.cc, port: 27108, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
-  - {name: "🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国", server: flkf3.shabijichang.com, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf3.shabijichang.com}}}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 9ccd8e39-cf91-3182-b5eb-99394d870788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}}
-  - {name: 🇩🇪 8|🇩🇪 Germany 02 @nodpai, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yd1.992688.xyz}}}
-  - {name: 🇩🇪 16|Germany02, server: hax.smely.eu.org, port: 80, type: vmess, uuid: 0c05384b-d498-47f9-b5a0-4c5d02755892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hax02, headers: {Host: hax.smely.eu.org}}}
-  - {name: 🇩🇪 16|Germany01, server: dea.opencc.eu.org, port: 443, type: vmess, uuid: 0c05384b-d498-47f9-b5a0-4c5d02755892, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: dea.opencc.eu.org, network: ws, ws-opts: {path: /euro, headers: {Host: dea.opencc.eu.org}}}
-  - {name: 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai, server: gy.linghun3.xyz, port: 40067, type: ss, cipher: aes-128-gcm, password: 6ad81499-6512-422b-afdf-6ec26ba6d703}
-  - {name: 🇩🇪 16|Germany03, server: de.opencc.eu.org, port: 80, type: vmess, uuid: 0c05384b-d498-47f9-b5a0-4c5d02755892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /h2102, headers: {Host: de.opencc.eu.org}}}
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🇩🇪_DE_德国_11@3
+      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇩🇪 0|🇩🇪 _DE_德国
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇩🇪 12|🇩🇪_DE_德国_15@6
-      - 🇩🇪 8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 1,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7|中转 🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 16|Germany02
-      - 🇩🇪 16|Germany01
-      - 🇩🇪 8|中转 🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 16|Germany03

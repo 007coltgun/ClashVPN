@@ -5,393 +5,402 @@ proxies:
   - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_2, server: 172.67.211.253, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
   - {name: 🇨🇳 _CN_中国_2, server: cm1-go.go001.buzz, port: 31101, type: ss, cipher: aes-256-gcm, password: !<str> 123456}
   - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: aca-ct-gz-2g-1.cfprefer1.xyz, port: 50937, type: ss, cipher: aes-256-gcm, password: a845f902-f4d2-44e8-b774-aea733ae3e48}
-  - {name: "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7", server: 172.67.211.253, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 340647a6-bd30-441b-aa98-daf9be5bf8bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 12|台湾, server: wqryo-1075-v2-0.d-hinet-02.ddll.bond, port: 888, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
-  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: f2b2dee7-6b90-4582-9821-67b852794990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
-  - {name: 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡, server: zhuanx01.zncloudnet01.xyz, port: 3903, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5", server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度, server: zhuanx01.zncloudnet01.xyz, port: 1581, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: f2b2dee7-6b90-4582-9821-67b852794990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
-  - {name: 6|🇨🇳_CN_中国->🇧🇭_BH_巴林, server: zhuanx01.zncloudnet01.xyz, port: 36702, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3", server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: f2b2dee7-6b90-4582-9821-67b852794990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 340647a6-bd30-441b-aa98-daf9be5bf8bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27, server: 172.67.196.139, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8", server: 172.67.149.100, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国", server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1", server: cnzz01.fastbiubiu.com, port: 1562, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 340647a6-bd30-441b-aa98-daf9be5bf8bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1", server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3", server: 172.67.59.39, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai", server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2", server: 172.67.6.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai", server: tg_mfbpn_z1.52vpn.eu.org, port: 19038, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /catnet, headers: {Host: tg_mfbpn_z1.52vpn.eu.org}}}
+  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai", server: tg_mfbpn_z1.52vpn.eu.org, port: 19038, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /catnet, headers: {Host: tg_mfbpn_z1.52vpn.eu.org}}}
+  - {name: "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7", server: 172.67.211.253, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2", server: 172.67.6.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇨🇳 7,8|🇨🇳 China 02 @nodpai", server: 198.2.213.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/211826353201}}
+  - {name: "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5", server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai", server: tw1.kidcc.xyz, port: 8443, type: vmess, uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw1.kidcc.xyz}}}
+  - {name: "🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国", server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1", server: zhuanx01.zncloudnet01.xyz, port: 1393, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3", server: zhuanx01.zncloudnet01.xyz, port: 3904, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: zhuanx01.zncloudnet01.xyz}}}
-  - {name: "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2", server: zhuanx01.zncloudnet01.xyz, port: 3902, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: "🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国", server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾, server: zhuanx01.zncloudnet01.xyz, port: 3901, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: zhuanx01.zncloudnet01.xyz}}}
-  - {name: "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9", server: 162.159.253.16, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国, server: zhuanx01.zncloudnet01.xyz, port: 9123, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8", server: 172.67.149.100, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6", server: 172.67.92.119, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4", server: 172.67.10.151, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai", server: tw1.kidcc.xyz, port: 8443, type: vmess, uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw1.kidcc.xyz}}}
-  - {name: "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国", server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2", server: 172.64.90.186, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2", server: zhuanx01.zncloudnet01.xyz, port: 3902, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4", server: 172.67.10.151, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9", server: 162.159.253.16, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai", server: tg_mfbpn_z1.52vpn.eu.org, port: 19047, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: tg_mfbpn_z1.52vpn.eu.org}}}
+  - {name: 6|🇨🇳_CN_中国->🇧🇭_BH_巴林, server: zhuanx01.zncloudnet01.xyz, port: 36702, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3", server: zhuanx01.zncloudnet01.xyz, port: 3904, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: zhuanx01.zncloudnet01.xyz}}}
+  - {name: "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6", server: 172.67.92.119, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: "🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian", server: 1.164.141.208, port: 443, type: vmess, uuid: 7bcd1b11-ac49-40f7-9197-4df867192564, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /b12}}
-  - {name: "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai", server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141, server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 7,8|🇨🇳 China 01 @nodpai", server: 142.4.122.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/211826353281}}
+  - {name: "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3", server: 172.67.59.39, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 12|台湾, server: wqryo-1075-v2-0.d-hinet-02.ddll.bond, port: 888, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
+  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2", server: 172.64.90.186, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27, server: 172.67.196.139, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度, server: zhuanx01.zncloudnet01.xyz, port: 1581, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: e7e6b124-b0ff-4172-ac6d-87ddb0b58d45, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
   - {name: 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国, server: cnyzcm01.fastbiubiu.com, port: 5022, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai", server: tg_mfbpn_z1.52vpn.eu.org, port: 19047, type: vmess, uuid: 538f39f2-1186-3165-a9ec-d569f491777c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: tg_mfbpn_z1.52vpn.eu.org}}}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国, server: zhuanx01.zncloudnet01.xyz, port: 9123, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 0bc12aa2-2fc4-4172-8931-b30f3aed7a78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡, server: zhuanx01.zncloudnet01.xyz, port: 3903, type: vmess, uuid: ff457027-b44b-3775-8075-da0eeade6f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3", server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1", server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
-      - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
       - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|台湾
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
       - 🇫🇷 _FR_法国->🇨🇳_CN_中国
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
       - 🇨🇳 _CN_中国_1
       - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
       - 🇨🇳 _CN_中国_2
       - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - "🇺🇸 0,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
+      - 🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 03 @nodpai
+      - "🇺🇸 0,6,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #7"
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇨🇳 7,8|🇨🇳 China 02 @nodpai
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #5"
+      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇫🇷 1,2,3,4,6,10,11,17|🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
+      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
+      - "🇺🇸 0,1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - "🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
+      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
+      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
+      - "🇺🇸 0,11|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
+      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
+      - 🇨🇳 12|🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
+      - 🇨🇳 7,8|🇨🇳 China 01 @nodpai
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - 🇨🇳 12|台湾
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 17|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
+      - 🇨🇳 9|🇹🇼台湾04
       - 🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 6|🇨🇳_CN_中国->🇧🇭_BH_巴林
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_27
-      - "🇮🇳 6|🇨🇳_CN_中国->🇮🇳_IN_印度 #1"
-      - 🇨🇳 9|🇹🇼台湾05
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - 🇨🇳 7,12|🇹🇼 Taiwan 03 @nodpai
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #1"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #3"
-      - "🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡 #2"
-      - 🇫🇷 1,2,3,4,6,10,11,18|🇫🇷 _FR_法国->🇨🇳_CN_中国
-      - 🇵🇭 6|🇨🇳_CN_中国->🇵🇭_PH_菲律宾
-      - "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #9"
-      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
-      - "🇺🇸 0,1,2,3,4,6,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #8"
-      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6"
-      - "🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 0,1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 14,15|🇹🇼 台湾|tg频道:@ripaojiedian
-      - 🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai
       - 🇺🇸 6|🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇹🇭 6|🇨🇳_CN_中国->🇹🇭_TH_泰国
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇸🇬 6|🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇺🇸 1,2,3,4,17|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - "🇺🇸 0|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"

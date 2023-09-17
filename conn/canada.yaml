@@ -32,7 +32,7 @@ proxy-groups:
     type: url-test
     use:
       - Canada
-      - GetNodeCanada
+      # - GetNodeCanada
 
 proxy-providers:
 
@@ -47,16 +47,16 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
-  GetNodeCanada:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/ca.yml"
-    interval: 86400
-    path: ./providers/ca.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # GetNodeCanada:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/ca.yml"
+  #   interval: 86400
+  #   path: ./providers/ca.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
   
 

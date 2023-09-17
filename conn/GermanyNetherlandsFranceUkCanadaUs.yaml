@@ -4,21 +4,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 ipv6: true
-external-controller: 127.0.0.1:9090
-dns:
-  enable: true
-  listen: 0.0.0.0:53
-  ipv6: true
-  default-nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
-    - 8.8.4.4
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
-    - 8.8.4.4
 
 proxy-groups:
 
@@ -32,22 +17,22 @@ proxy-groups:
     type: url-test
     use:
       - Netherlands
-      - ClashNodeNetherlands
-      - GetNodeNetherlands
+      # - ClashNodeNetherlands
+      # - GetNodeNetherlands
       - Germany
-      - ClashNodeGermany
-      - GetNodeGermany
+      # - ClashNodeGermany
+      # - GetNodeGermany
       - France
-      - ClashNodeFrance
-      - GetNodeFrance
+      # - ClashNodeFrance
+      # - GetNodeFrance
       - England
-      - ClashNodeEngland
-      - GetNodeEngland
+      # - ClashNodeEngland
+      # - GetNodeEngland
       - Canada
-      - GetNodeCanada
+      # - GetNodeCanada
       - USA
-      - ClashNodeUSA
-      - GetNodeUSA
+      # - ClashNodeUSA
+      # - GetNodeUSA
 
 proxy-providers:
 
@@ -62,27 +47,27 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
-  ClashNodeNetherlands:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/nl.yml"
-    interval: 86400
-    path: ./providers/nl.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # ClashNodeNetherlands:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/nl.yml"
+  #   interval: 86400
+  #   path: ./providers/nl.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
-  GetNodeNetherlands:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/nl.yml"
-    interval: 86400
-    path: ./providers/nl.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # GetNodeNetherlands:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/nl.yml"
+  #   interval: 86400
+  #   path: ./providers/nl.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
   Germany:
     type: http
@@ -95,27 +80,27 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
-  ClashNodeGermany:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/de.yml"
-    interval: 86400
-    path: ./providers/de.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # ClashNodeGermany:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/de.yml"
+  #   interval: 86400
+  #   path: ./providers/de.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
-  GetNodeGermany:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/de.yml"
-    interval: 86400
-    path: ./providers/de.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # GetNodeGermany:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/de.yml"
+  #   interval: 86400
+  #   path: ./providers/de.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
   France:
     type: http
@@ -128,27 +113,27 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
-  ClashNodeFrance:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/fr.yml"
-    interval: 86400
-    path: ./providers/fr.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # ClashNodeFrance:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/fr.yml"
+  #   interval: 86400
+  #   path: ./providers/fr.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
-  GetNodeFrance:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/fr.yml"
-    interval: 86400
-    path: ./providers/fr.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # GetNodeFrance:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/fr.yml"
+  #   interval: 86400
+  #   path: ./providers/fr.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
   England:
     type: http
@@ -161,27 +146,27 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
-  ClashNodeEngland:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/gb.yml"
-    interval: 86400
-    path: ./providers/gb.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # ClashNodeEngland:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/gb.yml"
+  #   interval: 86400
+  #   path: ./providers/gb.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
-  GetNodeEngland:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/gb.yml"
-    interval: 86400
-    path: ./providers/gb.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # GetNodeEngland:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/gb.yml"
+  #   interval: 86400
+  #   path: ./providers/gb.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
   Canada:
     type: http
@@ -194,16 +179,16 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
-  GetNodeCanada:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/ca.yml"
-    interval: 86400
-    path: ./providers/ca.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # GetNodeCanada:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/ca.yml"
+  #   interval: 86400
+  #   path: ./providers/ca.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
   USA:
     type: http
@@ -216,27 +201,27 @@ proxy-providers:
       lazy: true
       url: http://www.gstatic.com/generate_204
 
-  ClashNodeUSA:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/us.yml"
-    interval: 86400
-    path: ./providers/us.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # ClashNodeUSA:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/clashnode/us.yml"
+  #   interval: 86400
+  #   path: ./providers/us.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
-  GetNodeUSA:
-    type: http
-    url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/us.yml"
-    interval: 86400
-    path: ./providers/us.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://www.gstatic.com/generate_204
+  # GetNodeUSA:
+  #   type: http
+  #   url: "https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/node/getnode/us.yml"
+  #   interval: 86400
+  #   path: ./providers/us.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 3600
+  #     lazy: true
+  #     url: http://www.gstatic.com/generate_204
 
   
 

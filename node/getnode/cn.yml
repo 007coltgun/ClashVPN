@@ -1,4 +1,9 @@
 proxies:
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_1, server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_2, server: 172.64.202.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_3, server: 172.67.92.119, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇫🇷 _FR_法国->🇨🇳_CN_中国, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国_4, server: 172.67.149.100, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker}}
   - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 6ca36be5-d469-4911-8dba-831995dedfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
   - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 6ca36be5-d469-4911-8dba-831995dedfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
   - {name: 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本, server: ihine-1083-v2-1.r-kcd-b.tuil.xyz, port: 29968, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
@@ -23,6 +28,98 @@ proxies:
   - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai, server: 08.kccic2pa.xyz, port: 50008, type: vmess, uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国", server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 6a5b3227-90f2-4ffb-8b21-82bbc8ee0375, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - "🇺🇸 4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - "🇺🇸 6,18|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇨🇳_CN_中国
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #3"
+      - "🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇫🇷 6,10,11,18|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇨🇳 12|🇨🇳 Taiwan 02 @nodpai
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_39
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_2_28
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_7_45
+      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - "🇺🇸 4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - "🇺🇸 6,18|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇨🇳_CN_中国
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #3"
+      - "🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇫🇷 6,10,11,18|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇨🇳 12|🇨🇳 Taiwan 02 @nodpai
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_39
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_2_28
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_7_45
+      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
+      - "🇺🇸 4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
+      - "🇺🇸 6,18|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
+      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇨🇳_CN_中国
+      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #3"
+      - "🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇫🇷 6,10,11,18|🇫🇷_FR_法国->🇨🇳_CN_中国
+      - 🇨🇳 12|🇨🇳 Taiwan 02 @nodpai
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_39
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_2_28
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_7_45
+      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾04
       - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -49,28 +146,15 @@ proxies:
       - 🇨🇳 13|台湾 06  | 1x TWN
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾04
-      - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - "🇺🇸 4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 6,18|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #3"
-      - "🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇫🇷 6,10,11,18|🇫🇷_FR_法国->🇨🇳_CN_中国
-      - 🇨🇳 12|🇨🇳 Taiwan 02 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_39
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_2_28
       - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_7_45
-      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾04
       - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -95,6 +179,11 @@ proxies:
       - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
       - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾04
       - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -119,36 +208,11 @@ proxies:
       - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
       - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - "🇺🇸 4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 6,18|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #3"
-      - "🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇫🇷 6,10,11,18|🇫🇷_FR_法国->🇨🇳_CN_中国
-      - 🇨🇳 12|🇨🇳 Taiwan 02 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_39
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_2_28
-      - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_7_45
-      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾04
       - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -173,30 +237,11 @@ proxies:
       - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
       - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本
-      - "🇺🇸 4,10|🇺🇸 _US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 6,18|🇺🇸_US_美国->🇨🇳_CN_中国 #1"
-      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #3"
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #2"
-      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇨🇳_CN_中国
-      - "🇺🇸 6|🇺🇸_US_美国->🇨🇳_CN_中国 #3"
-      - "🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇫🇷 6,10,11,18|🇫🇷_FR_法国->🇨🇳_CN_中国
-      - 🇨🇳 12|🇨🇳 Taiwan 02 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_6_39
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_2_28
-      - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_7_45
-      - "🇺🇸 4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
-      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇺🇸 4,18|🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_1
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_3
+      - 🇫🇷 _FR_法国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国_4
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾04
       - 🇯🇵 6|🇨🇳_CN_中国->🇯🇵_JP_日本

@@ -1,64 +1,46 @@
 proxies:
-  - {name: "7,8|🇻🇳 Viet Nam 03 @nodpai", server: vn5.4gspeed.me, port: 80, type: vmess, uuid: 92be4344-8955-4a3c-8235-a9b34aaea0f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
-  - {name: 🇻🇳 13|越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 6468558d-c97a-4fdb-abed-32c0d49de695, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.lovemc.xyz}
-  - {name: "7,8,17|🇻🇳 Viet Nam 02 @nodpai", server: vn3.4gspeed.me, port: 80, type: vmess, uuid: 92be4344-8955-4a3c-8235-a9b34aaea0f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn3.4gspeed.me}}}
-  - {name: "🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南", server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: "7,8|🇻🇳 Viet Nam 04 @nodpai", server: vn4.4gspeed.me, port: 443, type: vmess, uuid: 92be4344-8955-4a3c-8235-a9b34aaea0f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn4.4gspeed.me}}}
-  - {name: "7,8|🇻🇳 Viet Nam 01 @nodpai", server: vn3.4gspeed.me, port: 443, type: vmess, uuid: 92be4344-8955-4a3c-8235-a9b34aaea0f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn3.4gspeed.me}}}
-  - {name: 🇻🇳 9|🇻🇳越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: 6e8fe9c9-f7be-4789-8afe-5d3547315ddd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.abpilot.xyz}
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
-      - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+  - {name: 🇺🇸 _US_美国->🇻🇳_VN_越南, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: Tokyo.mfa.ee}}}
+  - {name: 🇻🇳 9|🇻🇳越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: a493b8c0-a3f7-4df7-b6a9-4cfbdc7b2992, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.abpilot.xyz}
+  - {name: 🇻🇳 17|🇻🇳_VN_越南_47, server: vn3.4gspeed.me, port: 80, type: vmess, uuid: ab50da7b-40a8-4fe6-bedd-4e06de912a1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn3.4gspeed.me}}}
+  - {name: "🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南", server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
+  - {name: 🇻🇳 13|越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 263cccaf-307d-4282-8374-430fd3fc6d8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.lovemc.xyz}
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
-      - 7,8|🇻🇳 Viet Nam 03 @nodpai
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 13|越南 04 | 1x VN
-      - 7,8,17|🇻🇳 Viet Nam 02 @nodpai
-      - 🇺🇸 6,17|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 04 @nodpai
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南
       - 🇻🇳 9|🇻🇳越南04
+      - 🇻🇳 17|🇻🇳_VN_越南_47
+      - 🇺🇸 1,2,3,4,6,17|🇺🇸 _US_美国->🇻🇳_VN_越南
+      - 🇻🇳 13|越南 04 | 1x VN

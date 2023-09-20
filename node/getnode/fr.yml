@@ -3,107 +3,80 @@ proxies:
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_1, server: 104.31.16.14, port: 80, type: vmess, uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@hopev2ray}}
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_2, server: 104.18.12.192, port: 80, type: vmess, uuid: 60492148-7815-4259-acdc-92bd15afa81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_3, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: ns1.v2-vip.fun}}}
-  - {name: "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2", server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: "🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国", server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇫🇷 7,8|🇫🇷 France 01 @nodpai", server: 104.21.75.246, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国", server: 104.31.16.14, port: 80, type: vmess, uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: de1vm.cdn-03.live}}}
+  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1", server: 104.31.16.14, port: 443, type: vmess, uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: de1vm.cdn-03.live}}}
   - {name: 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5, server: 104.31.16.196, port: 443, type: vmess, uuid: E1159362-D986-4315-B814-C12912B91DBA, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}}
-  - {name: "🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国", server: api.jquery.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /oliv.beauty:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
-  - {name: "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1", server: 104.18.12.192, port: 80, type: vmess, uuid: 60492148-7815-4259-acdc-92bd15afa81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: france-1vm.mr-radwan-daoud.de}}}
-  - {name: "🇫🇷 7,8|🇫🇷 France 02 @nodpai", server: 104.18.12.192, port: 80, type: vmess, uuid: 60492148-7815-4259-acdc-92bd15afa81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: "🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国", server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
+  - {name: "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2", server: 104.31.16.14, port: 80, type: vmess, uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: de1vm.cdn-03.live}}}
+  - {name: "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国", server: 104.18.12.192, port: 80, type: vmess, uuid: 60492148-7815-4259-acdc-92bd15afa81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: france-1vm.mr-radwan-daoud.de}}}
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国
       - 🇫🇷 _FR_法国
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_2
       - 🇺🇸 _US_美国->🇫🇷_FR_法国_3
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
-      - 🇫🇷 1,2,3,4,10,11|🇫🇷 _FR_法国
-      - 🇫🇷 7,8|🇫🇷 France 01 @nodpai
-      - 🇺🇸 6,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国 #1"
       - 🇺🇸 18|🇺🇸_US_美国->🇫🇷_FR_法国_2_5
-      - 🇺🇸 1,2,3,4,10,11,12,18|🇺🇸 _US_美国->🇫🇷_FR_法国
-      - "🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国 #1"
-      - 🇫🇷 7,8|🇫🇷 France 02 @nodpai
+      - 🇺🇸 0,1,2,3,4,6,10,11|🇺🇸 _US_美国->🇫🇷_FR_法国
+      - "🇺🇸 0,1,2,3,4,6,10,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国 #2"
+      - 🇺🇸 6,10,11|🇺🇸_US_美国->🇫🇷_FR_法国

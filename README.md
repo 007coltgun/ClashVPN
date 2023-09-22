@@ -54,7 +54,8 @@
 
 - لینک کانکشن رو کامل کپی کنید و به برنامه کلش اضافه کنید.
 <div  dir="rtl">
-> کانکشن ترکیبی آلمان و هلند و فرانسه و انگلستان [لینک کانکشن](https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/conn/GermanyNetherlandsFranceUk-light.yaml) است.
+- کانکشن ترکیبی آلمان، هلند، فرانسه و انگلستان بهترین انتخاب است.
+  https://raw.githubusercontent.com/MEHR1DAD/ClashVPN/main/conn/GermanyNetherlandsFranceUk-light.yaml
 <div  dir="rtl">
 
 - حداکثر ۳۰ ثانیه منتظر بمانید تا بهترین سرور با توجه به اینترنت شما پیدا شود

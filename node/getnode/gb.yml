@@ -1,55 +1,100 @@
 proxies:
-  - {name: "🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...", server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: a310fa79-63de-408f-92d5-3385a08a7061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: a0d9fd9b-987a-430d-8b6b-025458b4201b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
-  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai", server: 104.25.255.254, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat}}
-  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: d6198844-7ccf-4ee4-9c3c-15108af89749, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
-  - {name: 🇬🇧 12|🇬🇧_GB_英国_16@2, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: 104.25.255.254, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat}}
+  - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: a310fa79-63de-408f-92d5-3385a08a7061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai", server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}}
+  - {name: "🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国", server: 104.25.255.254, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
+  - {name: "🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国", server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: a310fa79-63de-408f-92d5-3385a08a7061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国", server: codepen.io, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /octavi.cfd:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - 🇬🇧 9|🇬🇧英国04
+  - {name: 🇬🇧 12|🇬🇧 _GB_英国_13@2, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai", server: codepen.io, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /octavi.cfd:443/linkvws, headers: {Host: codepen.io}}}
+  - {name: "🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: a8fd30a0-8360-3e55-997b-f8a6f5da7715, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}}
+  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 2915036e-c394-4ba4-a2a4-b75318324368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 576d0139-860b-4616-a6e8-ac260ee305ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
-      - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇬🇧 7,18|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
       - 🇬🇧 13|英国 04 | 1x UK
-      - 🇬🇧 12|🇬🇧_GB_英国_16@2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 6,11|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧 6,7,18|🇨🇳_CN_中国->🇬🇧_GB_英国
       - 🇺🇸 0,1,2,3,4,12,18|🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 12|🇬🇧 _GB_英国_13@2
+      - 🇬🇧 7,8|🇬🇧 United Kingdom 02 @nodpai
+      - 🇬🇧 7,8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 13|英国 04 | 1x UK

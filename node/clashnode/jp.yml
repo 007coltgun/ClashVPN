@@ -1,1 +1,4 @@
 proxies:
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: mf11fx.micloud.buzz, port: 46011, type: vmess, uuid: d6478e8c-11ab-4bed-99bc-0ab1e8e83051, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf11fx.micloud.buzz}}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: zjpvc-1083-tr-0.r-kcd-b.tuil.xyz, port: 29969, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
+  - {name: 🇯🇵 _SC_塞舌尔->🇯🇵_JP_日本, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: amd-jp2.kxking.eu.org}}}

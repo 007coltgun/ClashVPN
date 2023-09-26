@@ -1,82 +1,46 @@
 proxies:
-  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: fa7498db-91d6-44f4-90b3-2b8baeb6684b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
   - {name: "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国", server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}}
-  - {name: "🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai", server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: a5352233-ad86-3473-ab18-9cafc82a7d13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai", server: 172.67.34.218, port: 8080, type: vmess, uuid: cafbdf1c-5812-492f-92ac-330650c6ecf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 06 @nodpai", server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
   - {name: "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1", server: dx1.992688.xyz, port: 8080, type: vmess, uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu5.vpn66.eu.org}}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 03 @nodpai", server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: yd1.992688.xyz}}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 02 @nodpai", server: lt1.992688.xyz, port: 8080, type: vmess, uuid: cafbdf1c-5812-492f-92ac-330650c6ecf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lt1.992688.xyz}}}
-  - {name: "🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai", server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: a5352233-ad86-3473-ab18-9cafc82a7d13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}}
+  - {name: "🇩🇪 7,8|🇩🇪 Germany 02 @nodpai", server: dx1.992688.xyz, port: 8080, type: vmess, uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dx1.992688.xyz}}}
+  - {name: "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai", server: lt1.992688.xyz, port: 8080, type: vmess, uuid: cafbdf1c-5812-492f-92ac-330650c6ecf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lt1.992688.xyz}}}
+  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: f896f56d-22c9-4991-865b-0bcd285f8bc8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
+      - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
+      - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
+      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
       - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
       - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
       - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
       - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
       - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
       - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
       - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
       - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
       - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
       - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
       - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
       - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
       - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
       - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
       - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
       - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
       - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
       - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
       - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
       - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
       - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai
+      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 04 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 01 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 06 @nodpai
-      - "🇺🇸 0,2,3,4|🇺🇸 _US_美国->🇩🇪_DE_德国 #1"
-      - 🇩🇪 7,8|🇩🇪 Germany 03 @nodpai
-      - 🇩🇪 7,8|🇩🇪 Germany 02 @nodpai
-      - 🇩🇪 7,8|中转 🇩🇪 Germany 05 @nodpai

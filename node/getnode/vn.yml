@@ -1,155 +1,137 @@
 proxies:
   - {name: 🇺🇸 _US_美国->🇻🇳_VN_越南, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: Tokyo.mfa.ee}}}
-  - {name: "🇻🇳 12|越南_Telegram@kxswa #2", server: 103.67.197.28, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: 103.67.197.28}}}
-  - {name: 🇻🇳 13|越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 34e94a5b-deea-4e87-bbea-093271629bb1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.lovemc.xyz}
-  - {name: "🇻🇳 12|越南_Telegram@kxswa #1", server: vn5.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
-  - {name: 🇻🇳 12|🇻🇳 _VN_越南, server: vn2.4gspeed.me, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn2.4gspeed.me}}}
-  - {name: 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: "7,8|🇻🇳 Viet Nam 01 @nodpai", server: hcmgame1.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hcmgame1.4ghatde.com, headers: {Host: hcmgame1.4ghatde.com}}}
-  - {name: 🇻🇳 9|🇻🇳越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: 09c54e17-f9bb-4c7f-9a44-5441525c445a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.abpilot.xyz}
-  - {name: 🇻🇳 12|🇻🇳 越南 88, server: vn3.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn3.4gspeed.me}}}
-  - {name: 🇻🇳 12|🇻🇳_VN_越南_5_1@13, server: 103.239.67.31, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me}}
-  - {name: 🇻🇳 12|越南_Telegram@kxswa, server: 103.67.197.28, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: 103.67.197.28}}}
-  - {name: "7,8|🇻🇳 Viet Nam 02 @nodpai", server: hcm01.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /svip1.4ghatde.com, headers: {Host: hcm01.4ghatde.com}}}
-  - {name: 🇻🇳 12|@hkaa0 |越南, server: vn5.4gspeed.me, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
-  - {name: "🇻🇳 12|越南_Telegram@kxswa #3", server: 103.239.67.31, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: 103.239.67.31}}}
+  - {name: "🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南", server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
+  - {name: "🇻🇳 11|越南_Telegram@kxswa #1", server: vn5.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
+  - {name: 🇻🇳 11|越南_Telegram@kxswa, server: 103.67.197.28, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: 103.67.197.28}}}
   - {name: 🇻🇳 17|🇻🇳_VN_越南_35, server: 103.239.67.31, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me}}
-  - {name: 🇻🇳 12|🇻🇳_VN_越南_1_1@1, server: vn2.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn2.4gspeed.me}}}
-  - {name: 🇻🇳 12|🇻🇳_VN_越南_6_1@15, server: 103.239.67.11, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me}}
+  - {name: 🇻🇳 8|🇻🇳越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: 9506e95d-c7fe-4a60-bfdb-3b9ac00b1ca7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.abpilot.xyz}
+  - {name: 🇻🇳 11|🇻🇳 _VN_越南, server: vn2.4gspeed.me, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn2.4gspeed.me}}}
+  - {name: 🇻🇳 11|🇻🇳 越南 88, server: vn3.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn3.4gspeed.me}}}
+  - {name: 🇻🇳 11|🇻🇳_VN_越南_6_1@15, server: 103.239.67.11, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me}}
+  - {name: 🇻🇳 11|🇻🇳_VN_越南_1_1@1, server: vn2.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn2.4gspeed.me}}}
+  - {name: 🇻🇳 11|@hkaa0 |越南, server: vn5.4gspeed.me, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
+  - {name: "🇻🇳 11|越南_Telegram@kxswa #2", server: 103.67.197.28, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: 103.67.197.28}}}
+  - {name: 🇻🇳 12|越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: bbb389a8-dccb-42a0-b8d2-774d16e522b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.lovemc.xyz}
+  - {name: "🇻🇳 11|越南_Telegram@kxswa #3", server: 103.239.67.31, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: 103.239.67.31}}}
+  - {name: 🇻🇳 11|🇻🇳_VN_越南_5_1@13, server: 103.239.67.31, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4gspeed.me}}
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
-      - 🇻🇳 12|@hkaa0 |越南
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13
+      - 🇻🇳 11|@hkaa0 |越南
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13
       - 🇺🇸 _US_美国->🇻🇳_VN_越南
-      - "🇻🇳 12|越南_Telegram@kxswa #2"
-      - 🇻🇳 13|越南 04 | 1x VN
-      - "🇻🇳 12|越南_Telegram@kxswa #1"
-      - 🇻🇳 12|🇻🇳 _VN_越南
-      - 🇺🇸 6|🇺🇸_US_美国->🇻🇳_VN_越南
-      - 7,8|🇻🇳 Viet Nam 01 @nodpai
-      - 🇻🇳 9|🇻🇳越南04
-      - 🇻🇳 12|🇻🇳 越南 88
-      - 🇻🇳 12|🇻🇳_VN_越南_5_1@13
-      - 🇻🇳 12|越南_Telegram@kxswa
-      - 7,8|🇻🇳 Viet Nam 02 @nodpai
-      - 🇻🇳 12|@hkaa0 |越南
-      - "🇻🇳 12|越南_Telegram@kxswa #3"
+      - 🇺🇸 5,10|🇺🇸_US_美国->🇻🇳_VN_越南
+      - "🇻🇳 11|越南_Telegram@kxswa #1"
+      - 🇻🇳 11|越南_Telegram@kxswa
       - 🇻🇳 17|🇻🇳_VN_越南_35
-      - 🇻🇳 12|🇻🇳_VN_越南_1_1@1
-      - 🇻🇳 12|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 8|🇻🇳越南04
+      - 🇻🇳 11|🇻🇳 _VN_越南
+      - 🇻🇳 11|🇻🇳 越南 88
+      - 🇻🇳 11|🇻🇳_VN_越南_6_1@15
+      - 🇻🇳 11|🇻🇳_VN_越南_1_1@1
+      - 🇻🇳 11|@hkaa0 |越南
+      - "🇻🇳 11|越南_Telegram@kxswa #2"
+      - 🇻🇳 12|越南 04 | 1x VN
+      - "🇻🇳 11|越南_Telegram@kxswa #3"
+      - 🇻🇳 11|🇻🇳_VN_越南_5_1@13

@@ -1,145 +1,154 @@
 proxies:
   - {name: 🇯🇵 _JP_日本, server: 18.183.208.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai, server: starspeed.tbh.iosds.com, port: 25854, type: ss, cipher: chacha20-ietf-poly1305, password: 1e57bafd-e0d8-4881-914d-43f714795a91}
-  - {name: 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai, server: 29.kccic2pa.xyz, port: 50029, type: vmess, uuid: 9712f569-aa6b-4b75-a993-5eb7c1dd288d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 15|日本B|@ripaojiedian, server: 141.147.146.29, port: 46222, type: vmess, uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 12|🇯🇵_JP_日本_11@10, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: a0043275-5033-4923-9f22-b2f466a8794a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 9|🇯🇵日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: d457977a-24a4-41fa-9924-b52925c66a24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp06.abpilot.xyz}
-  - {name: 🇯🇵 9|🇯🇵日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: d457977a-24a4-41fa-9924-b52925c66a24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp04.abpilot.xyz}
-  - {name: 🇯🇵 9|🇯🇵日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: d457977a-24a4-41fa-9924-b52925c66a24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp05.abpilot.xyz}
-  - {name: 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 20022, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1}
-  - {name: 🇯🇵 13|日本 04  | 1x JP, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 30fd33e8-f41d-4090-ae2b-f321fa354f2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp04.lovemc.xyz}
+  - {name: "🇯🇵 12,15|🇯🇵 Japan 01 @nodpai", server: 141.147.146.29, port: 46222, type: vmess, uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian, server: 183.232.170.32, port: 30008, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1}
-  - {name: 🇯🇵 13|日本 06  | 1x JP, server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: 30fd33e8-f41d-4090-ae2b-f321fa354f2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp06.lovemc.xyz}
+  - {name: 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31, server: tunneltransfer.bpyjc.com, port: 8880, type: vmess, uuid: 941525d7-ff7b-4c4c-bac5-d8bd85c56275, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.bpyjc.com}}}
+  - {name: 🇯🇵 9|🇯🇵日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 9bb6333a-73dd-4f2b-aae8-32cafebd800c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp04.abpilot.xyz}
   - {name: 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 13|日本 05  | 1x JP, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: 30fd33e8-f41d-4090-ae2b-f321fa354f2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp05.lovemc.xyz}
+  - {name: 🇯🇵 13|日本 04  | 1x JP, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 23f9858a-3cba-4860-8223-bdbc6198664f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp04.lovemc.xyz}
+  - {name: 🇯🇵 9|🇯🇵日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 9bb6333a-73dd-4f2b-aae8-32cafebd800c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp06.abpilot.xyz}
+  - {name: 🇯🇵 9|🇯🇵日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 9bb6333a-73dd-4f2b-aae8-32cafebd800c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp05.abpilot.xyz}
+  - {name: 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
+  - {name: 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai, server: 29.kccic2pa.xyz, port: 50029, type: vmess, uuid: 9712f569-aa6b-4b75-a993-5eb7c1dd288d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 12|🇻🇳_VN_越南_分享日记_48, server: hcm01.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /svip1.4ghatde.com, headers: {Host: hcm01.4ghatde.com}}}
+  - {name: 🇯🇵 13|日本 06  | 1x JP, server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: 23f9858a-3cba-4860-8223-bdbc6198664f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp06.lovemc.xyz}
+  - {name: 🇯🇵 13|日本 05  | 1x JP, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: 23f9858a-3cba-4860-8223-bdbc6198664f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jp05.lovemc.xyz}
+  - {name: 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 20022, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1}
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
       - 🇯🇵 _JP_日本
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.239:2333
-      - 🇯🇵 8|中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 7|中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 15|日本B|@ripaojiedian
-      - 🇯🇵 12|🇯🇵_JP_日本_11@10
-      - 🇯🇵 9|🇯🇵日本06
-      - 🇯🇵 9|🇯🇵日本04
-      - 🇯🇵 9|🇯🇵日本05
-      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 12,15|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_024
       - 🇯🇵 14|🇯🇵 日本KT2|@ripaojiedian
-      - 🇯🇵 13|日本 06  | 1x JP
+      - 🇯🇵 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+      - 🇯🇵 9|🇯🇵日本04
       - 🇯🇵 12|🇯🇵 JP(AzadNet.t.me)_023
+      - 🇯🇵 13|日本 04  | 1x JP
+      - 🇯🇵 9|🇯🇵日本06
+      - 🇯🇵 9|🇯🇵日本05
+      - 🇯🇵 12|🇺🇸_US_美国->🇯🇵_JP_日本_20@14
+      - 🇯🇵 7|中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 12|🇻🇳_VN_越南_分享日记_48
+      - 🇯🇵 13|日本 06  | 1x JP
       - 🇯🇵 13|日本 05  | 1x JP
+      - 🇯🇵 14|🇯🇵 日本KT|@ripaojiedian

@@ -2,72 +2,54 @@ proxies:
   - {name: 🇬🇧 _GB_英国, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cdn.anycast.eu.org}}}
   - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: hz-cu.timiwc.com, port: 17770, type: ss, cipher: aes-256-gcm, password: 0ea9950e-f1ac-40ed-9b77-c629ef502bd3}
   - {name: 🇬🇧 6|🇬🇧_GB_英国, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eminem-identified-crossing-thinkpad.trycloudflare.com}}}
-  - {name: 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa..., server: uk-zl-gy.115cloud.link, port: 18085, type: vmess, uuid: bd3fc8a8-7383-3f7d-834a-fac79d76ca29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: bc3a62f6-a7e6-3ed9-9fae-7869b780d2cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}}
-  - {name: 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa..., server: hz-cu.timiwc.com, port: 17770, type: ss, cipher: aes-256-gcm, password: 0ea9950e-f1ac-40ed-9b77-c629ef502bd3}
-  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: e48d51c6-5c40-48a1-adeb-a4f8d383033c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
-  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 227ba9b8-838e-4197-bd7e-c3bd67aedad9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1", server: 104.16.117.47, port: 80, type: vmess, uuid: e8cc06f6-0eff-4c07-9038-8c640650a2ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: ed9ddca1-14ce-4b1d-b080-b7954fa056d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 54a01749-8388-4b49-9bda-38cb4ed487d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
       - 🇬🇧 _CN_中国->🇬🇧_GB_英国
       - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 03 @nodpa...
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK

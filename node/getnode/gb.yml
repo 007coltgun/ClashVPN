@@ -1,55 +1,73 @@
 proxies:
-  - {name: 🇬🇧 _GB_英国, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cdn.anycast.eu.org}}}
-  - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: hz-cu.timiwc.com, port: 17770, type: ss, cipher: aes-256-gcm, password: 0ea9950e-f1ac-40ed-9b77-c629ef502bd3}
-  - {name: 🇬🇧 6|🇬🇧_GB_英国, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eminem-identified-crossing-thinkpad.trycloudflare.com}}}
-  - {name: 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa..., server: hz-cu.timiwc.com, port: 17770, type: ss, cipher: aes-256-gcm, password: 0ea9950e-f1ac-40ed-9b77-c629ef502bd3}
-  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 586009bb-b993-4c5c-8f32-c523040fdf34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
-  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: 🇬🇧 _GB_英国, server: 51.89.206.18, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 7Mb2TN5PhBxI2R2FujtrnR}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_1, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_2, server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
+  - {name: 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
+  - {name: "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1", server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
+  - {name: "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1", server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: cbd1af14-b0de-3b67-82f8-ab5303f95745, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}}
+  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: cee592a6-e6d9-43a3-ae06-89318a50426b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: fe410c59-4808-40a3-ad60-f8704663f37a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 _GB_英国
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇬🇧 6|🇬🇧_GB_英国
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 13|英国 04 | 1x UK

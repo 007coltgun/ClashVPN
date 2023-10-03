@@ -1,16 +1,18 @@
 proxies:
   - {name: 🇸🇬 新加坡-0-0-ss-54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai, server: sg-gy.115cloud.link, port: 26768, type: vmess, uuid: 28a3981e-00b8-3dc9-b5fc-1504bce53ede, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai, server: ydyh.nanbei.info, port: 26906, type: ss, cipher: chacha20-ietf-poly1305, password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96}
-  - {name: 🇸🇬 9|🇸🇬新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 94017b0f-ebd8-4b9f-8c38-0d761c7ab90b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.abpilot.xyz}
-  - {name: 🇸🇬 9|🇸🇬新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 94017b0f-ebd8-4b9f-8c38-0d761c7ab90b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.abpilot.xyz}
-  - {name: 🇸🇬 9|🇸🇬新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 94017b0f-ebd8-4b9f-8c38-0d761c7ab90b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.abpilot.xyz}
-  - {name: 🇸🇬 13|新加坡 04 | 1x SG, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: 171d6e63-2812-49b8-a790-172ebe7f1c61, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.lovemc.xyz}
-  - {name: 🇸🇬 13|新加坡 05 | 1x SG, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: 171d6e63-2812-49b8-a790-172ebe7f1c61, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.lovemc.xyz}
-  - {name: 🇸🇬 13|新加坡 06 | 1x SG, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: 171d6e63-2812-49b8-a790-172ebe7f1c61, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.lovemc.xyz}
+  - {name: "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1", server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
+  - {name: "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1", server: welfare.kk-proxy.pro, port: 443, type: vmess, uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ec3a017507e0/, headers: {Host: welfare.kk-proxy.pro}}}
+  - {name: 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai, server: ydyh.nanbei.info, port: 26906, type: ss, cipher: chacha20-ietf-poly1305, password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96}
+  - {name: 🇸🇬 9|🇸🇬新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 299a410f-f79c-491a-9126-f79b6bc03bb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.abpilot.xyz}
+  - {name: 🇸🇬 9|🇸🇬新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 299a410f-f79c-491a-9126-f79b6bc03bb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.abpilot.xyz}
+  - {name: 🇸🇬 9|🇸🇬新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 299a410f-f79c-491a-9126-f79b6bc03bb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.abpilot.xyz}
+  - {name: 🇸🇬 13|新加坡 04 | 1x SG, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: d8251ef0-363a-4936-99bc-4259b35a662d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.lovemc.xyz}
+  - {name: 🇸🇬 13|新加坡 05 | 1x SG, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: d8251ef0-363a-4936-99bc-4259b35a662d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.lovemc.xyz}
+  - {name: 🇸🇬 13|新加坡 06 | 1x SG, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: d8251ef0-363a-4936-99bc-4259b35a662d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.lovemc.xyz}
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
@@ -18,8 +20,9 @@ proxies:
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
@@ -27,8 +30,9 @@ proxies:
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
@@ -36,8 +40,9 @@ proxies:
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
@@ -45,8 +50,9 @@ proxies:
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
@@ -54,8 +60,9 @@ proxies:
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
@@ -63,8 +70,9 @@ proxies:
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
@@ -72,8 +80,9 @@ proxies:
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
+      - "🇸🇬 7,8|🇸🇬 Singapore 03 @nodpai #1"
+      - "🇸🇬 7,8|🇸🇬 Singapore 04 @nodpai #1"
+      - 🇸🇬 8|中转 🇸🇬 Singapore 01 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06

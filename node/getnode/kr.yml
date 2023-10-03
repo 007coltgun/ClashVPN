@@ -1,55 +1,64 @@
 proxies:
-  - {name: "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1", server: 8.218.143.10, port: 2052, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/vm?ed=2048"}}
-  - {name: "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1", server: 43.229.154.191, port: 54037, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: nm.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048"}}
-  - {name: "🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian", server: 43.202.50.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 9|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 2d94d373-3318-4ca8-9734-3a777a1cf5c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
+  - {name: "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1", server: hz.xzyunjiasu.icu, port: 41943, type: vmess, uuid: df5208f8-cec7-428d-fc84-db4f6046ca3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: hz.xzyunjiasu.icu}}}
+  - {name: "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1", server: 34.92.43.3, port: 80, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/vm?ed=2048"}}
+  - {name: "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1", server: 43.229.154.12, port: 39923, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: nm.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048"}}
+  - {name: 🇰🇷 9|🇰🇷韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 94017b0f-ebd8-4b9f-8c38-0d761c7ab90b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.abpilot.xyz}
   - {name: 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20, server: cc1.clare88.tk, port: 12653, type: vmess, uuid: fce96161-0c58-4ba9-8430-660d84083888, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇰🇷 13|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 622f5454-555f-4c0a-892b-bf831ea20034, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+  - {name: 🇰🇷 13|韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 171d6e63-2812-49b8-a790-172ebe7f1c61, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kr04.lovemc.xyz}
+  - {name: 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian, server: 43.202.50.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
-      - "🇰🇷 7,8|🇰🇷 South Korea 01 @nodpai #1"
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - "🇰🇷 7,8|中转 🇰🇷 South Korea 01 @nodpai #1"
+      - "🇰🇷 7,8|🇰🇷 South Korea 02 @nodpai #1"
       - "🇰🇷 7,8|🇰🇷 South Korea 03 @nodpai #1"
-      - 🇰🇷 8,14|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 9|🇰🇷韩国04
       - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 13|韩国 02 | 1x KR
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian

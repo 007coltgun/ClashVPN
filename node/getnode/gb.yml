@@ -1,99 +1,63 @@
 proxies:
-  - {name: 🇬🇧 _GB_英国, server: 51.89.206.18, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 7Mb2TN5PhBxI2R2FujtrnR}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_1, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_2, server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
   - {name: "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3", server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
   - {name: "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2", server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1", server: 104.19.47.4, port: 80, type: vmess, uuid: cd16405e-f353-4ae2-8434-a130d3e4473e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa..., server: p1.bxy-fun1.com, port: 30470, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
-  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa..., server: uk-zl-gy.115cloud.link, port: 18085, type: vmess, uuid: 5ba7c1f8-58c2-35f0-8a33-7aae59fc281d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 8ce16082-5718-4907-888b-00aa1e2e126e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
   - {name: 🇬🇧 12|🇬🇧 英国_1002019, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: fc0ee219-e82c-41a2-ac80-aeb71b4a8bb1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
   - {name: 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz..., server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: 027c4518-7488-4b12-9fc4-65af80c6af75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK
       - 🇬🇧 18|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_2
       - "🇺🇸 2,3,4,6|🇺🇸_US_美国->🇬🇧_GB_英国 #3"
       - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
-      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
-      - 🇬🇧 8|中转 🇬🇧 United Kingdom 02 @nodpa...
+      - 🇬🇧 7|中转 🇬🇧 United Kingdom 01 @nodpa...
       - 🇬🇧 9|🇬🇧英国04
       - 🇬🇧 12|🇬🇧 英国_1002019
       - 🇬🇧 13|英国 04 | 1x UK

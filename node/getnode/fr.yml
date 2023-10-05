@@ -1,55 +1,64 @@
 proxies:
   - {name: "🇫🇷 1,4|🇫🇷_FR_法国", server: 156.249.18.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1", server: 104.31.16.213, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest}}
-  - {name: "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1", server: 104.24.176.7, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest}}
-  - {name: "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1", server: bobbykotick.rip, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: lille.bobbykotick.rip, network: ws, ws-opts: {path: /speedtest, headers: {Host: bobbykotick.rip}}}
-  - {name: 🇫🇷 8|中转 🇫🇷 France 05 @nodpai, server: as.al19.cf, port: 42018, type: ss, cipher: chacha20-ietf-poly1305, password: 977a1372-18fe-4bae-8616-9a59497b810a}
-  - {name: 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49, server: hdfy1d1.cpi2hidd.eu.org, port: 443, type: vmess, uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: hdfy1d1.cpi2hidd.eu.org, grpc-opts: {grpc-service-name: /}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1", server: 104.31.16.213, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1", server: 104.24.176.7, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1", server: fd.shabijichang.com, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fd.shabijichang.com}}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1", server: bl.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bl.shabijichang.com}}}
+  - {name: 🇫🇷 8|🇫🇷 France 02 @nodpai, server: as.al19.cf, port: 42018, type: ss, cipher: chacha20-ietf-poly1305, password: 977a1372-18fe-4bae-8616-9a59497b810a}
+  - {name: 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49, server: hdfy1d1.cpi2hidd.eu.org, port: 443, type: vmess, uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: hdfy1d1.cpi2hidd.eu.org, grpc-opts: {grpc-service-name: /}}
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49
       - 🇫🇷 1,4|🇫🇷_FR_法国
-      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
       - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
-      - 🇫🇷 8|中转 🇫🇷 France 05 @nodpai
-      - 🇫🇷 18|法国(由快嘴科技提供;kkzui.com)_49
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
+      - 🇫🇷 8|🇫🇷 France 02 @nodpai
+      - 🇫🇷 17|法国(由快嘴科技提供;kkzui.com)_49

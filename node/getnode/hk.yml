@@ -1,8 +1,6 @@
 proxies:
   - {name: "🇭🇰 7,15|香港Y|@ripaojiedian", server: 112.29.94.22, port: 53737, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1", server: mf01fx.micloud.buzz, port: 46001, type: vmess, uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf01fx.micloud.buzz}}}
-  - {name: "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1", server: 183.178.194.228, port: 4443, type: vmess, uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkbn1.411api-snisajdnjkndd.com, network: ws, ws-opts: {path: /}}
-  - {name: "🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian", server: 103.15.217.182, port: 33058, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian", server: 103.15.217.182, port: 33058, type: trojan, password: QHhbhwe6lj, sni: 103.15.217.182, skip-cert-verify: false}
   - {name: 🇭🇰 9|🇭🇰香港04, server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk04.abpilot.xyz}
   - {name: 🇭🇰 9|🇭🇰香港05, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk05.abpilot.xyz}
   - {name: 🇭🇰 9|🇭🇰香港06, server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk06.abpilot.xyz}
@@ -16,56 +14,6 @@ proxies:
   - {name: 🇭🇰 15|香港A|@ripaojiedian, server: 183.233.187.214, port: 51165, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 15|香港2|@ripaojiedian, server: 183.240.232.82, port: 40158, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
       - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
-      - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
-      - 🇭🇰 9|🇭🇰香港04
-      - 🇭🇰 9|🇭🇰香港05
-      - 🇭🇰 9|🇭🇰香港06
-      - 🇭🇰 12|🇭🇰_HK_香港_1_9@3
-      - 🇭🇰 13|香港 04 | 1x HK
-      - 🇭🇰 13|香港 05 | 1x HK
-      - 🇭🇰 13|香港 06 | 1x HK
-      - 🇭🇰 14|🇭🇰 香港KT|@ripaojiedian
-      - 🇭🇰 14,15|香港B|@ripaojiedian
-      - 🇭🇰 15|香港直连|@ripaojiedian
-      - 🇭🇰 15|香港A|@ripaojiedian
-      - 🇭🇰 15|香港2|@ripaojiedian
-      - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
-      - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
-      - 🇭🇰 9|🇭🇰香港04
-      - 🇭🇰 9|🇭🇰香港05
-      - 🇭🇰 9|🇭🇰香港06
-      - 🇭🇰 12|🇭🇰_HK_香港_1_9@3
-      - 🇭🇰 13|香港 04 | 1x HK
-      - 🇭🇰 13|香港 05 | 1x HK
-      - 🇭🇰 13|香港 06 | 1x HK
-      - 🇭🇰 14|🇭🇰 香港KT|@ripaojiedian
-      - 🇭🇰 14,15|香港B|@ripaojiedian
-      - 🇭🇰 15|香港直连|@ripaojiedian
-      - 🇭🇰 15|香港A|@ripaojiedian
-      - 🇭🇰 15|香港2|@ripaojiedian
-      - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
-      - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
-      - 🇭🇰 9|🇭🇰香港04
-      - 🇭🇰 9|🇭🇰香港05
-      - 🇭🇰 9|🇭🇰香港06
-      - 🇭🇰 12|🇭🇰_HK_香港_1_9@3
-      - 🇭🇰 13|香港 04 | 1x HK
-      - 🇭🇰 13|香港 05 | 1x HK
-      - 🇭🇰 13|香港 06 | 1x HK
-      - 🇭🇰 14|🇭🇰 香港KT|@ripaojiedian
-      - 🇭🇰 14,15|香港B|@ripaojiedian
-      - 🇭🇰 15|香港直连|@ripaojiedian
-      - 🇭🇰 15|香港A|@ripaojiedian
-      - 🇭🇰 15|香港2|@ripaojiedian
-      - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
       - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
       - 🇭🇰 9|🇭🇰香港04
       - 🇭🇰 9|🇭🇰香港05
@@ -94,8 +42,6 @@ proxies:
       - 🇭🇰 15|香港A|@ripaojiedian
       - 🇭🇰 15|香港2|@ripaojiedian
       - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
       - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
       - 🇭🇰 9|🇭🇰香港04
       - 🇭🇰 9|🇭🇰香港05
@@ -110,8 +56,6 @@ proxies:
       - 🇭🇰 15|香港A|@ripaojiedian
       - 🇭🇰 15|香港2|@ripaojiedian
       - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
       - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
       - 🇭🇰 9|🇭🇰香港04
       - 🇭🇰 9|🇭🇰香港05
@@ -126,8 +70,6 @@ proxies:
       - 🇭🇰 15|香港A|@ripaojiedian
       - 🇭🇰 15|香港2|@ripaojiedian
       - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
       - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
       - 🇭🇰 9|🇭🇰香港04
       - 🇭🇰 9|🇭🇰香港05
@@ -142,8 +84,48 @@ proxies:
       - 🇭🇰 15|香港A|@ripaojiedian
       - 🇭🇰 15|香港2|@ripaojiedian
       - 🇭🇰 7,15|香港Y|@ripaojiedian
-      - "🇭🇰 7,8|中转 🇭🇰 Hong Kong 03 @nodpai #1"
-      - "🇭🇰 7,8|🇭🇰 Hong Kong 04 @nodpai #1"
+      - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
+      - 🇭🇰 9|🇭🇰香港04
+      - 🇭🇰 9|🇭🇰香港05
+      - 🇭🇰 9|🇭🇰香港06
+      - 🇭🇰 12|🇭🇰_HK_香港_1_9@3
+      - 🇭🇰 13|香港 04 | 1x HK
+      - 🇭🇰 13|香港 05 | 1x HK
+      - 🇭🇰 13|香港 06 | 1x HK
+      - 🇭🇰 14|🇭🇰 香港KT|@ripaojiedian
+      - 🇭🇰 14,15|香港B|@ripaojiedian
+      - 🇭🇰 15|香港直连|@ripaojiedian
+      - 🇭🇰 15|香港A|@ripaojiedian
+      - 🇭🇰 15|香港2|@ripaojiedian
+      - 🇭🇰 7,15|香港Y|@ripaojiedian
+      - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
+      - 🇭🇰 9|🇭🇰香港04
+      - 🇭🇰 9|🇭🇰香港05
+      - 🇭🇰 9|🇭🇰香港06
+      - 🇭🇰 12|🇭🇰_HK_香港_1_9@3
+      - 🇭🇰 13|香港 04 | 1x HK
+      - 🇭🇰 13|香港 05 | 1x HK
+      - 🇭🇰 13|香港 06 | 1x HK
+      - 🇭🇰 14|🇭🇰 香港KT|@ripaojiedian
+      - 🇭🇰 14,15|香港B|@ripaojiedian
+      - 🇭🇰 15|香港直连|@ripaojiedian
+      - 🇭🇰 15|香港A|@ripaojiedian
+      - 🇭🇰 15|香港2|@ripaojiedian
+      - 🇭🇰 7,15|香港Y|@ripaojiedian
+      - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
+      - 🇭🇰 9|🇭🇰香港04
+      - 🇭🇰 9|🇭🇰香港05
+      - 🇭🇰 9|🇭🇰香港06
+      - 🇭🇰 12|🇭🇰_HK_香港_1_9@3
+      - 🇭🇰 13|香港 04 | 1x HK
+      - 🇭🇰 13|香港 05 | 1x HK
+      - 🇭🇰 13|香港 06 | 1x HK
+      - 🇭🇰 14|🇭🇰 香港KT|@ripaojiedian
+      - 🇭🇰 14,15|香港B|@ripaojiedian
+      - 🇭🇰 15|香港直连|@ripaojiedian
+      - 🇭🇰 15|香港A|@ripaojiedian
+      - 🇭🇰 15|香港2|@ripaojiedian
+      - 🇭🇰 7,15|香港Y|@ripaojiedian
       - 🇭🇰 8,14|🇭🇰 香港慢|@ripaojiedian
       - 🇭🇰 9|🇭🇰香港04
       - 🇭🇰 9|🇭🇰香港05

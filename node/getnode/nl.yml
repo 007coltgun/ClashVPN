@@ -1,74 +1,37 @@
 proxies:
   - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438}}
-  - {name: "🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2", server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
-  - {name: "🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰", server: 156.245.8.248, port: 41671, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇳🇱 1,4|🇳🇱_NL_荷兰 #1", server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇳🇱 4|🇳🇱_NL_荷兰, server: 154.85.1.129, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1685439562518, headers: {Host: www.42077230.xyz}}}
-  - {name: 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai, server: foshan.chiguayun.cc, port: 27117, type: ss, cipher: chacha20-ietf-poly1305, password: 4cf75408-967d-41c4-bf89-80517807e26f}
+  - {name: "🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2", server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
+  - {name: "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3", server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438}}
   - {name: 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016, server: phosphorylative.aurorainiceland.com, port: 443, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nimvws, headers: {Host: phosphorylative.aurorainiceland.com}}}
-  - {name: "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2", server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438}}
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸 0,2,3,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-      - 🇭🇰 1,4|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - "🇳🇱 1,4|🇳🇱_NL_荷兰 #1"
-      - 🇳🇱 4|🇳🇱_NL_荷兰
-      - 🇳🇱 8|中转 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 0,2,3,4,6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - "🇺🇸 1,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #3"
       - 🇳🇱 12|🇳🇱 NL(AzadNet.t.me)_016
-      - "🇺🇸 12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2"

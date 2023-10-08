@@ -1,68 +1,79 @@
 proxies:
-  - {name: "🇨🇳 6,17|🇹🇼_TW_台湾_24", server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
-  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai, server: jscm01.celerlink.one, port: 41020, type: ss, cipher: chacha20-ietf-poly1305, password: 2739ce85d3b9e145}
-  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai, server: jscm01.celerlink.one, port: 41021, type: ss, cipher: chacha20-ietf-poly1305, password: 2739ce85d3b9e145}
-  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai, server: a6c42332.ens4.buzz, port: 11238, type: ss, cipher: aes-256-gcm, password: b69dc5bf-dfb1-43b3-b6c1-6bb154cf1b0e}
+  - {name: "🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24", server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
+  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1", server: b1u4.ntbq.dynu.net, port: 443, type: vmess, uuid: 7bcd1b11-ac49-40f7-9197-4df867192564, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /b14, headers: {Host: b1u4.ntbq.dynu.net}}}
+  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1", server: ub3.kq1.dynu.net, port: 443, type: vmess, uuid: 7bcd1b11-ac49-40f7-9197-4df867192564, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vbub3, headers: {Host: ub3.kq1.dynu.net}}}
   - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
   - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
   - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+  - {name: "🇨🇳 11,12|🇹🇼_TW_台湾_0@12", server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
+  - {name: 🇨🇳 12|🇹🇼台湾TW, server: xiongda006.daxiongda.top, port: 18802, type: vmess, uuid: 5efbe9e0-d7b9-47a5-9c02-bf467945dd0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v9-dy.ixigua.com}}}
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 6,17|🇹🇼_TW_台湾_24
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 04 @nodpai
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW
+      - 🇨🇳 6,7,8,17|🇹🇼_TW_台湾_24
+      - "🇨🇳 7,8|🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|🇹🇼 Taiwan 02 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11,12|🇹🇼_TW_台湾_0@12
+      - 🇨🇳 12|🇹🇼台湾TW

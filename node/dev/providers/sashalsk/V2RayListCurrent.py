@@ -10,39 +10,42 @@ lines = response.text.splitlines()
 converted_lines = []
 for line in lines:
     parts = line.split(" ")
-    name = parts[0]
-    server = parts[1].split(":")[0]
-    port = int(parts[1].split(":")[1])
-    type_ = parts[2]
-    uuid = parts[3]
-    alterId = int(parts[4])
-    cipher = parts[5]
-    tls = bool(parts[6])
-    skip_cert_verify = bool(parts[7])
-    network = parts[8]
-    ws_path = parts[9]
     
-    converted_line = {
-        'name': name,
-        'server': server,
-        'port': port,
-        'type': type_,
-        'uuid': uuid,
-        'alterId': alterId,
-        'cipher': cipher,
-        'tls': tls,
-        'skip-cert-verify': skip_cert_verify,
-        'network': network,
-        'ws-opts': {'path': ws_path}
-    }
-    
-    converted_lines.append(converted_line)
+    # Check if the parts list has enough elements
+    if len(parts) >= 2:
+        name = parts[0]
+        server = parts[1].split(":")[0]
+        port = int(parts[1].split(":")[1])
+        type_ = parts[2]
+        uuid = parts[3]
+        alterId = int(parts[4])
+        cipher = parts[5]
+        tls = bool(parts[6])
+        skip_cert_verify = bool(parts[7])
+        network = parts[8]
+        ws_path = parts[9]
+        
+        converted_line = {
+            'name': name,
+            'server': server,
+            'port': port,
+            'type': type_,
+            'uuid': uuid,
+            'alterId': alterId,
+            'cipher': cipher,
+            'tls': tls,
+            'skip-cert-verify': skip_cert_verify,
+            'network': network,
+            'ws-opts': {'path': ws_path}
+        }
+        
+        converted_lines.append(converted_line)
 
 # Create the YAML content
-yaml_content = yaml.dump({'proxies:\n': converted_lines})
+yaml_content = yaml.dump({'proxies': converted_lines})
 
 # Set the output file path
-output_file = "./node/sashalsk/V2Ray-list-current.yml"
+output_file = "./node/sashalsk/V2RayListCurrent.yml"
 
 # Save the YAML content to the output file
 with open(output_file, 'w') as file:

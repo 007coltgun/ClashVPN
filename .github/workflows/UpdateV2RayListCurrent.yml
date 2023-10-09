@@ -21,7 +21,7 @@ jobs:
     
       - name: Run All
         run: |
-          python ./node/dev/providers/sashalsk/V2Ray-list-current.py
+          python ./node/dev/providers/sashalsk/V2RayListCurrent.py
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
           git add -A

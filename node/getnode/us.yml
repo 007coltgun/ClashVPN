@@ -1,4 +1,12 @@
 proxies:
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: nl01.lovehjq.xyz, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国_1, server: www.speedtest.net, port: 80, type: vmess, uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}}
+  - {name: 🇺🇸 _US_美国_2, server: usfhc4.gophers.gay, port: 20353, type: vmess, uuid: 4b445dc7-3db7-4476-978a-1fb2a4d5c2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: usfhc4.gophers.gay}}}
+  - {name: 🇺🇸 _US_美国_3, server: 104.21.70.14, port: 8080, type: vmess, uuid: 6735fcf0-7846-4259-bc31-f4f905a92750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国_4, server: sdyg2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438}}
+  - {name: 🇺🇸 _US_美国_5, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696598013851}}
+  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
   - {name: 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80, server: 159.223.94.156, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 4, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /anti13.zingfast.vn}}
   - {name: 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443, server: hkd1.quickerlink.xyz, port: 443, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /h6jr23x9h3lqiitg, headers: {Host: hkd1.quickerlink.xyz}}}
@@ -89,6 +97,14 @@ proxies:
   - {name: 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22, server: 104.18.135.39, port: 2052, type: vmess, uuid: 21d36f86-53ab-4218-a740-9c70511f85d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/public?ed=4096", headers: {Host: de2.biqibao.site}}}
   - {name: 🇺🇸 github.com/freefq - 美国  4, server: usfhc4.gophers.gay, port: 20353, type: vmess, uuid: 4b445dc7-3db7-4476-978a-1fb2a4d5c2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: microsoft.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国  15, server: sg4.gophers.gay, port: 23202, type: vmess, uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: microsoft.com}}}
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
@@ -179,6 +195,14 @@ proxies:
       - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
       - 🇺🇸 github.com/freefq - 美国  4
       - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
@@ -269,6 +293,14 @@ proxies:
       - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
       - 🇺🇸 github.com/freefq - 美国  4
       - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
@@ -359,6 +391,14 @@ proxies:
       - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
       - 🇺🇸 github.com/freefq - 美国  4
       - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
@@ -450,6 +490,14 @@ proxies:
       - 🇺🇸 github.com/freefq - 美国  4
       - 🇺🇸 github.com/freefq - 美国  15
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
@@ -540,6 +588,14 @@ proxies:
       - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
       - 🇺🇸 github.com/freefq - 美国  4
       - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
@@ -630,6 +686,14 @@ proxies:
       - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
       - 🇺🇸 github.com/freefq - 美国  4
       - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443
@@ -720,6 +784,14 @@ proxies:
       - 🇺🇸 17|🇺🇸_US_美国->🇩🇪_DE_德国_5_22
       - 🇺🇸 github.com/freefq - 美国  4
       - 🇺🇸 github.com/freefq - 美国  15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 _US_美国_2
+      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - 🇺🇸 美国-康涅狄格-0-ss-13.213.46.196:443
       - 🇺🇸 美国-德克萨斯-0-v2ray-159.223.94.156:80
       - 🇺🇸 美国-德克萨斯-0-v2ray-hkd1.quickerlink.xyz:443

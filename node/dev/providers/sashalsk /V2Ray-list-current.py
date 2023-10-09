@@ -39,8 +39,11 @@ for line in lines:
     converted_lines.append(converted_line)
 
 # Create the YAML content
-yaml_content = yaml.dump({'proxies': converted_lines})
+yaml_content = yaml.dump({'proxies:\n': converted_lines})
 
-# Save the YAML content to a file
-with open('V2Ray-list-current.yml', 'w') as file:
+# Set the output file path
+output_file = "./node/sashalsk/V2Ray-list-current.yml"
+
+# Save the YAML content to the output file
+with open(output_file, 'w') as file:
     file.write(yaml_content)

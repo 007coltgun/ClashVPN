@@ -1,52 +1,22 @@
 import requests
-import yaml
 
-# Fetch the data from the URL
-url = "https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray-list-current"
-response = requests.get(url)
-lines = response.text.splitlines()
-
-# Convert each line to the desired format
-converted_lines = []
-for line in lines:
-    parts = line.split(" ")
-    
-    # Check if the parts list has enough elements
-    if len(parts) >= 2:
-        name = parts[0]
-        server = parts[1].split(":")[0]
-        port = int(parts[1].split(":")[1])
-        type_ = parts[2]
-        uuid = parts[3]
-        alterId = int(parts[4])
-        cipher = parts[5]
-        tls = bool(parts[6])
-        skip_cert_verify = bool(parts[7])
-        network = parts[8]
-        ws_path = parts[9]
-        
-        converted_line = {
-            'name': name,
-            'server': server,
-            'port': port,
-            'type': type_,
-            'uuid': uuid,
-            'alterId': alterId,
-            'cipher': cipher,
-            'tls': tls,
-            'skip-cert-verify': skip_cert_verify,
-            'network': network,
-            'ws-opts': {'path': ws_path}
-        }
-        
-        converted_lines.append(converted_line)
-
-# Create the YAML content
-yaml_content = yaml.dump({'proxies': converted_lines})
-
-# Set the output file path
 output_file = "./node/sashalsk/V2RayListCurrent.yml"
 
-# Save the YAML content to the output file
-with open(output_file, 'w') as file:
-    file.write(yaml_content)
+def convert_line(line):
+  """Converts a line from the V2Ray list to a YAML format."""
+  server, port, type, uuid, alter_id, cipher, tls, skip_cert_verify, network, ws_path = line.split()
+  return f"  - {{'name': '{server}-{port}', 'server': '{server}', 'port': {port}, 'type': '{type}', 'uuid': '{uuid}', 'alterId': {alter_id}, 'cipher': '{cipher}', 'tls': {tls}, 'skip-cert-verify': {skip_cert_verify}, 'network': '{network}', 'ws-opts': {{'path': '{ws_path}'}}}}\n"
+
+def main():
+  """Converts the V2Ray list to a YAML file."""
+  response = requests.get("https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray-list-current")
+  lines = response.content.decode().splitlines()
+
+  converted_lines = [convert_line(line) for line in lines]
+
+  with open(output_file, "w") as f:
+    f.write("proxies:\n")
+    f.writelines(converted_lines)
+
+if __name__ == "__main__":
+  main()

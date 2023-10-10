@@ -4,7 +4,12 @@ output_file = "./node/sashalsk/V2RayListCurrent.yml"
 
 def convert_line(line):
   """Converts a line from the V2Ray list to a YAML format."""
-  server, port, type, uuid, alter_id, cipher, tls, skip_cert_verify, network, ws_path = line.split()
+  try:
+    server, port, type, uuid, alter_id, cipher, tls, skip_cert_verify, network, ws_path = line.split()
+  except ValueError:
+    # Handle the ValueError exception here.
+    return ""
+
   return f"  - {{'name': '{server}-{port}', 'server': '{server}', 'port': {port}, 'type': '{type}', 'uuid': '{uuid}', 'alterId': {alter_id}, 'cipher': '{cipher}', 'tls': {tls}, 'skip-cert-verify': {skip_cert_verify}, 'network': '{network}', 'ws-opts': {{'path': '{ws_path}'}}}}\n"
 
 def main():

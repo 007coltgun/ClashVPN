@@ -12,6 +12,16 @@ def export_vmess_to_clash(vmess_url, output_file):
 
     response = requests.get(vmess_url)
     vmess_text = response.content.decode("utf-8")
+
+    # Try to decode the text using a different encoding if necessary.
+    try:
+        vmess_text = vmess_text.decode("latin-1")
+    except UnicodeDecodeError:
+        pass
+
+    # Remove any invalid characters from the text.
+    vmess_text = "".join([c for c in vmess_text if c.isprintable()])
+
     vmess_proxies = json.loads(vmess_text)
 
     clash_proxies = []

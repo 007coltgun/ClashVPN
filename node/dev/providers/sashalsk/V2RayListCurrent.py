@@ -10,7 +10,8 @@ def export_vmess_to_clash(vmess_url, output_file):
     """
 
     response = requests.get(vmess_url)
-    vmess_proxies = response.json()
+    vmess_text = response.content.decode("utf-8")
+    vmess_proxies = json.loads(vmess_text)
 
     clash_proxies = []
     for vmess_proxy in vmess_proxies:

@@ -1,5 +1,6 @@
 import requests
 import yaml
+import json
 
 def export_vmess_to_clash(vmess_url, output_file):
     """Exports VMESS proxies from a given URL to Clash proxy format.

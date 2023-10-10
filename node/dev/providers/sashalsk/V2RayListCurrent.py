@@ -1,27 +1,42 @@
 import requests
+import yaml
 
-output_file = "./node/sashalsk/V2RayListCurrent.yml"
+def export_vmess_to_clash(vmess_url, output_file):
+    """Exports VMESS proxies from a given URL to Clash proxy format.
 
-def convert_line(line):
-  """Converts a line from the V2Ray list to a YAML format."""
-  try:
-    server, port, type, uuid, alter_id, cipher, tls, skip_cert_verify, network, ws_path = line.split()
-  except ValueError:
-    # Handle the ValueError exception here.
-    return ""
+    Args:
+        vmess_url: The URL of the VMESS proxy list.
+        output_file: The path to the output file.
+    """
 
-  return f"  - {{'name': '{server}-{port}', 'server': '{server}', 'port': {port}, 'type': '{type}', 'uuid': '{uuid}', 'alterId': {alter_id}, 'cipher': '{cipher}', 'tls': {tls}, 'skip-cert-verify': {skip_cert_verify}, 'network': '{network}', 'ws-opts': {{'path': '{ws_path}'}}}}\n"
+    response = requests.get(vmess_url)
+    vmess_proxies = response.json()
 
-def main():
-  """Converts the V2Ray list to a YAML file."""
-  response = requests.get("https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray-list-current")
-  lines = response.content.decode().splitlines()
+    clash_proxies = []
+    for vmess_proxy in vmess_proxies:
+        clash_proxy = {
+            "name": vmess_proxy["name"],
+            "type": "vmess",
+            "server": vmess_proxy["add"],
+            "port": vmess_proxy["port"],
+            "uuid": vmess_proxy["id"],
+            "cipher": vmess_proxy["type"],
+            "tls": vmess_proxy["tls"],
+        }
 
-  converted_lines = [convert_line(line) for line in lines]
+        if vmess_proxy["tls"]:
+            clash_proxy["tls-config"] = {
+                "serverName": vmess_proxy["host"],
+            }
 
-  with open(output_file, "w") as f:
-    f.write("proxies:\n")
-    f.writelines(converted_lines)
+        clash_proxies.append(clash_proxy)
+
+    with open(output_file, "w") as f:
+        f.write("proxies:\n")
+        yaml.dump(clash_proxies, f, sort_keys=False)
 
 if __name__ == "__main__":
-  main()
+    vmess_url = "https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray-list-current"
+    output_file = "./node/sashalsk/V2RayListCurrent.yml"
+
+    export_vmess_to_clash(vmess_url, output_file)

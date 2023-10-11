@@ -1,1 +1,180 @@
 proxies:
+  - {name: 🇨🇳 _CN_中国_1, server: foshan.chiguayun.cc, port: 27133, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇨🇳 _CN_中国_2, server: hefei.chiguayun.cc, port: 27133, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇨🇳 _CN_中国_3, server: foshan.chiguayun.cc, port: 27121, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3", server: 1.117.69.235, port: 80, type: vmess, uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: "🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9", server: 111.67.201.33, port: 10052, type: vmess, uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /neimenggu001, headers: {Host: tms.dingtalk.com}}}
+  - {name: "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4", server: 124.220.57.75, port: 80, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1", server: 36.150.27.31, port: 80, type: vmess, uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian", server: gshinet1.aiopen.cfd, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 2a312b75-7a92-43a1-ac33-a81c80c406a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 2a312b75-7a92-43a1-ac33-a81c80c406a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 2a312b75-7a92-43a1-ac33-a81c80c406a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: 🇨🇳 11|github.com/freefq - 北京市移动 1, server: 36.134.173.71, port: 888, type: vmess, uuid: 0ed2cc9b-0265-47cb-9bf2-ccfb22f2cbd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: 36.134.173.71}}}
+  - {name: 🇨🇳 11|github.com/freefq - 上海市电信 5, server: shct.pmxu.link, port: 16682, type: vmess, uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 12|🇹🇼_TW_台湾_1@7, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
+  - {name: 🇨🇳 12|YouTube面具人哈乐_中国_8, server: b.baozinet.top, port: 25010, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 44935cec-3e15-47a8-af8e-1f2857505700, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 44935cec-3e15-47a8-af8e-1f2857505700, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 44935cec-3e15-47a8-af8e-1f2857505700, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7, server: 175.178.65.137, port: 80, type: vmess, uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /neimenggu001, headers: {Host: tms.dingtalk.com}}}
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
+      - 🇨🇳 _CN_中国_3
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #3"
+      - 🇨🇳 0,2,3,4,18|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com_9
+      - "🇨🇳 0,2,3,4|🇨🇳_CN_中国 #4"
+      - "🇨🇳 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1"
+      - 🇨🇳 8,14|🇹🇼 台湾S|@ripaojiedian
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 北京市移动 1
+      - 🇨🇳 11|github.com/freefq - 上海市电信 5
+      - 🇨🇳 12|🇹🇼_TW_台湾_1@7
+      - 🇨🇳 12|YouTube面具人哈乐_中国_8
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 18|🇨🇳_CN_中国_2_由快嘴科技提供：kkzui.com7

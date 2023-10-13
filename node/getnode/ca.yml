@@ -1,118 +1,46 @@
 proxies:
+  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.abpilot.xyz}
   - {name: "🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23", server: 130.162.154.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
-  - {name: "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1", server: mtlr.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mtlr.shabijichang.com}}}
-  - {name: 🇨🇦 9|🇨🇦加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 2f16c18b-c8d2-4880-b495-a84a1961afee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.abpilot.xyz}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2, server: edeen.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: oliv.beauty, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: alvvin.click, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125, server: pzl.p237875155.buzz, port: 443, type: vmess, uuid: 9b78b7fe-47a3-41eb-d695-22692ac835a0, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: pzl.p237875155.buzz, network: ws, ws-opts: {path: /pzl237875155, headers: {Host: pzl.p237875155.buzz}}}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20, server: 172.66.47.84, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sub.yifenjichang.top, network: ws, ws-opts: {path: /oliv.beauty:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71, server: oliv.beauty, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: oliv.beauty, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31, server: 104.31.16.120, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: edeen.makeup, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}}
-  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: 3d894ffa-2949-4636-b326-fb5b93322e02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.lovemc.xyz}
+  - {name: "🇨🇦 6,9|🇨🇦加拿大04", server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: ee28b09b-91e2-45a0-b15d-ad0fcb8652b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.abpilot.xyz}
+  - {name: 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57, server: v118a.ai88888.top, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /526-dekDP6Otf, headers: {Host: v118a.ai88888.top}}}
+  - {name: 🇨🇦 13|加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: f2a08e5d-ee4a-406a-abef-2d0157d43d69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ca04.lovemc.xyz}
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA
+      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
       - 🇰🇷 0,2,3,4,18|🇰🇷_KR_韩国->🇨🇦_CA_加拿大_23
-      - "🇨🇦 7,8|🇨🇦 Canada 01 @nodpai #1"
-      - 🇨🇦 9|🇨🇦加拿大04
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 181
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 231
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 125
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 144
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 20
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 71
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 31
-      - 🇨🇦 12|⚡️@DeamNet_🔻 🇨🇦Canada 135
+      - 🇨🇦 6,9|🇨🇦加拿大04
+      - 🇨🇦 12|🇨🇦 ⚡️@DeamNet_🔻 🇨🇦Canada 57
       - 🇨🇦 13|加拿大 02 | 1x CA

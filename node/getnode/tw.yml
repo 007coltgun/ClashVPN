@@ -1,58 +1,67 @@
 proxies:
-  - {name: "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1", server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 3a32edb0-0066-45d4-bc45-8a886c5580ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
-  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1", server: cdn.node.user-sub.pddns-usersdk.com, port: 14099, type: vmess, uuid: 5f689bce-ec12-3341-bdfa-6c245d5dffa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
-  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai, server: yy.yingwuyun.cyou, port: 27305, type: ss, cipher: chacha20-ietf-poly1305, password: e2d043f9-5f2e-473a-afc6-d703b3a17269}
-  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 1883efd5-be6c-4e2c-9a7d-c51a6343e2fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 1883efd5-be6c-4e2c-9a7d-c51a6343e2fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 1883efd5-be6c-4e2c-9a7d-c51a6343e2fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1", server: 221.131.165.187, port: 18075, type: vmess, uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1", server: 221.131.165.187, port: 11810, type: vmess, uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1", server: 221.131.165.181, port: 11894, type: vmess, uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
+  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1", server: 221.131.165.181, port: 19977, type: vmess, uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 27139e32-9255-469e-8f6b-22a3f5842415, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 27139e32-9255-469e-8f6b-22a3f5842415, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 27139e32-9255-469e-8f6b-22a3f5842415, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
-      - "🇨🇳 7,8|🇹🇼 Taiwan 04 @nodpai #1"
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 05 @nodpai #1"
-      - 🇨🇳 8|中转 🇹🇼 Taiwan 02 @nodpai
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 01 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 03 @nodpai #1"
+      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 04 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06

@@ -1,154 +1,190 @@
 proxies:
   - {name: 🇸🇬 新加坡-0-0-ss-54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai, server: 120.233.43.51, port: 26020, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1", server: 221.131.165.187, port: 18079, type: vmess, uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
   - {name: 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai, server: 120.233.43.51, port: 26023, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai, server: 120.233.43.51, port: 26021, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai, server: 120.233.43.51, port: 26022, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian", server: gzcm01.celerlink.one, port: 41009, type: ss, cipher: chacha20-ietf-poly1305, password: 3525588ee14ea924}
-  - {name: 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai, server: jscm01.celerlink.one, port: 41039, type: ss, cipher: chacha20-ietf-poly1305, password: 3525588ee14ea924}
-  - {name: 🇸🇬 9|🇸🇬新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 392e3722-2be8-45aa-ba3f-4d16ee4f1177, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.abpilot.xyz}
-  - {name: 🇸🇬 9|🇸🇬新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 392e3722-2be8-45aa-ba3f-4d16ee4f1177, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.abpilot.xyz}
-  - {name: 🇸🇬 9|🇸🇬新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 392e3722-2be8-45aa-ba3f-4d16ee4f1177, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.abpilot.xyz}
-  - {name: 🇸🇬 12|🇸🇬 新加坡_1015127, server: 146.190.96.141, port: 55599, type: vmess, uuid: cdbca266-10d9-4018-e99e-c561497d6542, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /isuru, headers: {Host: media-exp1.licdn.com}}}
+  - {name: 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai, server: 120.233.43.51, port: 26020, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai, server: 120.233.43.51, port: 26022, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1", server: 221.131.165.187, port: 10010, type: vmess, uuid: 603ca5c7-5fa3-3dea-9b75-3707bfadf2be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇸🇬 8|🇸🇬 Singapore 01 @nodpai, server: 52.221.184.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai, server: jscm01.celerlink.one, port: 41039, type: ss, cipher: chacha20-ietf-poly1305, password: 3525588ee14ea924}
+  - {name: 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai, server: gzcm01.celerlink.one, port: 41040, type: ss, cipher: chacha20-ietf-poly1305, password: 3525588ee14ea924}
+  - {name: 🇸🇬 9|🇸🇬新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 6de9e032-7585-40c6-9b97-b12725bff640, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.abpilot.xyz}
+  - {name: 🇸🇬 9|🇸🇬新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 6de9e032-7585-40c6-9b97-b12725bff640, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.abpilot.xyz}
+  - {name: 🇸🇬 9|🇸🇬新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 6de9e032-7585-40c6-9b97-b12725bff640, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.abpilot.xyz}
+  - {name: "🇸🇬 11,12|🇸🇬 新加坡_1015127", server: 146.190.96.141, port: 55599, type: vmess, uuid: cdbca266-10d9-4018-e99e-c561497d6542, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /isuru, headers: {Host: media-exp1.licdn.com}}}
   - {name: 🇸🇬 12|🇸🇬 新加坡_1012102, server: 18.142.51.35, port: 80, type: vmess, uuid: 484e15da-0666-486d-b138-78622e795fed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 12|🇸🇬 新加坡_1011095, server: 139.180.143.251, port: 8080, type: vmess, uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 13|新加坡 04 | 1x SG, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: f3193887-f2e4-4cfe-a7e1-330bf2f3b505, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.lovemc.xyz}
-  - {name: 🇸🇬 13|新加坡 05 | 1x SG, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: f3193887-f2e4-4cfe-a7e1-330bf2f3b505, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.lovemc.xyz}
-  - {name: 🇸🇬 13|新加坡 06 | 1x SG, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: f3193887-f2e4-4cfe-a7e1-330bf2f3b505, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.lovemc.xyz}
+  - {name: 🇸🇬 13|新加坡 04 | 1x SG, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: 56fae67c-bce1-41a1-83d0-57e383a58465, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg04.lovemc.xyz}
+  - {name: 🇸🇬 13|新加坡 05 | 1x SG, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: 56fae67c-bce1-41a1-83d0-57e383a58465, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg05.lovemc.xyz}
+  - {name: 🇸🇬 13|新加坡 06 | 1x SG, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: 56fae67c-bce1-41a1-83d0-57e383a58465, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg06.lovemc.xyz}
   - {name: 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian, server: drus.hkforwardban.xyz, port: 40399, type: ss, cipher: chacha20-ietf-poly1305, password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504}
+  - {name: 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian, server: gzcm01.celerlink.one, port: 41009, type: ss, cipher: chacha20-ietf-poly1305, password: 3525588ee14ea924}
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143:443
-      - 🇸🇬 7|中转 🇸🇬 Singapore 04 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 04 @nodpai #1"
       - 🇸🇬 7|中转 🇸🇬 Singapore 05 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 06 @nodpai
       - 🇸🇬 7|中转 🇸🇬 Singapore 07 @nodpai
-      - 🇸🇬 8,14|🇸🇬 新加坡B|@ripaojiedian
+      - 🇸🇬 7|中转 🇸🇬 Singapore 08 @nodpai
+      - "🇸🇬 7,8|中转 🇸🇬 Singapore 09 @nodpai #1"
+      - 🇸🇬 8|🇸🇬 Singapore 01 @nodpai
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 8|中转 🇸🇬 Singapore 03 @nodpai
       - 🇸🇬 9|🇸🇬新加坡04
       - 🇸🇬 9|🇸🇬新加坡05
       - 🇸🇬 9|🇸🇬新加坡06
-      - 🇸🇬 12|🇸🇬 新加坡_1015127
+      - 🇸🇬 11,12|🇸🇬 新加坡_1015127
       - 🇸🇬 12|🇸🇬 新加坡_1012102
       - 🇸🇬 12|🇸🇬 新加坡_1011095
       - 🇸🇬 13|新加坡 04 | 1x SG
       - 🇸🇬 13|新加坡 05 | 1x SG
       - 🇸🇬 13|新加坡 06 | 1x SG
       - 🇸🇬 14|🇸🇬 新加坡A|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 新加坡B|@ripaojiedian

@@ -4,7 +4,14 @@ proxies:
   - {name: 🇫🇷 _FR_法国_3, server: 57.128.32.83, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
   - {name: 🇫🇷 _FR_法国_4, server: 146.59.110.171, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
   - {name: 🇫🇷 _FR_法国_5, server: 146.59.111.195, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国, server: 41.kccic2pa.xyz, port: 50041, type: vmess, uuid: b4ff3b77-82b0-4f85-b7d1-df17967cf045, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7", server: 104.18.202.232, port: 80, type: vmess, uuid: 0349ae50-68fc-11ee-b037-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu-2.0rd.net}}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1", server: fbl.369777.xyz, port: 443, type: vmess, uuid: 531356ec-6785-324b-be4e-0d90ff8f2512, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wwwnet, headers: {Host: fbl.369777.xyz}}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1", server: 104.18.242.176, port: 443, type: vmess, uuid: 531356ec-6785-324b-be4e-0d90ff8f2512, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wwwnet}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1", server: 104.25.54.230, port: 443, type: vmess, uuid: 531356ec-6785-324b-be4e-0d90ff8f2512, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wwwnet}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1", server: 104.24.67.59, port: 443, type: vmess, uuid: 531356ec-6785-324b-be4e-0d90ff8f2512, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wwwnet}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1", server: kbl.997755.xyz, port: 443, type: vmess, uuid: 531356ec-6785-324b-be4e-0d90ff8f2512, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wwwnet, headers: {Host: kbl.997755.xyz}}}
+  - {name: "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1", server: fls.997755.xyz, port: 443, type: vmess, uuid: 531356ec-6785-324b-be4e-0d90ff8f2512, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /wwwnet, headers: {Host: fls.997755.xyz}}}
   - {name: 🇫🇷 12|🇫🇷 法国 17, server: 188.165.194.100, port: 55448, type: vmess, uuid: 9de32e59-d621-41da-8266-280fe35987b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;..., server: 190.93.246.241, port: 80, type: vmess, uuid: dd8068db-5cfb-43a9-ba23-b156a70fbb06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/@hopev2ray,@hopev2ray", headers: {Host: gb3vm.cdn-03.live}}}
       - 🇫🇷 _FR_法国_1
@@ -12,7 +19,14 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
       - 🇫🇷 _FR_法国_1
@@ -20,7 +34,14 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
       - 🇫🇷 _FR_法国_1
@@ -28,7 +49,14 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
       - 🇫🇷 _FR_法国_1
@@ -36,7 +64,14 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
       - 🇫🇷 _FR_法国_1
@@ -44,7 +79,14 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
       - 🇫🇷 _FR_法国_1
@@ -52,7 +94,14 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
       - 🇫🇷 _FR_法国_1
@@ -60,7 +109,14 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...
       - 🇫🇷 _FR_法国_1
@@ -68,6 +124,13 @@ proxies:
       - 🇫🇷 _FR_法国_3
       - 🇫🇷 _FR_法国_4
       - 🇫🇷 _FR_法国_5
+      - 🇫🇷 0|🇫🇷 _CN_中国->🇫🇷_FR_法国
       - 🇺🇸 0,2,3,4,12|🇺🇸_US_美国->🇫🇷_FR_法国_7
+      - "🇫🇷 7,8|🇫🇷 France 01 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 02 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 03 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 04 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 05 @nodpai #1"
+      - "🇫🇷 7,8|🇫🇷 France 06 @nodpai #1"
       - 🇫🇷 12|🇫🇷 法国 17
       - 🇨🇷 18|🇨🇷_CR_哥斯达黎加->🇫🇷_FR_法国_由快嘴科技提供;...

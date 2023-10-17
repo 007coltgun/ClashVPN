@@ -1,1 +1,145 @@
 proxies:
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: 🇬🇧 _GB_英国_1, server: 35.178.148.93, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: 🇬🇧 _GB_英国_2, server: 13.43.232.136, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: 🇰🇷 _KR_韩国->🇬🇧_GB_英国, server: 130.162.154.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws}}
+  - {name: 🇬🇧 0|🇬🇧 _GB_英国, server: douk.looooooongnet.lol, port: 443, type: vmess, uuid: 5173678d-5616-42a7-bc99-62ff0ddec89c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: grpc, servername: douk.looooooongnet.lol, grpc-opts: {grpc-service-name: /}}
+  - {name: "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2", server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: "🇬🇧 0|🇬🇧 _GB_英国 #1", server: gb-one.1234585.xyz, port: 80, type: vmess, uuid: 2be30da9-3aa1-4d67-8146-a50d4cf14606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gb-one.1234585.xyz}}}
+  - {name: "🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30", server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
+  - {name: 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国, server: 130.162.154.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
+  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1", server: douk.looooooongnet.lol, port: 443, type: vmess, uuid: b8909e21-6ec6-49ba-abe9-355258507807, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: douk.looooooongnet.lol, network: grpc, grpc-opts: {grpc-service-name: douk.looooooongnet.lol}}
+  - {name: "🇬🇧 7,8,12,18|🇬🇧_GB_英国_34", server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
+  - {name: "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1", server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: d875c921-9026-3650-94f0-700622a1e5d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}}
+  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1", server: 104.31.16.61, port: 80, type: vmess, uuid: 926d8b90-6c4e-11ee-b036-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 9|🇬🇧英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: f6192502-014a-4d4b-bbe8-87e2b68b44f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.abpilot.xyz}
+  - {name: 🇬🇧 12|🇬🇧 英国 39, server: 138.68.136.50, port: 65500, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 13|英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 12629401-aa0b-4871-bfe6-9b6ab7a56dce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk04.lovemc.xyz}
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇬🇧 _GB_英国_1
+      - 🇬🇧 _GB_英国_2
+      - 🇰🇷 _KR_韩国->🇬🇧_GB_英国
+      - 🇬🇧 0|🇬🇧 _GB_英国
+      - "🇺🇸 0,6|🇺🇸_US_美国->🇬🇧_GB_英国 #2"
+      - "🇬🇧 0|🇬🇧 _GB_英国 #1"
+      - 🇺🇸 2,3,4,18|🇺🇸_US_美国->🇬🇧_GB_英国_30
+      - 🇰🇷 6|🇰🇷_KR_韩国->🇬🇧_GB_英国
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai #1"
+      - 🇬🇧 7,8,12,18|🇬🇧_GB_英国_34
+      - "🇬🇧 7,8|中转 🇬🇧 United Kingdom 02 @nodpa... #1"
+      - "🇬🇧 7,8|🇬🇧 United Kingdom 03 @nodpai #1"
+      - 🇬🇧 9|🇬🇧英国04
+      - 🇬🇧 12|🇬🇧 英国 39
+      - 🇬🇧 13|英国 04 | 1x UK

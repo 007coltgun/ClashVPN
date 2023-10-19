@@ -1,30 +1,25 @@
 proxies:
-  - {name: "0,6|🇨🇳_CN_中国", server: 124.220.57.75, port: 80, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2", server: 41.kccic2pa.xyz, port: 50041, type: vmess, uuid: 5c3d60c1-ec2b-41f4-bd22-b7336d7e37bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01, server: 175.27.154.61, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01", server: tg_mfbpn_d4.52vpn.eu.org, port: 11014, type: vmess, uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 03 @nodpai, server: 39.103.165.178, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1", server: 1.117.69.235, port: 80, type: vmess, uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 05 @nodpai, server: 114.117.234.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 7|中转 🇨🇳 China 06 @nodpai, server: 111.230.252.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1", server: cdn.node.user-sub.pddns-usersdk.com, port: 14099, type: vmess, uuid: 77c66ff3-b0b7-368d-bb81-f5b0dfe11e92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
-  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: ec1def61-6c4b-4a06-945b-f4225b907b00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: ec1def61-6c4b-4a06-945b-f4225b907b00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: ec1def61-6c4b-4a06-945b-f4225b907b00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1", server: attwa10008.cdn.node.a.tddns-ounk.com, port: 30887, type: vmess, uuid: deb8cc7a-32d0-3234-8851-bf9ac01c66f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10008.cdn.node.a.tddns-ounk.com}}}
+  - {name: "3,6|🇨🇳_CN_中国", server: 1.117.69.235, port: 80, type: vmess, uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01, server: 110.72.101.144, port: 26061, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 7,15|台湾B|@ripaojiedian", server: b.baozinet.top, port: 25010, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1", server: 198.2.202.87, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1695652618025}}
+  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai, server: tg_mfbpn_d4.52vpn.eu.org, port: 11014, type: vmess, uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai, server: api-a-asia-2.mcqqn.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 8cfdc816-26ae-4bc0-9dc8-efd58d9c4e47}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
   - {name: 🇨🇳 11|github.com/freefq - 广东省移动 15, server: tg_mfbpn_d4.52vpn.eu.org, port: 11002, type: vmess, uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
-  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
-  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
-  - {name: 🇨🇳 15|台湾B|@ripaojiedian, server: b.baozinet.top, port: 25010, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
@@ -32,16 +27,13 @@ proxies:
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
@@ -49,16 +41,13 @@ proxies:
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
@@ -66,16 +55,13 @@ proxies:
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
@@ -83,40 +69,20 @@ proxies:
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
-      - 🇨🇳 9|🇹🇼台湾04
-      - 🇨🇳 9|🇹🇼台湾05
-      - 🇨🇳 9|🇹🇼台湾06
-      - 🇨🇳 11|github.com/freefq - 广东省移动 15
-      - 🇨🇳 13|台湾 04  | 1x TWN
-      - 🇨🇳 13|台湾 05  | 1x TWN
-      - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
@@ -124,16 +90,13 @@ proxies:
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
@@ -141,16 +104,13 @@ proxies:
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
-      - 0,6|🇨🇳_CN_中国
-      - "🇫🇷 1,2,3,4,6|🇨🇳_CN_中国->🇫🇷_FR_法国 #2"
-      - 🇨🇳 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇨🇳 7|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-      - 🇨🇳 7|中转 🇨🇳 China 03 @nodpai
-      - "🇨🇳 7,8|中转 🇨🇳 China 04 @nodpai #1"
-      - 🇨🇳 7|中转 🇨🇳 China 05 @nodpai
-      - 🇨🇳 7|中转 🇨🇳 China 06 @nodpai
-      - "🇨🇳 7,8|中转 🇹🇼 Taiwan 02 @nodpai #1"
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
@@ -158,4 +118,17 @@ proxies:
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
-      - 🇨🇳 15|台湾B|@ripaojiedian
+      - "🇺🇸 0,2,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1"
+      - 3,6|🇨🇳_CN_中国
+      - 🇨🇳 7|「节点冠名招商 @nodpai」🇹🇼 TW 01
+      - 🇨🇳 7,15|台湾B|@ripaojiedian
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 06 @nodpai
+      - 🇨🇳 8|中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇨🇳 9|🇹🇼台湾04
+      - 🇨🇳 9|🇹🇼台湾05
+      - 🇨🇳 9|🇹🇼台湾06
+      - 🇨🇳 11|github.com/freefq - 广东省移动 15
+      - 🇨🇳 13|台湾 04  | 1x TWN
+      - 🇨🇳 13|台湾 05  | 1x TWN
+      - 🇨🇳 13|台湾 06  | 1x TWN

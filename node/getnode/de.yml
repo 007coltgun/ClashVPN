@@ -1,1 +1,127 @@
 proxies:
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国_1, server: 172.67.187.109, port: 80, type: vmess, uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇩🇪 _DE_德国, server: 3.120.242.243, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国_1, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 3131fb42-5c82-4624-ae2b-a01a9d05327d}
+  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国_2, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 3131fb42-5c82-4624-ae2b-a01a9d05327d}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国_2, server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yd1.992688.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国_3, server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
+  - {name: "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8", server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
+  - {name: "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7", server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
+  - {name: "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9", server: 172.67.187.109, port: 80, type: vmess, uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1.xv2ray.net}}}
+  - {name: "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1", server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}}
+  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 6dda21ec-dc5c-4823-b45c-c1459c0c3f87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
+  - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1..., server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 12|🇩🇪 德国 14, server: de1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de1-vmess.greenssh.xyz}}}
+  - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4..., server: 91.107.135.40, port: 8081, type: vmess, uuid: 2c16b2f5-2416-4de2-879b-da73af425930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
+      - 🇩🇪 _DE_德国
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #7"
+      - "🇺🇸 0,2,3,4,6,11,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
+      - "🇩🇪 7,8|「蛋挞云,流媒体全解锁」🇩🇪 DE 01 #1"
+      - 🇩🇪 9|🇩🇪德国04
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
+      - 🇩🇪 12|🇩🇪 德国 14
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...

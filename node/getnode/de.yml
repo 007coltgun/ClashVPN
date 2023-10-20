@@ -5,132 +5,105 @@ proxies:
   - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国_2, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 3131fb42-5c82-4624-ae2b-a01a9d05327d}
   - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国_2, server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yd1.992688.xyz}}}
   - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国_3, server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
-  - {name: "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9", server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
-  - {name: "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10", server: 172.67.187.109, port: 80, type: vmess, uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1.xv2ray.net}}}
-  - {name: "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1", server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}}
-  - {name: 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai, server: 41.kccic2pa.xyz, port: 50041, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 6a6f6b6a-1a59-4c5a-94e0-0e0a3250ee67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
-  - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1..., server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212..., server: 5.75.204.212, port: 30864, type: vmess, uuid: 9c9f187d-bcd5-4469-8db8-517e0a85fd44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4..., server: 91.107.135.40, port: 8081, type: vmess, uuid: 2c16b2f5-2416-4de2-879b-da73af425930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8", server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
+  - {name: 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai, server: 41.kccic2pa.xyz, port: 50041, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 9|🇩🇪德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: b4dfeeef-bd5a-4899-9161-a5af2bda9f31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: de04.abpilot.xyz}
   - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1..., server: 128.140.65.160, port: 40989, type: vmess, uuid: fcb9e3b2-faa0-464f-bd4a-7debfb5bd31e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4..., server: 91.107.135.40, port: 8081, type: vmess, uuid: 2c16b2f5-2416-4de2-879b-da73af425930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1..., server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_1
       - 🇩🇪 _DE_德国
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_1
       - 🇩🇪 _CN_中国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国_3
-      - "🇺🇸 0,2,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #9"
-      - "🇺🇸 0,2,3,4,6,12|🇺🇸_US_美国->🇩🇪_DE_德国 #10"
-      - "🇩🇪 7,8|🇩🇪 Germany 01 @nodpai #1"
-      - 🇩🇪 7|中转 🇩🇪 Germany 03 @nodpai
+      - "🇺🇸 0,2,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #8"
+      - 🇩🇪 7|中转 🇩🇪 Germany 01 @nodpai
       - 🇩🇪 9|🇩🇪德国04
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-5.75.204.212...
-      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
       - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-128.140.65.1...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-91.107.135.4...
+      - 🇩🇪 12|🔒 VM-TCP-NA 🇩🇪 DE-130.61.111.1...

@@ -1,7 +1,7 @@
 proxies:
-  - {name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 3131fb42-5c82-4624-ae2b-a01a9d05327d}
-  - {name: 🇹🇷 9|🇹🇷土耳其04, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 004818b7-4c2f-47aa-b2f1-08c73123bf3a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tr04.abpilot.xyz}
-  - {name: 🇹🇷 13|土耳其 04 | 1x TR, server: 4t1u6r04.mcfront.xyz, port: 31868, type: vmess, uuid: 5f4bd6ea-97e8-4faa-bfb1-3840f8b39cb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tr04.lovemc.xyz}
+  - {name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其, server: gzyd.jcnode.top, port: 27048, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3131fb42-5c82-4624-ae2b-a01a9d05327d, tfo: false}
+  - {name: 🇹🇷 9|🇹🇷土耳其04, server: 2t1u04.abzoones.xyz, port: 36868, client-fingerprint: chrome, type: vmess, uuid: 004818b7-4c2f-47aa-b2f1-08c73123bf3a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tr04.abpilot.xyz}
+  - {name: 🇹🇷 13|土耳其 04 | 1x TR, server: 4t1u6r04.mcfront.xyz, port: 31868, client-fingerprint: chrome, type: vmess, uuid: 5f4bd6ea-97e8-4faa-bfb1-3840f8b39cb2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: tr04.lovemc.xyz}
       - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
       - 🇹🇷 9|🇹🇷土耳其04
       - 🇹🇷 13|土耳其 04 | 1x TR

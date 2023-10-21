@@ -1,61 +1,89 @@
 proxies:
-  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 128843a0-8418-4d22-adee-a2b9e75db49b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 128843a0-8418-4d22-adee-a2b9e75db49b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
-  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 128843a0-8418-4d22-adee-a2b9e75db49b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
-  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: e837818b-9567-41a5-a6eb-dd50151d3ab8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
-  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: e837818b-9567-41a5-a6eb-dd50151d3ab8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
-  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: e837818b-9567-41a5-a6eb-dd50151d3ab8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: "🇨🇳 3|_CN_中国 #1", server: 124.220.57.75, port: 80, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1", server: 198.2.202.85, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1694947665388}}
+  - {name: 🇨🇳 9|🇹🇼台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: 004818b7-4c2f-47aa-b2f1-08c73123bf3a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: 004818b7-4c2f-47aa-b2f1-08c73123bf3a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.abpilot.xyz}
+  - {name: 🇨🇳 9|🇹🇼台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: 004818b7-4c2f-47aa-b2f1-08c73123bf3a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.abpilot.xyz}
+  - {name: 🇨🇳 13|台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 5f4bd6ea-97e8-4faa-bfb1-3840f8b39cb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw04.lovemc.xyz}
+  - {name: 🇨🇳 13|台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 5f4bd6ea-97e8-4faa-bfb1-3840f8b39cb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw05.lovemc.xyz}
+  - {name: 🇨🇳 13|台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 5f4bd6ea-97e8-4faa-bfb1-3840f8b39cb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tw06.lovemc.xyz}
+  - {name: 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian, server: a.01.tw.name.ga, port: 45614, type: ss, cipher: chacha20-ietf-poly1305, password: ae4a6239-d3f2-499e-989d-c0d0c833e2c8}
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
+      - "🇨🇳 3|_CN_中国 #1"
+      - "🇨🇳 7,8|中转 🇨🇳 China 01 @nodpai #1"
       - 🇨🇳 9|🇹🇼台湾04
       - 🇨🇳 9|🇹🇼台湾05
       - 🇨🇳 9|🇹🇼台湾06
       - 🇨🇳 13|台湾 04  | 1x TWN
       - 🇨🇳 13|台湾 05  | 1x TWN
       - 🇨🇳 13|台湾 06  | 1x TWN
+      - 🇨🇳 14|🇹🇼 台湾1|@ripaojiedian
